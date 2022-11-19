@@ -9,3 +9,13 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1668865012823,413,Monolithic-based client,200,,client-to-application 1-7,text,true,,1133096,128,3,3,http://172.31.37.100/sensing/data,320,0,26
 1668865012823,417,Monolithic-based client,200,,client-to-application 1-4,text,true,,1133096,128,2,2,http://172.31.37.100/sensing/data,298,0,24
 1668865012828,411,Monolithic-based client,200,,client-to-application 1-8,text,true,,1133096,128,2,2,http://172.31.37.100/sensing/data,289,0,20
+1668865150519,362,Monolithic-based client,200,,client-to-application 1-1,text,true,,1133096,128,10,10,http://172.31.37.100/sensing/data,235,0,30
+1668865150518,374,Monolithic-based client,200,,client-to-application 1-9,text,true,,1133096,128,9,9,http://172.31.37.100/sensing/data,267,0,31
+1668865150518,378,Monolithic-based client,200,,client-to-application 1-8,text,true,,1133096,128,9,9,http://172.31.37.100/sensing/data,271,0,31
+1668865150518,391,Monolithic-based client,200,,client-to-application 1-2,text,true,,1133096,128,7,7,http://172.31.37.100/sensing/data,275,0,31
+1668865150517,396,Monolithic-based client,200,,client-to-application 1-5,text,true,,1133096,128,6,6,http://172.31.37.100/sensing/data,264,0,32
+1668865150518,424,Monolithic-based client,200,,client-to-application 1-7,text,true,,1133096,128,5,5,http://172.31.37.100/sensing/data,307,0,30
+1668865150518,426,Monolithic-based client,200,,client-to-application 1-10,text,true,,1133096,128,5,5,http://172.31.37.100/sensing/data,299,0,31
+1668865150517,425,Monolithic-based client,200,,client-to-application 1-3,text,true,,1133096,128,5,5,http://172.31.37.100/sensing/data,288,0,32
+1668865150518,428,Monolithic-based client,200,,client-to-application 1-4,text,true,,1133096,128,3,3,http://172.31.37.100/sensing/data,302,0,31
+1668865150519,562,Monolithic-based client,200,,client-to-application 1-6,text,true,,1133096,128,1,1,http://172.31.37.100/sensing/data,293,0,30
