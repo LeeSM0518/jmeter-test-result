@@ -1,0 +1,1047 @@
+2022-11-19 11:31:19,299 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-19 11:31:19,343 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2022-11-19 11:31:19,343 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2022-11-19 11:31:19,356 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-11-19 11:31:19,356 INFO o.a.j.JMeter: Version 5.5
+2022-11-19 11:31:19,356 INFO o.a.j.JMeter: java.version=11.0.17
+2022-11-19 11:31:19,356 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-11-19 11:31:19,357 INFO o.a.j.JMeter: os.name=Linux
+2022-11-19 11:31:19,357 INFO o.a.j.JMeter: os.arch=amd64
+2022-11-19 11:31:19,357 INFO o.a.j.JMeter: os.version=5.15.0-1022-aws
+2022-11-19 11:31:19,357 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-11-19 11:31:19,357 INFO o.a.j.JMeter: java.awt.headless=true
+2022-11-19 11:31:19,357 INFO o.a.j.JMeter: Max memory     =4294967296
+2022-11-19 11:31:19,357 INFO o.a.j.JMeter: Available Processors =2
+2022-11-19 11:31:19,368 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-19 11:31:19,369 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-19 11:31:19,369 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2022-11-19 11:31:19,369 INFO o.a.j.JMeter: user.dir  =/home/ubuntu/jmeter-test-result/100-user-10-data-all-test
+2022-11-19 11:31:19,370 INFO o.a.j.JMeter: PWD       =/home/ubuntu/jmeter-test-result/100-user-10-data-all-test
+2022-11-19 11:31:19,371 INFO o.a.j.JMeter: IP: 172.31.38.131 Name: ip-172-31-38-131 FullName: ip-172-31-38-131.ap-northeast-2.compute.internal
+2022-11-19 11:31:19,390 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/ubuntu/jmeter-test-result/100-user-10-data-all-test/result'
+2022-11-19 11:31:19,397 INFO o.a.j.s.FileServer: Default base='/home/ubuntu/jmeter-test-result/100-user-10-data-all-test'
+2022-11-19 11:31:19,399 INFO o.a.j.s.FileServer: Set new base='/home/ubuntu/jmeter-test-result/100-user-10-data-all-test'
+2022-11-19 11:31:19,735 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-11-19 11:31:19,794 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-11-19 11:31:19,800 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-11-19 11:31:19,803 INFO o.a.j.s.SaveService: Loading file: 100-user-10-data-all-test.jmx
+2022-11-19 11:31:19,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-19 11:31:19,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-19 11:31:19,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-19 11:31:19,876 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-19 11:31:19,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-11-19 11:31:19,877 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-11-19 11:31:19,959 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-11-19 11:31:19,969 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-11-19 11:31:19,969 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: 11-19-11:31:18.jtl
+2022-11-19 11:31:19,969 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
+2022-11-19 11:31:19,971 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-11-19 11:31:19,977 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-11-19 11:31:19,980 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-11-19 11:31:19,980 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-11-19 11:31:19,981 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-11-19 11:31:19,981 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-11-19 11:31:19,981 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-11-19 11:31:19,981 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-11-19 11:31:19,981 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-11-19 11:31:19,982 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-11-19 11:31:19,989 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,990 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,990 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,990 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,990 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,991 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,991 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,991 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,991 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,991 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-19 11:31:19,992 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-11-19 11:31:19,993 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-11-19 11:31:19,993 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-11-19 11:31:19,993 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-11-19 11:31:19,993 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-11-19 11:31:19,993 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-11-19 11:31:20,009 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-11-19 11:31:20,010 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-11-19 11:31:20,010 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-11-19 11:31:20,034 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-11-19 11:31:20,034 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-11-19 11:31:20,495 INFO o.a.j.JMeter: Running test (1668857480495)
+2022-11-19 11:31:20,547 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : client-to-application
+2022-11-19 11:31:20,547 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group client-to-application.
+2022-11-19 11:31:20,548 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-11-19 11:31:20,548 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=0 delayedStart=false
+2022-11-19 11:31:20,576 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-1
+2022-11-19 11:31:20,577 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-3
+2022-11-19 11:31:20,577 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-8
+2022-11-19 11:31:20,578 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-10
+2022-11-19 11:31:20,578 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-9
+2022-11-19 11:31:20,578 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-13
+2022-11-19 11:31:20,576 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-2
+2022-11-19 11:31:20,578 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-11
+2022-11-19 11:31:20,579 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-15
+2022-11-19 11:31:20,580 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-4
+2022-11-19 11:31:20,580 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-5
+2022-11-19 11:31:20,580 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-6
+2022-11-19 11:31:20,581 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-12
+2022-11-19 11:31:20,581 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-7
+2022-11-19 11:31:20,581 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-14
+2022-11-19 11:31:20,584 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-16
+2022-11-19 11:31:20,590 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-19
+2022-11-19 11:31:20,591 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-20
+2022-11-19 11:31:20,594 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-18
+2022-11-19 11:31:20,595 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-21
+2022-11-19 11:31:20,586 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-17
+2022-11-19 11:31:20,598 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-22
+2022-11-19 11:31:20,599 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-23
+2022-11-19 11:31:20,601 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-24
+2022-11-19 11:31:20,604 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-25
+2022-11-19 11:31:20,606 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-26
+2022-11-19 11:31:20,608 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-27
+2022-11-19 11:31:20,612 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-28
+2022-11-19 11:31:20,612 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-29
+2022-11-19 11:31:20,614 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-30
+2022-11-19 11:31:20,615 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-31
+2022-11-19 11:31:20,618 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-32
+2022-11-19 11:31:20,619 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-33
+2022-11-19 11:31:20,624 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-34
+2022-11-19 11:31:20,628 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-37
+2022-11-19 11:31:20,631 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-36
+2022-11-19 11:31:20,631 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-39
+2022-11-19 11:31:20,630 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-35
+2022-11-19 11:31:20,632 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-38
+2022-11-19 11:31:20,633 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-40
+2022-11-19 11:31:20,638 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-42
+2022-11-19 11:31:20,638 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-43
+2022-11-19 11:31:20,638 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-41
+2022-11-19 11:31:20,639 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-44
+2022-11-19 11:31:20,640 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-45
+2022-11-19 11:31:20,640 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-46
+2022-11-19 11:31:20,642 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-47
+2022-11-19 11:31:20,642 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-48
+2022-11-19 11:31:20,648 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-49
+2022-11-19 11:31:20,647 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-50
+2022-11-19 11:31:20,652 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-52
+2022-11-19 11:31:20,653 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-51
+2022-11-19 11:31:20,654 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-53
+2022-11-19 11:31:20,655 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-54
+2022-11-19 11:31:20,661 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-56
+2022-11-19 11:31:20,663 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-57
+2022-11-19 11:31:20,664 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-55
+2022-11-19 11:31:20,666 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-58
+2022-11-19 11:31:20,671 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-59
+2022-11-19 11:31:20,675 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-60
+2022-11-19 11:31:20,679 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-62
+2022-11-19 11:31:20,680 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-63
+2022-11-19 11:31:20,680 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-61
+2022-11-19 11:31:20,681 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-64
+2022-11-19 11:31:20,683 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-66
+2022-11-19 11:31:20,684 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-67
+2022-11-19 11:31:20,685 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-68
+2022-11-19 11:31:20,685 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-65
+2022-11-19 11:31:20,687 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-70
+2022-11-19 11:31:20,685 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-69
+2022-11-19 11:31:20,689 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-71
+2022-11-19 11:31:20,693 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-31-38-131
+2022-11-19 11:31:20,697 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-72
+2022-11-19 11:31:20,697 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-73
+2022-11-19 11:31:20,699 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-75
+2022-11-19 11:31:20,699 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-76
+2022-11-19 11:31:20,702 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-77
+2022-11-19 11:31:20,701 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-74
+2022-11-19 11:31:20,703 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-78
+2022-11-19 11:31:20,704 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-80
+2022-11-19 11:31:20,706 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-11-19 11:31:20,706 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-81
+2022-11-19 11:31:20,705 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-79
+2022-11-19 11:31:20,709 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-11-19 11:31:20,709 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-11-19 11:31:20,709 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-11-19 11:31:20,709 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-11-19 11:31:20,711 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-83
+2022-11-19 11:31:20,710 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-82
+2022-11-19 11:31:20,715 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-84
+2022-11-19 11:31:20,716 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-86
+2022-11-19 11:31:20,717 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-85
+2022-11-19 11:31:20,722 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-87
+2022-11-19 11:31:20,723 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-88
+2022-11-19 11:31:20,723 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-89
+2022-11-19 11:31:20,725 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-91
+2022-11-19 11:31:20,726 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-92
+2022-11-19 11:31:20,726 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-93
+2022-11-19 11:31:20,729 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-90
+2022-11-19 11:31:20,730 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-95
+2022-11-19 11:31:20,730 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-94
+2022-11-19 11:31:20,730 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-97
+2022-11-19 11:31:20,731 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-96
+2022-11-19 11:31:20,731 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-98
+2022-11-19 11:31:20,736 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-11-19 11:31:20,736 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: client-to-application to finish before starting next group
+2022-11-19 11:31:20,737 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-100
+2022-11-19 11:31:20,737 INFO o.a.j.t.JMeterThread: Thread started: client-to-application 1-99
+2022-11-19 11:31:29,039 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-79
+2022-11-19 11:31:29,039 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-79
+2022-11-19 11:31:29,879 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-36
+2022-11-19 11:31:29,879 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-36
+2022-11-19 11:31:30,045 INFO o.a.j.r.Summariser: summary +      3 in 00:00:10 =    0.3/s Avg:  8725 Min:  8103 Max:  9119 Err:     0 (0.00%) Active: 98 Started: 100 Finished: 2
+2022-11-19 11:31:30,046 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-43
+2022-11-19 11:31:30,046 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-43
+2022-11-19 11:31:30,304 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-83
+2022-11-19 11:31:30,304 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-83
+2022-11-19 11:31:30,329 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-64
+2022-11-19 11:31:30,329 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-64
+2022-11-19 11:31:30,366 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-14
+2022-11-19 11:31:30,367 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-14
+2022-11-19 11:31:30,447 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-46
+2022-11-19 11:31:30,448 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-46
+2022-11-19 11:31:30,663 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-71
+2022-11-19 11:31:30,663 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-71
+2022-11-19 11:31:30,814 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-69
+2022-11-19 11:31:30,814 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-69
+2022-11-19 11:31:31,167 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-8
+2022-11-19 11:31:31,168 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-8
+2022-11-19 11:31:34,808 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-56
+2022-11-19 11:31:34,808 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-56
+2022-11-19 11:31:37,858 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-59
+2022-11-19 11:31:37,858 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-59
+2022-11-19 11:31:37,869 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-30
+2022-11-19 11:31:37,869 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-30
+2022-11-19 11:31:37,872 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-93
+2022-11-19 11:31:37,872 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-93
+2022-11-19 11:31:37,926 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-24
+2022-11-19 11:31:37,927 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-24
+2022-11-19 11:31:38,023 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-90
+2022-11-19 11:31:38,023 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-90
+2022-11-19 11:31:38,322 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-53
+2022-11-19 11:31:38,322 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-53
+2022-11-19 11:31:38,413 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-91
+2022-11-19 11:31:38,413 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-91
+2022-11-19 11:31:38,691 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-78
+2022-11-19 11:31:38,692 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-78
+2022-11-19 11:31:39,179 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-2
+2022-11-19 11:31:39,179 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-2
+2022-11-19 11:31:41,715 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-19
+2022-11-19 11:31:41,715 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-19
+2022-11-19 11:31:44,392 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-74
+2022-11-19 11:31:44,392 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-74
+2022-11-19 11:31:44,683 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-26
+2022-11-19 11:31:44,683 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-26
+2022-11-19 11:31:45,256 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-16
+2022-11-19 11:31:45,256 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-16
+2022-11-19 11:31:45,267 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-28
+2022-11-19 11:31:45,267 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-28
+2022-11-19 11:31:45,508 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-11
+2022-11-19 11:31:45,508 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-11
+2022-11-19 11:31:45,517 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-50
+2022-11-19 11:31:45,518 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-50
+2022-11-19 11:31:45,965 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-85
+2022-11-19 11:31:45,965 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-85
+2022-11-19 11:31:46,211 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-82
+2022-11-19 11:31:46,211 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-82
+2022-11-19 11:31:48,465 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-84
+2022-11-19 11:31:48,465 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-84
+2022-11-19 11:31:49,092 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-100
+2022-11-19 11:31:49,093 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-100
+2022-11-19 11:31:51,624 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-51
+2022-11-19 11:31:51,624 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-51
+2022-11-19 11:31:52,151 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-75
+2022-11-19 11:31:52,152 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-75
+2022-11-19 11:31:52,876 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-62
+2022-11-19 11:31:52,876 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-62
+2022-11-19 11:31:53,148 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-88
+2022-11-19 11:31:53,149 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-88
+2022-11-19 11:31:53,326 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-22
+2022-11-19 11:31:53,327 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-22
+2022-11-19 11:31:53,350 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-23
+2022-11-19 11:31:53,350 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-23
+2022-11-19 11:31:53,744 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-94
+2022-11-19 11:31:53,744 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-94
+2022-11-19 11:31:54,302 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-21
+2022-11-19 11:31:54,302 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-21
+2022-11-19 11:31:56,010 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-17
+2022-11-19 11:31:56,010 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-17
+2022-11-19 11:31:56,070 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-63
+2022-11-19 11:31:56,070 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-63
+2022-11-19 11:31:58,729 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-99
+2022-11-19 11:31:58,729 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-99
+2022-11-19 11:31:59,386 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-72
+2022-11-19 11:31:59,387 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-72
+2022-11-19 11:32:00,712 INFO o.a.j.r.Summariser: summary +     41 in 00:00:31 =    1.3/s Avg: 23231 Min:  9375 Max: 39782 Err:     0 (0.00%) Active: 57 Started: 100 Finished: 43
+2022-11-19 11:32:00,713 INFO o.a.j.r.Summariser: summary =     44 in 00:00:40 =    1.1/s Avg: 22242 Min:  8103 Max: 39782 Err:     0 (0.00%)
+2022-11-19 11:32:00,713 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-57
+2022-11-19 11:32:00,713 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-57
+2022-11-19 11:32:00,816 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-98
+2022-11-19 11:32:00,816 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-98
+2022-11-19 11:32:00,845 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-38
+2022-11-19 11:32:00,845 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-38
+2022-11-19 11:32:01,678 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-1
+2022-11-19 11:32:01,678 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-1
+2022-11-19 11:32:01,856 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-97
+2022-11-19 11:32:01,856 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-97
+2022-11-19 11:32:02,090 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-66
+2022-11-19 11:32:02,090 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-66
+2022-11-19 11:32:02,217 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-35
+2022-11-19 11:32:02,217 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-35
+2022-11-19 11:32:03,970 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-55
+2022-11-19 11:32:03,970 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-55
+2022-11-19 11:32:04,295 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-58
+2022-11-19 11:32:04,295 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-58
+2022-11-19 11:32:04,381 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-20
+2022-11-19 11:32:04,381 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-20
+2022-11-19 11:32:05,778 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-86
+2022-11-19 11:32:05,778 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-86
+2022-11-19 11:32:05,957 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-65
+2022-11-19 11:32:05,958 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-65
+2022-11-19 11:32:06,212 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-32
+2022-11-19 11:32:06,212 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-32
+2022-11-19 11:32:07,043 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-49
+2022-11-19 11:32:07,044 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-49
+2022-11-19 11:32:07,210 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-3
+2022-11-19 11:32:07,210 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-3
+2022-11-19 11:32:07,568 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-73
+2022-11-19 11:32:07,568 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-73
+2022-11-19 11:32:09,015 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-92
+2022-11-19 11:32:09,016 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-92
+2022-11-19 11:32:09,823 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-10
+2022-11-19 11:32:09,823 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-10
+2022-11-19 11:32:10,368 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-52
+2022-11-19 11:32:10,368 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-52
+2022-11-19 11:32:10,798 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-54
+2022-11-19 11:32:10,798 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-54
+2022-11-19 11:32:12,176 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-13
+2022-11-19 11:32:12,176 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-13
+2022-11-19 11:32:12,237 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-70
+2022-11-19 11:32:12,238 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-70
+2022-11-19 11:32:12,781 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-34
+2022-11-19 11:32:12,782 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-34
+2022-11-19 11:32:12,966 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-47
+2022-11-19 11:32:12,966 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-47
+2022-11-19 11:32:13,597 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-41
+2022-11-19 11:32:13,597 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-41
+2022-11-19 11:32:14,057 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-44
+2022-11-19 11:32:14,057 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-44
+2022-11-19 11:32:14,318 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-6
+2022-11-19 11:32:14,318 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-6
+2022-11-19 11:32:16,190 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-4
+2022-11-19 11:32:16,191 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-4
+2022-11-19 11:32:16,364 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-27
+2022-11-19 11:32:16,365 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-27
+2022-11-19 11:32:17,473 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-18
+2022-11-19 11:32:17,473 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-18
+2022-11-19 11:32:18,706 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-89
+2022-11-19 11:32:18,706 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-89
+2022-11-19 11:32:19,623 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-15
+2022-11-19 11:32:19,623 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-15
+2022-11-19 11:32:19,630 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-61
+2022-11-19 11:32:19,631 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-61
+2022-11-19 11:32:19,966 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-67
+2022-11-19 11:32:19,967 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-67
+2022-11-19 11:32:20,090 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-31
+2022-11-19 11:32:20,091 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-31
+2022-11-19 11:32:20,617 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-29
+2022-11-19 11:32:20,617 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-29
+2022-11-19 11:32:20,707 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-5
+2022-11-19 11:32:20,708 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-5
+2022-11-19 11:32:22,367 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-25
+2022-11-19 11:32:22,368 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-25
+2022-11-19 11:32:22,582 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-77
+2022-11-19 11:32:22,582 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-77
+2022-11-19 11:32:23,277 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-45
+2022-11-19 11:32:23,277 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-45
+2022-11-19 11:32:24,981 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-81
+2022-11-19 11:32:24,981 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-81
+2022-11-19 11:32:25,629 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-76
+2022-11-19 11:32:25,630 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-76
+2022-11-19 11:32:25,880 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-33
+2022-11-19 11:32:25,880 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-33
+2022-11-19 11:32:26,197 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-80
+2022-11-19 11:32:26,197 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-80
+2022-11-19 11:32:26,246 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-12
+2022-11-19 11:32:26,246 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-12
+2022-11-19 11:32:26,536 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-48
+2022-11-19 11:32:26,537 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-48
+2022-11-19 11:32:26,707 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-37
+2022-11-19 11:32:26,707 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-37
+2022-11-19 11:32:27,375 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-68
+2022-11-19 11:32:27,375 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-68
+2022-11-19 11:32:27,513 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-9
+2022-11-19 11:32:27,513 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-9
+2022-11-19 11:32:28,853 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-60
+2022-11-19 11:32:28,853 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-60
+2022-11-19 11:32:29,710 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-42
+2022-11-19 11:32:29,710 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-42
+2022-11-19 11:32:30,185 INFO o.a.j.r.Summariser: summary +     51 in 00:00:29 =    1.7/s Avg: 54318 Min: 39889 Max: 69258 Err:     0 (0.00%) Active: 6 Started: 100 Finished: 94
+2022-11-19 11:32:30,185 INFO o.a.j.r.Summariser: summary =     95 in 00:01:10 =    1.4/s Avg: 39462 Min:  8103 Max: 69258 Err:     0 (0.00%)
+2022-11-19 11:32:30,185 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-96
+2022-11-19 11:32:30,185 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-96
+2022-11-19 11:32:30,270 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-39
+2022-11-19 11:32:30,270 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-39
+2022-11-19 11:32:30,360 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-40
+2022-11-19 11:32:30,361 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-40
+2022-11-19 11:32:30,401 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-7
+2022-11-19 11:32:30,404 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-87
+2022-11-19 11:32:30,408 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-87
+2022-11-19 11:32:30,409 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application 1-95
+2022-11-19 11:32:30,410 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-95
+2022-11-19 11:32:30,410 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application 1-7
+2022-11-19 11:32:30,410 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : client-to-gateway-non-caching
+2022-11-19 11:32:30,410 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group client-to-gateway-non-caching.
+2022-11-19 11:32:30,410 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-11-19 11:32:30,411 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=100 ramp-up=0 delayedStart=false
+2022-11-19 11:32:30,411 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-1
+2022-11-19 11:32:30,414 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-2
+2022-11-19 11:32:30,416 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-3
+2022-11-19 11:32:30,422 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-4
+2022-11-19 11:32:30,425 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-5
+2022-11-19 11:32:30,429 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-6
+2022-11-19 11:32:30,434 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-7
+2022-11-19 11:32:30,437 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-8
+2022-11-19 11:32:30,444 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-10
+2022-11-19 11:32:30,447 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-11
+2022-11-19 11:32:30,449 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-9
+2022-11-19 11:32:30,451 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-12
+2022-11-19 11:32:30,454 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-13
+2022-11-19 11:32:30,455 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-14
+2022-11-19 11:32:30,459 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-15
+2022-11-19 11:32:30,460 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-16
+2022-11-19 11:32:30,464 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-17
+2022-11-19 11:32:30,465 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-18
+2022-11-19 11:32:30,469 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-20
+2022-11-19 11:32:30,470 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-19
+2022-11-19 11:32:30,476 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-21
+2022-11-19 11:32:30,480 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-24
+2022-11-19 11:32:30,482 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-25
+2022-11-19 11:32:30,478 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-22
+2022-11-19 11:32:30,484 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-23
+2022-11-19 11:32:30,488 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-26
+2022-11-19 11:32:30,489 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-27
+2022-11-19 11:32:30,494 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-28
+2022-11-19 11:32:30,493 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-29
+2022-11-19 11:32:30,495 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-30
+2022-11-19 11:32:30,503 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-31
+2022-11-19 11:32:30,504 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-32
+2022-11-19 11:32:30,505 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-33
+2022-11-19 11:32:30,506 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-34
+2022-11-19 11:32:30,507 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-35
+2022-11-19 11:32:30,508 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-37
+2022-11-19 11:32:30,508 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-36
+2022-11-19 11:32:30,510 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-38
+2022-11-19 11:32:30,512 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-39
+2022-11-19 11:32:30,513 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-40
+2022-11-19 11:32:30,514 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-41
+2022-11-19 11:32:30,515 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-42
+2022-11-19 11:32:30,516 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-43
+2022-11-19 11:32:30,516 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-44
+2022-11-19 11:32:30,518 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-47
+2022-11-19 11:32:30,518 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-45
+2022-11-19 11:32:30,518 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-46
+2022-11-19 11:32:30,519 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-48
+2022-11-19 11:32:30,520 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-49
+2022-11-19 11:32:30,520 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-50
+2022-11-19 11:32:30,521 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-51
+2022-11-19 11:32:30,521 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-52
+2022-11-19 11:32:30,522 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-53
+2022-11-19 11:32:30,522 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-54
+2022-11-19 11:32:30,523 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-55
+2022-11-19 11:32:30,523 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-56
+2022-11-19 11:32:30,524 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-57
+2022-11-19 11:32:30,525 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-58
+2022-11-19 11:32:30,525 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-59
+2022-11-19 11:32:30,526 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-60
+2022-11-19 11:32:30,526 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-61
+2022-11-19 11:32:30,527 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-62
+2022-11-19 11:32:30,527 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-63
+2022-11-19 11:32:30,528 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-64
+2022-11-19 11:32:30,528 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-65
+2022-11-19 11:32:30,529 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-66
+2022-11-19 11:32:30,529 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-67
+2022-11-19 11:32:30,530 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-68
+2022-11-19 11:32:30,531 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-69
+2022-11-19 11:32:30,542 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-70
+2022-11-19 11:32:30,550 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-71
+2022-11-19 11:32:30,552 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-72
+2022-11-19 11:32:30,553 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-73
+2022-11-19 11:32:30,555 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-74
+2022-11-19 11:32:30,557 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-75
+2022-11-19 11:32:30,559 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-76
+2022-11-19 11:32:30,563 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-77
+2022-11-19 11:32:30,567 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-78
+2022-11-19 11:32:30,568 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-79
+2022-11-19 11:32:30,569 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-80
+2022-11-19 11:32:30,571 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-81
+2022-11-19 11:32:30,572 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-82
+2022-11-19 11:32:30,574 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-83
+2022-11-19 11:32:30,579 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-85
+2022-11-19 11:32:30,576 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-84
+2022-11-19 11:32:30,581 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-86
+2022-11-19 11:32:30,585 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-88
+2022-11-19 11:32:30,588 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-89
+2022-11-19 11:32:30,589 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-90
+2022-11-19 11:32:30,590 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-87
+2022-11-19 11:32:30,593 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-91
+2022-11-19 11:32:30,598 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-92
+2022-11-19 11:32:30,609 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-93
+2022-11-19 11:32:30,609 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-94
+2022-11-19 11:32:30,611 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-95
+2022-11-19 11:32:30,612 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-96
+2022-11-19 11:32:30,614 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-97
+2022-11-19 11:32:30,615 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-99
+2022-11-19 11:32:30,617 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-98
+2022-11-19 11:32:30,617 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-11-19 11:32:30,617 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: client-to-gateway-non-caching to finish before starting next group
+2022-11-19 11:32:30,617 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching 2-100
+2022-11-19 11:32:34,777 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-3
+2022-11-19 11:32:34,777 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-3
+2022-11-19 11:32:36,541 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-8
+2022-11-19 11:32:36,542 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-8
+2022-11-19 11:32:36,919 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-2
+2022-11-19 11:32:36,919 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-2
+2022-11-19 11:32:36,927 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-7
+2022-11-19 11:32:36,927 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-7
+2022-11-19 11:32:37,185 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-9
+2022-11-19 11:32:37,185 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-9
+2022-11-19 11:32:37,351 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-4
+2022-11-19 11:32:37,351 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-4
+2022-11-19 11:32:37,644 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-5
+2022-11-19 11:32:37,644 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-5
+2022-11-19 11:32:37,764 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-10
+2022-11-19 11:32:37,765 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-10
+2022-11-19 11:32:37,853 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-1
+2022-11-19 11:32:37,853 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-1
+2022-11-19 11:32:37,864 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-11
+2022-11-19 11:32:37,865 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-11
+2022-11-19 11:32:40,085 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-15
+2022-11-19 11:32:40,085 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-15
+2022-11-19 11:32:42,593 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-13
+2022-11-19 11:32:42,593 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-13
+2022-11-19 11:32:42,775 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-12
+2022-11-19 11:32:42,775 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-12
+2022-11-19 11:32:42,912 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-16
+2022-11-19 11:32:42,912 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-16
+2022-11-19 11:32:42,962 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-19
+2022-11-19 11:32:42,962 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-19
+2022-11-19 11:32:43,223 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-20
+2022-11-19 11:32:43,223 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-20
+2022-11-19 11:32:43,292 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-18
+2022-11-19 11:32:43,292 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-18
+2022-11-19 11:32:43,479 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-17
+2022-11-19 11:32:43,479 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-17
+2022-11-19 11:32:43,769 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-14
+2022-11-19 11:32:43,770 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-14
+2022-11-19 11:32:44,160 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-6
+2022-11-19 11:32:44,160 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-6
+2022-11-19 11:32:45,233 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-25
+2022-11-19 11:32:45,233 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-25
+2022-11-19 11:32:47,587 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-26
+2022-11-19 11:32:47,587 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-26
+2022-11-19 11:32:47,709 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-35
+2022-11-19 11:32:47,709 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-35
+2022-11-19 11:32:47,745 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-31
+2022-11-19 11:32:47,745 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-31
+2022-11-19 11:32:49,135 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-39
+2022-11-19 11:32:49,135 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-39
+2022-11-19 11:32:49,446 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-43
+2022-11-19 11:32:49,447 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-43
+2022-11-19 11:32:49,779 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-27
+2022-11-19 11:32:49,779 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-27
+2022-11-19 11:32:49,944 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-24
+2022-11-19 11:32:49,944 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-24
+2022-11-19 11:32:49,986 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-37
+2022-11-19 11:32:49,986 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-37
+2022-11-19 11:32:50,330 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-30
+2022-11-19 11:32:50,330 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-30
+2022-11-19 11:32:51,212 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-28
+2022-11-19 11:32:51,213 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-28
+2022-11-19 11:32:54,299 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-38
+2022-11-19 11:32:54,299 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-38
+2022-11-19 11:32:54,823 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-42
+2022-11-19 11:32:54,824 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-42
+2022-11-19 11:32:55,783 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-36
+2022-11-19 11:32:55,783 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-36
+2022-11-19 11:32:56,096 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-34
+2022-11-19 11:32:56,097 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-34
+2022-11-19 11:32:56,369 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-32
+2022-11-19 11:32:56,370 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-32
+2022-11-19 11:32:56,691 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-22
+2022-11-19 11:32:56,691 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-22
+2022-11-19 11:32:57,006 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-33
+2022-11-19 11:32:57,006 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-33
+2022-11-19 11:32:57,017 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-29
+2022-11-19 11:32:57,017 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-29
+2022-11-19 11:32:57,019 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-21
+2022-11-19 11:32:57,019 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-21
+2022-11-19 11:32:58,233 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-23
+2022-11-19 11:32:58,233 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-23
+2022-11-19 11:32:59,751 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-72
+2022-11-19 11:32:59,751 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-72
+2022-11-19 11:32:59,951 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-56
+2022-11-19 11:32:59,951 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-56
+2022-11-19 11:33:00,777 INFO o.a.j.r.Summariser: summary +     49 in 00:00:31 =    1.6/s Avg: 22206 Min:  4360 Max: 69483 Err:     0 (0.00%) Active: 57 Started: 200 Finished: 143
+2022-11-19 11:33:00,779 INFO o.a.j.r.Summariser: summary =    144 in 00:01:40 =    1.4/s Avg: 33590 Min:  4360 Max: 69483 Err:     0 (0.00%)
+2022-11-19 11:33:00,779 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-75
+2022-11-19 11:33:00,779 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-75
+2022-11-19 11:33:01,373 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-88
+2022-11-19 11:33:01,373 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-88
+2022-11-19 11:33:01,510 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-79
+2022-11-19 11:33:01,510 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-79
+2022-11-19 11:33:01,892 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-67
+2022-11-19 11:33:01,892 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-67
+2022-11-19 11:33:02,076 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-58
+2022-11-19 11:33:02,076 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-58
+2022-11-19 11:33:02,111 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-51
+2022-11-19 11:33:02,111 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-51
+2022-11-19 11:33:02,499 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-53
+2022-11-19 11:33:02,499 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-53
+2022-11-19 11:33:03,720 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-62
+2022-11-19 11:33:03,720 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-62
+2022-11-19 11:33:05,075 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-83
+2022-11-19 11:33:05,075 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-83
+2022-11-19 11:33:05,372 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-91
+2022-11-19 11:33:05,372 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-91
+2022-11-19 11:33:07,425 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-48
+2022-11-19 11:33:07,425 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-48
+2022-11-19 11:33:08,094 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-60
+2022-11-19 11:33:08,094 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-60
+2022-11-19 11:33:08,185 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-52
+2022-11-19 11:33:08,186 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-52
+2022-11-19 11:33:08,673 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-40
+2022-11-19 11:33:08,673 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-40
+2022-11-19 11:33:08,747 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-47
+2022-11-19 11:33:08,747 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-47
+2022-11-19 11:33:09,282 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-44
+2022-11-19 11:33:09,283 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-44
+2022-11-19 11:33:09,485 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-41
+2022-11-19 11:33:09,485 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-41
+2022-11-19 11:33:10,295 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-90
+2022-11-19 11:33:10,295 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-90
+2022-11-19 11:33:11,618 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-93
+2022-11-19 11:33:11,618 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-93
+2022-11-19 11:33:11,938 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-78
+2022-11-19 11:33:11,938 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-78
+2022-11-19 11:33:13,457 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-57
+2022-11-19 11:33:13,458 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-57
+2022-11-19 11:33:13,892 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-64
+2022-11-19 11:33:13,892 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-64
+2022-11-19 11:33:14,978 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-59
+2022-11-19 11:33:14,978 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-59
+2022-11-19 11:33:15,596 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-49
+2022-11-19 11:33:15,596 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-49
+2022-11-19 11:33:16,026 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-50
+2022-11-19 11:33:16,026 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-50
+2022-11-19 11:33:16,234 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-63
+2022-11-19 11:33:16,234 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-63
+2022-11-19 11:33:16,648 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-71
+2022-11-19 11:33:16,648 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-71
+2022-11-19 11:33:17,139 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-92
+2022-11-19 11:33:17,139 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-92
+2022-11-19 11:33:17,527 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-74
+2022-11-19 11:33:17,527 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-74
+2022-11-19 11:33:17,852 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-76
+2022-11-19 11:33:17,852 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-76
+2022-11-19 11:33:19,381 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-68
+2022-11-19 11:33:19,381 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-68
+2022-11-19 11:33:19,566 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-89
+2022-11-19 11:33:19,566 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-89
+2022-11-19 11:33:20,973 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-69
+2022-11-19 11:33:20,974 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-69
+2022-11-19 11:33:21,676 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-99
+2022-11-19 11:33:21,676 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-99
+2022-11-19 11:33:22,681 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-94
+2022-11-19 11:33:22,681 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-94
+2022-11-19 11:33:22,748 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-87
+2022-11-19 11:33:22,749 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-87
+2022-11-19 11:33:23,021 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-86
+2022-11-19 11:33:23,021 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-86
+2022-11-19 11:33:23,610 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-45
+2022-11-19 11:33:23,610 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-45
+2022-11-19 11:33:23,663 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-73
+2022-11-19 11:33:23,663 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-73
+2022-11-19 11:33:23,862 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-100
+2022-11-19 11:33:23,863 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-100
+2022-11-19 11:33:24,658 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-61
+2022-11-19 11:33:24,658 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-61
+2022-11-19 11:33:24,686 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-54
+2022-11-19 11:33:24,686 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-54
+2022-11-19 11:33:26,606 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-81
+2022-11-19 11:33:26,606 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-81
+2022-11-19 11:33:27,720 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-80
+2022-11-19 11:33:27,720 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-80
+2022-11-19 11:33:28,828 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-85
+2022-11-19 11:33:28,828 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-85
+2022-11-19 11:33:29,215 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-98
+2022-11-19 11:33:29,215 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-98
+2022-11-19 11:33:29,470 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-77
+2022-11-19 11:33:29,470 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-77
+2022-11-19 11:33:29,555 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-84
+2022-11-19 11:33:29,555 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-84
+2022-11-19 11:33:29,772 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-96
+2022-11-19 11:33:29,773 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-96
+2022-11-19 11:33:29,923 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-82
+2022-11-19 11:33:29,923 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-82
+2022-11-19 11:33:30,184 INFO o.a.j.r.Summariser: summary +     50 in 00:00:29 =    1.7/s Avg: 45648 Min: 30787 Max: 59648 Err:     0 (0.00%) Active: 7 Started: 200 Finished: 193
+2022-11-19 11:33:30,184 INFO o.a.j.r.Summariser: summary =    194 in 00:02:10 =    1.5/s Avg: 36698 Min:  4360 Max: 69483 Err:     0 (0.00%)
+2022-11-19 11:33:30,184 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-65
+2022-11-19 11:33:30,184 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-65
+2022-11-19 11:33:30,466 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-66
+2022-11-19 11:33:30,467 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-66
+2022-11-19 11:33:31,129 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-46
+2022-11-19 11:33:31,129 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-46
+2022-11-19 11:33:31,501 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-55
+2022-11-19 11:33:31,502 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-55
+2022-11-19 11:33:31,749 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-70
+2022-11-19 11:33:31,749 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-70
+2022-11-19 11:33:31,754 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-95
+2022-11-19 11:33:31,754 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching 2-97
+2022-11-19 11:33:31,754 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-95
+2022-11-19 11:33:31,754 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching 2-97
+2022-11-19 11:33:31,754 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : client-to-gateway-caching
+2022-11-19 11:33:31,754 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group client-to-gateway-caching.
+2022-11-19 11:33:31,754 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-11-19 11:33:31,754 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=100 ramp-up=0 delayedStart=false
+2022-11-19 11:33:31,755 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-1
+2022-11-19 11:33:31,755 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-2
+2022-11-19 11:33:31,756 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-3
+2022-11-19 11:33:31,757 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-4
+2022-11-19 11:33:31,758 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-6
+2022-11-19 11:33:31,762 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-7
+2022-11-19 11:33:31,764 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-8
+2022-11-19 11:33:31,766 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-9
+2022-11-19 11:33:31,766 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-11
+2022-11-19 11:33:31,767 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-10
+2022-11-19 11:33:31,757 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-5
+2022-11-19 11:33:31,768 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-12
+2022-11-19 11:33:31,767 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-13
+2022-11-19 11:33:31,772 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-14
+2022-11-19 11:33:31,773 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-15
+2022-11-19 11:33:31,775 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-17
+2022-11-19 11:33:31,775 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-16
+2022-11-19 11:33:31,776 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-18
+2022-11-19 11:33:31,777 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-19
+2022-11-19 11:33:31,778 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-20
+2022-11-19 11:33:31,779 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-22
+2022-11-19 11:33:31,779 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-21
+2022-11-19 11:33:31,780 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-23
+2022-11-19 11:33:31,786 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-24
+2022-11-19 11:33:31,788 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-25
+2022-11-19 11:33:31,789 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-26
+2022-11-19 11:33:31,789 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-27
+2022-11-19 11:33:31,791 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-28
+2022-11-19 11:33:31,792 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-29
+2022-11-19 11:33:31,794 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-30
+2022-11-19 11:33:31,795 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-31
+2022-11-19 11:33:31,796 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-32
+2022-11-19 11:33:31,797 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-33
+2022-11-19 11:33:31,798 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-34
+2022-11-19 11:33:31,801 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-35
+2022-11-19 11:33:31,805 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-36
+2022-11-19 11:33:31,807 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-37
+2022-11-19 11:33:31,810 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-38
+2022-11-19 11:33:31,812 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-39
+2022-11-19 11:33:31,814 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-41
+2022-11-19 11:33:31,816 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-42
+2022-11-19 11:33:31,816 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-40
+2022-11-19 11:33:31,817 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-43
+2022-11-19 11:33:31,820 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-44
+2022-11-19 11:33:31,822 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-45
+2022-11-19 11:33:31,823 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-46
+2022-11-19 11:33:31,826 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-48
+2022-11-19 11:33:31,826 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-47
+2022-11-19 11:33:31,827 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-49
+2022-11-19 11:33:31,828 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-50
+2022-11-19 11:33:31,830 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-51
+2022-11-19 11:33:31,834 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-52
+2022-11-19 11:33:31,835 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-54
+2022-11-19 11:33:31,835 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-53
+2022-11-19 11:33:31,839 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-55
+2022-11-19 11:33:31,841 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-56
+2022-11-19 11:33:31,843 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-57
+2022-11-19 11:33:31,848 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-58
+2022-11-19 11:33:31,850 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-59
+2022-11-19 11:33:31,852 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-61
+2022-11-19 11:33:31,852 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-60
+2022-11-19 11:33:31,853 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-62
+2022-11-19 11:33:31,855 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-64
+2022-11-19 11:33:31,855 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-63
+2022-11-19 11:33:31,856 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-65
+2022-11-19 11:33:31,863 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-66
+2022-11-19 11:33:31,864 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-67
+2022-11-19 11:33:31,864 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-68
+2022-11-19 11:33:31,870 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-69
+2022-11-19 11:33:31,872 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-70
+2022-11-19 11:33:31,873 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-71
+2022-11-19 11:33:31,874 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-72
+2022-11-19 11:33:31,874 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-73
+2022-11-19 11:33:31,875 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-74
+2022-11-19 11:33:31,877 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-75
+2022-11-19 11:33:31,879 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-76
+2022-11-19 11:33:31,882 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-77
+2022-11-19 11:33:31,883 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-78
+2022-11-19 11:33:31,883 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-79
+2022-11-19 11:33:31,884 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-80
+2022-11-19 11:33:31,885 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-81
+2022-11-19 11:33:31,887 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-82
+2022-11-19 11:33:31,888 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-83
+2022-11-19 11:33:31,889 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-84
+2022-11-19 11:33:31,891 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-85
+2022-11-19 11:33:31,892 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-87
+2022-11-19 11:33:31,893 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-86
+2022-11-19 11:33:31,895 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-88
+2022-11-19 11:33:31,896 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-89
+2022-11-19 11:33:31,898 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-90
+2022-11-19 11:33:31,899 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-91
+2022-11-19 11:33:31,900 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-92
+2022-11-19 11:33:31,901 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-93
+2022-11-19 11:33:31,903 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-94
+2022-11-19 11:33:31,904 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-95
+2022-11-19 11:33:31,904 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-96
+2022-11-19 11:33:31,905 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-97
+2022-11-19 11:33:31,906 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-98
+2022-11-19 11:33:31,910 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-99
+2022-11-19 11:33:31,910 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-11-19 11:33:31,910 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-11-19 11:33:31,910 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching 3-100
+2022-11-19 11:33:32,216 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-3
+2022-11-19 11:33:32,216 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-3
+2022-11-19 11:33:32,234 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-2
+2022-11-19 11:33:32,235 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-2
+2022-11-19 11:33:32,252 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-1
+2022-11-19 11:33:32,252 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-1
+2022-11-19 11:33:32,257 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-7
+2022-11-19 11:33:32,257 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-7
+2022-11-19 11:33:32,285 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-8
+2022-11-19 11:33:32,285 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-8
+2022-11-19 11:33:32,291 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-4
+2022-11-19 11:33:32,291 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-4
+2022-11-19 11:33:32,292 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-9
+2022-11-19 11:33:32,292 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-9
+2022-11-19 11:33:32,309 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-6
+2022-11-19 11:33:32,309 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-6
+2022-11-19 11:33:32,310 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-12
+2022-11-19 11:33:32,310 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-12
+2022-11-19 11:33:32,318 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-10
+2022-11-19 11:33:32,318 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-10
+2022-11-19 11:33:32,327 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-11
+2022-11-19 11:33:32,327 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-11
+2022-11-19 11:33:32,334 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-15
+2022-11-19 11:33:32,334 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-15
+2022-11-19 11:33:32,337 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-14
+2022-11-19 11:33:32,337 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-14
+2022-11-19 11:33:32,354 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-5
+2022-11-19 11:33:32,354 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-5
+2022-11-19 11:33:32,358 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-18
+2022-11-19 11:33:32,358 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-18
+2022-11-19 11:33:32,368 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-19
+2022-11-19 11:33:32,368 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-19
+2022-11-19 11:33:32,374 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-13
+2022-11-19 11:33:32,374 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-13
+2022-11-19 11:33:32,386 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-22
+2022-11-19 11:33:32,386 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-22
+2022-11-19 11:33:32,388 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-17
+2022-11-19 11:33:32,388 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-17
+2022-11-19 11:33:32,401 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-16
+2022-11-19 11:33:32,401 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-16
+2022-11-19 11:33:32,403 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-23
+2022-11-19 11:33:32,403 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-23
+2022-11-19 11:33:32,419 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-27
+2022-11-19 11:33:32,419 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-27
+2022-11-19 11:33:32,431 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-21
+2022-11-19 11:33:32,431 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-21
+2022-11-19 11:33:32,436 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-30
+2022-11-19 11:33:32,436 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-30
+2022-11-19 11:33:32,438 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-26
+2022-11-19 11:33:32,438 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-26
+2022-11-19 11:33:32,452 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-20
+2022-11-19 11:33:32,452 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-20
+2022-11-19 11:33:32,454 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-31
+2022-11-19 11:33:32,454 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-31
+2022-11-19 11:33:32,455 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-25
+2022-11-19 11:33:32,455 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-25
+2022-11-19 11:33:32,461 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-32
+2022-11-19 11:33:32,461 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-32
+2022-11-19 11:33:32,469 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-35
+2022-11-19 11:33:32,469 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-35
+2022-11-19 11:33:32,480 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-24
+2022-11-19 11:33:32,480 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-24
+2022-11-19 11:33:32,483 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-29
+2022-11-19 11:33:32,483 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-29
+2022-11-19 11:33:32,494 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-38
+2022-11-19 11:33:32,494 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-38
+2022-11-19 11:33:32,511 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-40
+2022-11-19 11:33:32,511 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-40
+2022-11-19 11:33:32,513 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-39
+2022-11-19 11:33:32,513 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-39
+2022-11-19 11:33:32,532 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-34
+2022-11-19 11:33:32,532 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-34
+2022-11-19 11:33:32,536 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-28
+2022-11-19 11:33:32,536 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-28
+2022-11-19 11:33:32,543 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-46
+2022-11-19 11:33:32,543 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-46
+2022-11-19 11:33:32,549 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-43
+2022-11-19 11:33:32,549 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-43
+2022-11-19 11:33:32,552 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-37
+2022-11-19 11:33:32,552 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-37
+2022-11-19 11:33:32,561 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-50
+2022-11-19 11:33:32,561 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-50
+2022-11-19 11:33:32,565 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-33
+2022-11-19 11:33:32,565 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-33
+2022-11-19 11:33:32,577 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-42
+2022-11-19 11:33:32,577 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-42
+2022-11-19 11:33:32,581 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-36
+2022-11-19 11:33:32,581 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-36
+2022-11-19 11:33:32,584 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-48
+2022-11-19 11:33:32,584 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-48
+2022-11-19 11:33:32,637 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-41
+2022-11-19 11:33:32,637 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-41
+2022-11-19 11:33:32,637 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-54
+2022-11-19 11:33:32,637 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-54
+2022-11-19 11:33:32,640 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-45
+2022-11-19 11:33:32,640 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-45
+2022-11-19 11:33:32,644 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-51
+2022-11-19 11:33:32,644 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-51
+2022-11-19 11:33:32,654 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-44
+2022-11-19 11:33:32,654 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-44
+2022-11-19 11:33:32,660 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-58
+2022-11-19 11:33:32,660 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-58
+2022-11-19 11:33:32,670 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-49
+2022-11-19 11:33:32,670 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-49
+2022-11-19 11:33:32,677 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-55
+2022-11-19 11:33:32,677 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-55
+2022-11-19 11:33:32,684 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-62
+2022-11-19 11:33:32,684 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-62
+2022-11-19 11:33:32,686 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-47
+2022-11-19 11:33:32,686 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-47
+2022-11-19 11:33:32,690 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-59
+2022-11-19 11:33:32,690 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-59
+2022-11-19 11:33:32,699 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-53
+2022-11-19 11:33:32,699 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-53
+2022-11-19 11:33:32,711 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-64
+2022-11-19 11:33:32,711 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-64
+2022-11-19 11:33:32,713 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-66
+2022-11-19 11:33:32,713 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-66
+2022-11-19 11:33:32,721 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-52
+2022-11-19 11:33:32,721 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-52
+2022-11-19 11:33:32,724 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-56
+2022-11-19 11:33:32,724 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-56
+2022-11-19 11:33:32,729 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-70
+2022-11-19 11:33:32,729 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-70
+2022-11-19 11:33:32,734 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-57
+2022-11-19 11:33:32,734 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-57
+2022-11-19 11:33:32,741 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-68
+2022-11-19 11:33:32,741 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-68
+2022-11-19 11:33:32,744 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-73
+2022-11-19 11:33:32,744 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-73
+2022-11-19 11:33:32,748 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-61
+2022-11-19 11:33:32,748 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-61
+2022-11-19 11:33:32,755 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-60
+2022-11-19 11:33:32,755 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-60
+2022-11-19 11:33:32,760 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-71
+2022-11-19 11:33:32,760 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-71
+2022-11-19 11:33:32,764 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-65
+2022-11-19 11:33:32,764 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-65
+2022-11-19 11:33:32,774 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-78
+2022-11-19 11:33:32,774 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-78
+2022-11-19 11:33:32,778 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-63
+2022-11-19 11:33:32,778 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-63
+2022-11-19 11:33:32,784 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-82
+2022-11-19 11:33:32,784 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-82
+2022-11-19 11:33:32,789 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-75
+2022-11-19 11:33:32,789 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-75
+2022-11-19 11:33:32,795 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-86
+2022-11-19 11:33:32,795 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-86
+2022-11-19 11:33:32,802 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-69
+2022-11-19 11:33:32,802 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-69
+2022-11-19 11:33:32,808 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-67
+2022-11-19 11:33:32,808 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-67
+2022-11-19 11:33:32,812 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-74
+2022-11-19 11:33:32,812 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-74
+2022-11-19 11:33:32,819 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-79
+2022-11-19 11:33:32,819 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-79
+2022-11-19 11:33:32,831 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-90
+2022-11-19 11:33:32,831 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-90
+2022-11-19 11:33:32,836 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-83
+2022-11-19 11:33:32,837 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-83
+2022-11-19 11:33:32,842 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-77
+2022-11-19 11:33:32,842 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-77
+2022-11-19 11:33:32,848 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-72
+2022-11-19 11:33:32,848 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-72
+2022-11-19 11:33:32,853 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-87
+2022-11-19 11:33:32,853 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-87
+2022-11-19 11:33:32,860 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-81
+2022-11-19 11:33:32,860 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-81
+2022-11-19 11:33:32,865 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-94
+2022-11-19 11:33:32,865 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-94
+2022-11-19 11:33:32,873 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-76
+2022-11-19 11:33:32,873 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-76
+2022-11-19 11:33:32,887 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-91
+2022-11-19 11:33:32,887 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-91
+2022-11-19 11:33:32,888 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-80
+2022-11-19 11:33:32,888 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-80
+2022-11-19 11:33:32,892 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-98
+2022-11-19 11:33:32,892 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-98
+2022-11-19 11:33:32,897 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-85
+2022-11-19 11:33:32,897 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-85
+2022-11-19 11:33:32,905 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-95
+2022-11-19 11:33:32,905 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-95
+2022-11-19 11:33:32,913 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-84
+2022-11-19 11:33:32,913 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-84
+2022-11-19 11:33:32,916 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-89
+2022-11-19 11:33:32,916 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-89
+2022-11-19 11:33:32,923 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-99
+2022-11-19 11:33:32,923 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-99
+2022-11-19 11:33:32,932 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-93
+2022-11-19 11:33:32,932 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-93
+2022-11-19 11:33:32,938 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-88
+2022-11-19 11:33:32,938 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-88
+2022-11-19 11:33:32,945 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-92
+2022-11-19 11:33:32,945 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-92
+2022-11-19 11:33:32,951 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-97
+2022-11-19 11:33:32,951 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-97
+2022-11-19 11:33:32,956 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-96
+2022-11-19 11:33:32,956 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-96
+2022-11-19 11:33:32,965 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching 3-100
+2022-11-19 11:33:32,965 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching 3-100
+2022-11-19 11:33:32,965 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-11-19 11:33:32,966 INFO o.a.j.r.Summariser: summary +    106 in 00:00:03 =   38.1/s Avg:  4190 Min:   454 Max: 61205 Err:   100 (94.34%) Active: 0 Started: 300 Finished: 300
+2022-11-19 11:33:32,966 INFO o.a.j.r.Summariser: summary =    300 in 00:02:12 =    2.3/s Avg: 25212 Min:   454 Max: 69483 Err:   100 (33.33%)
+2022-11-19 11:33:32,967 INFO o.a.j.JMeter: Generating Dashboard
+2022-11-19 11:33:32,967 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-11-19 11:33:32,981 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-11-19 11:33:33,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-11-19 11:33:33,173 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-11-19 11:33:33,176 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-11-19 11:33:33,176 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-11-19 11:33:33,187 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-11-19 11:33:33,189 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-11-19 11:33:33,189 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-11-19 11:33:33,189 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-11-19 11:33:33,210 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-11-19 11:33:33,210 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-11-19 11:33:33,211 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-11-19 11:33:33,211 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-11-19 11:33:33,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-11-19 11:33:33,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 2100 samples
+2022-11-19 11:33:33,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-11-19 11:33:33,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-11-19 11:33:33,226 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-11-19 11:33:33,228 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-11-19 11:33:33,228 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-11-19 11:33:33,228 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-11-19 11:33:33,232 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-11-19 11:33:33,232 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-11-19 11:33:33,233 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-11-19 11:33:33,233 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-11-19 11:33:33,233 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 4500 samples
+2022-11-19 11:33:33,233 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 900 samples
+2022-11-19 11:33:33,233 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 300 samples
+2022-11-19 11:33:33,233 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 300 samples produced in 218ms on channel 0
+2022-11-19 11:33:33,233 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-11-19 11:33:33,460 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-11-19 11:33:33,461 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-11-19 11:33:33,461 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-11-19 11:33:33,462 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-11-19 11:33:33,462 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/ubuntu/jmeter-test-result/100-user-10-data-all-test/result/statistics.json
+2022-11-19 11:33:33,515 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-11-19 11:33:33,518 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/ubuntu/jmeter-test-result/100-user-10-data-all-test/result
+2022-11-19 11:33:33,721 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/ubuntu/jmeter-test-result/100-user-10-data-all-test/result, creating folder structure
+2022-11-19 11:33:33,731 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/jmeter/bin/report-template' to '/home/ubuntu/jmeter-test-result/100-user-10-data-all-test/result', got message: /home/ubuntu/jmeter-test-result/100-user-10-data-all-test/result, found non empty folder with following content [/home/ubuntu/jmeter-test-result/100-user-10-data-all-test/result/statistics.json], will be ignored
+2022-11-19 11:33:34,210 INFO o.a.j.JMeter: Dashboard generated
