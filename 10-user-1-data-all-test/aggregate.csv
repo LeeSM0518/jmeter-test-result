@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1668865012818,280,Monolithic-based client,200,,client-to-application 1-10,text,true,,1133096,128,10,10,http://172.31.37.100/sensing/data,139,0,30
+1668865012828,376,Monolithic-based client,200,,client-to-application 1-5,text,true,,1133096,128,9,9,http://172.31.37.100/sensing/data,283,0,20
+1668865012824,391,Monolithic-based client,200,,client-to-application 1-3,text,true,,1133096,128,8,8,http://172.31.37.100/sensing/data,276,0,24
+1668865012825,397,Monolithic-based client,200,,client-to-application 1-9,text,true,,1133096,128,7,7,http://172.31.37.100/sensing/data,296,0,24
+1668865012823,402,Monolithic-based client,200,,client-to-application 1-6,text,true,,1133096,128,6,6,http://172.31.37.100/sensing/data,294,0,27
+1668865012823,407,Monolithic-based client,200,,client-to-application 1-2,text,true,,1133096,128,5,5,http://172.31.37.100/sensing/data,328,0,25
+1668865012829,402,Monolithic-based client,200,,client-to-application 1-1,text,true,,1133096,128,4,4,http://172.31.37.100/sensing/data,275,0,20
+1668865012823,413,Monolithic-based client,200,,client-to-application 1-7,text,true,,1133096,128,3,3,http://172.31.37.100/sensing/data,320,0,26
+1668865012823,417,Monolithic-based client,200,,client-to-application 1-4,text,true,,1133096,128,2,2,http://172.31.37.100/sensing/data,298,0,24
+1668865012828,411,Monolithic-based client,200,,client-to-application 1-8,text,true,,1133096,128,2,2,http://172.31.37.100/sensing/data,289,0,20

@@ -1,0 +1,31 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1668865012818,280,Monolithic-based client,200,,client-to-application 1-10,text,true,,1133096,128,10,10,http://172.31.37.100/sensing/data,139,0,30
+1668865012828,376,Monolithic-based client,200,,client-to-application 1-5,text,true,,1133096,128,9,9,http://172.31.37.100/sensing/data,283,0,20
+1668865012824,391,Monolithic-based client,200,,client-to-application 1-3,text,true,,1133096,128,8,8,http://172.31.37.100/sensing/data,276,0,24
+1668865012825,397,Monolithic-based client,200,,client-to-application 1-9,text,true,,1133096,128,7,7,http://172.31.37.100/sensing/data,296,0,24
+1668865012823,402,Monolithic-based client,200,,client-to-application 1-6,text,true,,1133096,128,6,6,http://172.31.37.100/sensing/data,294,0,27
+1668865012823,407,Monolithic-based client,200,,client-to-application 1-2,text,true,,1133096,128,5,5,http://172.31.37.100/sensing/data,328,0,25
+1668865012829,402,Monolithic-based client,200,,client-to-application 1-1,text,true,,1133096,128,4,4,http://172.31.37.100/sensing/data,275,0,20
+1668865012823,413,Monolithic-based client,200,,client-to-application 1-7,text,true,,1133096,128,3,3,http://172.31.37.100/sensing/data,320,0,26
+1668865012823,417,Monolithic-based client,200,,client-to-application 1-4,text,true,,1133096,128,2,2,http://172.31.37.100/sensing/data,298,0,24
+1668865012828,411,Monolithic-based client,200,,client-to-application 1-8,text,true,,1133096,128,2,2,http://172.31.37.100/sensing/data,289,0,20
+1668865013248,324,Microservice-based client,200,OK,client-to-gateway-non-caching 2-1,text,true,,1133721,128,10,10,http://172.31.47.182/sensing/data,173,0,1
+1668865013261,393,Microservice-based client,200,OK,client-to-gateway-non-caching 2-8,text,true,,1133552,128,9,9,http://172.31.47.182/sensing/data,241,0,9
+1668865013274,395,Microservice-based client,200,OK,client-to-gateway-non-caching 2-10,text,true,,1133439,128,8,8,http://172.31.47.182/sensing/data,221,0,2
+1668865013253,419,Microservice-based client,200,OK,client-to-gateway-non-caching 2-3,text,true,,1133545,128,7,7,http://172.31.47.182/sensing/data,236,0,1
+1668865013257,422,Microservice-based client,200,OK,client-to-gateway-non-caching 2-6,text,true,,1133301,128,6,6,http://172.31.47.182/sensing/data,241,0,1
+1668865013259,423,Microservice-based client,200,OK,client-to-gateway-non-caching 2-7,text,true,,1133406,128,5,5,http://172.31.47.182/sensing/data,234,0,1
+1668865013258,429,Microservice-based client,200,OK,client-to-gateway-non-caching 2-4,text,true,,1133413,128,4,4,http://172.31.47.182/sensing/data,248,0,1
+1668865013250,437,Microservice-based client,200,OK,client-to-gateway-non-caching 2-2,text,true,,1133506,128,4,4,http://172.31.47.182/sensing/data,248,0,5
+1668865013262,428,Microservice-based client,200,OK,client-to-gateway-non-caching 2-9,text,true,,1133513,128,3,3,http://172.31.47.182/sensing/data,227,0,4
+1668865013266,425,Microservice-based client,200,OK,client-to-gateway-non-caching 2-5,text,true,,1133456,128,2,2,http://172.31.47.182/sensing/data,227,0,1
+1668865013697,745,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-1,text,true,,11318342,192,10,10,http://172.31.47.182/sensing/data,77,0,1
+1668865013706,1016,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-6,text,true,,11318342,192,9,9,http://172.31.47.182/sensing/data,221,0,1
+1668865013700,1205,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-3,text,true,,11318342,192,8,8,http://172.31.47.182/sensing/data,174,0,2
+1668865013711,1458,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-7,text,true,,11318342,192,7,7,http://172.31.47.182/sensing/data,303,0,1
+1668865013705,1860,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-5,text,true,,11318342,192,6,6,http://172.31.47.182/sensing/data,268,0,0
+1668865013702,1898,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-4,text,true,,11318342,192,5,5,http://172.31.47.182/sensing/data,213,0,1
+1668865013698,1962,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-2,text,true,,11318342,192,4,4,http://172.31.47.182/sensing/data,99,0,1
+1668865013718,1949,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-10,text,true,,11318342,192,3,3,http://172.31.47.182/sensing/data,324,0,2
+1668865013713,1976,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-9,text,true,,11318342,192,2,2,http://172.31.47.182/sensing/data,372,0,1
+1668865013718,1991,Microservice-based client with caching,200,OK,client-to-gateway-caching 3-8,text,true,,11318342,192,1,1,http://172.31.47.182/sensing/data,395,0,1
