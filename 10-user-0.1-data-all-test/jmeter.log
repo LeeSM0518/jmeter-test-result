@@ -1,229 +1,227 @@
-2022-11-20 13:44:03,634 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2022-11-20 13:44:03,660 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
-2022-11-20 13:44:03,660 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
-2022-11-20 13:44:03,666 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
-2022-11-20 13:44:03,666 INFO o.a.j.JMeter: Version 5.5
-2022-11-20 13:44:03,666 INFO o.a.j.JMeter: java.version=11.0.17
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: os.name=Linux
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: os.arch=amd64
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: os.version=5.15.0-1023-aws
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: file.encoding=UTF-8
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: java.awt.headless=true
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: Max memory     =32212254720
-2022-11-20 13:44:03,667 INFO o.a.j.JMeter: Available Processors =4
-2022-11-20 13:44:03,676 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-11-20 13:44:03,676 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2022-11-20 13:44:03,676 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
-2022-11-20 13:44:03,677 INFO o.a.j.JMeter: user.dir  =/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test
-2022-11-20 13:44:03,677 INFO o.a.j.JMeter: PWD       =/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test
-2022-11-20 13:44:03,678 INFO o.a.j.JMeter: IP: 172.31.34.117 Name: ip-172-31-34-117 FullName: ip-172-31-34-117.ap-northeast-2.compute.internal
-2022-11-20 13:44:03,687 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result'
-2022-11-20 13:44:03,690 INFO o.a.j.s.FileServer: Default base='/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test'
-2022-11-20 13:44:03,690 INFO o.a.j.s.FileServer: Set new base='/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test'
-2022-11-20 13:44:03,877 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-11-20 13:44:03,898 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-11-20 13:44:03,902 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-11-20 13:44:03,906 INFO o.a.j.s.SaveService: Loading file: 10-user-10-data-all-test.jmx
-2022-11-20 13:44:03,954 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-11-20 13:44:03,954 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-11-20 13:44:03,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-11-20 13:44:03,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-11-20 13:44:03,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-11-20 13:44:03,955 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-11-20 13:44:04,015 INFO o.a.j.JMeter: Creating summariser <summary>
-2022-11-20 13:44:04,021 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
-2022-11-20 13:44:04,021 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: 11-20-13:44:02.jtl
-2022-11-20 13:44:04,021 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
-2022-11-20 13:44:04,021 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
-2022-11-20 13:44:04,026 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
-2022-11-20 13:44:04,029 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
-2022-11-20 13:44:04,029 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
-2022-11-20 13:44:04,029 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
-2022-11-20 13:44:04,030 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
-2022-11-20 13:44:04,030 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
-2022-11-20 13:44:04,030 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
-2022-11-20 13:44:04,030 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
-2022-11-20 13:44:04,030 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
-2022-11-20 13:44:04,034 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,035 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,036 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,036 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,036 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,036 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
-2022-11-20 13:44:04,037 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
-2022-11-20 13:44:04,037 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
-2022-11-20 13:44:04,037 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
-2022-11-20 13:44:04,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
-2022-11-20 13:44:04,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
-2022-11-20 13:44:04,038 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
-2022-11-20 13:44:04,049 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-11-20 13:44:04,050 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-11-20 13:44:04,050 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-11-20 13:44:04,062 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2022-11-20 13:44:04,062 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2022-11-20 13:44:04,353 INFO o.a.j.JMeter: Running test (1668951844353)
-2022-11-20 13:44:04,401 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : client-to-application (GET)
-2022-11-20 13:44:04,402 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group client-to-application (GET).
-2022-11-20 13:44:04,402 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-11-20 13:44:04,402 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=0 delayedStart=true
-2022-11-20 13:44:04,403 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-11-20 13:44:04,403 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: client-to-application (GET) to finish before starting next group
-2022-11-20 13:44:04,420 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-2
-2022-11-20 13:44:04,420 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-1
-2022-11-20 13:44:04,428 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-3
-2022-11-20 13:44:04,433 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-6
-2022-11-20 13:44:04,432 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-4
-2022-11-20 13:44:04,435 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-8
-2022-11-20 13:44:04,436 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-9
-2022-11-20 13:44:04,435 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-5
-2022-11-20 13:44:04,437 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-7
-2022-11-20 13:44:04,438 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-10
-2022-11-20 13:44:04,453 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-31-34-117
-2022-11-20 13:44:04,460 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2022-11-20 13:44:04,462 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2022-11-20 13:44:04,462 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2022-11-20 13:44:04,462 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2022-11-20 13:44:04,462 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2022-11-20 13:44:04,631 INFO o.a.j.r.Summariser: summary +      1 in 00:00:00 =    3.6/s Avg:    72 Min:    72 Max:    72 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
-2022-11-20 13:44:04,631 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-1
-2022-11-20 13:44:04,632 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-1
-2022-11-20 13:44:04,637 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-4
-2022-11-20 13:44:04,637 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-9
-2022-11-20 13:44:04,637 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-9
-2022-11-20 13:44:04,637 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-8
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-10
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-8
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-10
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-2
-2022-11-20 13:44:04,637 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-7
-2022-11-20 13:44:04,637 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-6
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-2
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-6
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-3
-2022-11-20 13:44:04,639 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-3
-2022-11-20 13:44:04,637 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-4
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-7
-2022-11-20 13:44:04,638 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-5
-2022-11-20 13:44:04,639 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-5
-2022-11-20 13:44:04,640 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : client-to-gateway-non-caching (GET)
-2022-11-20 13:44:04,640 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group client-to-gateway-non-caching (GET).
-2022-11-20 13:44:04,640 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-11-20 13:44:04,640 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=0 delayedStart=true
-2022-11-20 13:44:04,640 INFO o.a.j.t.ThreadGroup: Started thread group number 2
-2022-11-20 13:44:04,640 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: client-to-gateway-non-caching (GET) to finish before starting next group
-2022-11-20 13:44:04,641 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-1
-2022-11-20 13:44:04,641 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-2
-2022-11-20 13:44:04,644 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-3
-2022-11-20 13:44:04,644 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-4
-2022-11-20 13:44:04,647 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-7
-2022-11-20 13:44:04,647 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-6
-2022-11-20 13:44:04,648 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-5
-2022-11-20 13:44:04,649 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-9
-2022-11-20 13:44:04,649 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-8
-2022-11-20 13:44:04,651 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-10
-2022-11-20 13:44:04,656 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-1
-2022-11-20 13:44:04,656 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-1
-2022-11-20 13:44:04,659 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-2
-2022-11-20 13:44:04,660 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-2
-2022-11-20 13:44:04,674 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-3
-2022-11-20 13:44:04,674 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-3
-2022-11-20 13:44:04,676 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-4
-2022-11-20 13:44:04,676 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-4
-2022-11-20 13:44:04,682 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-7
-2022-11-20 13:44:04,682 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-7
-2022-11-20 13:44:04,688 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-10
-2022-11-20 13:44:04,688 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-10
-2022-11-20 13:44:04,704 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-5
-2022-11-20 13:44:04,704 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-5
-2022-11-20 13:44:04,704 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-8
-2022-11-20 13:44:04,704 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-6
-2022-11-20 13:44:04,704 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-8
-2022-11-20 13:44:04,704 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-6
-2022-11-20 13:44:04,705 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-9
-2022-11-20 13:44:04,705 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-9
-2022-11-20 13:44:04,705 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : client-to-gateway-caching (GET)
-2022-11-20 13:44:04,705 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group client-to-gateway-caching (GET).
-2022-11-20 13:44:04,705 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-11-20 13:44:04,705 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=10 ramp-up=0 delayedStart=true
-2022-11-20 13:44:04,706 INFO o.a.j.t.ThreadGroup: Started thread group number 3
-2022-11-20 13:44:04,706 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-11-20 13:44:04,706 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-1
-2022-11-20 13:44:04,707 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-2
-2022-11-20 13:44:04,707 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-3
-2022-11-20 13:44:04,708 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-4
-2022-11-20 13:44:04,711 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-7
-2022-11-20 13:44:04,711 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-6
-2022-11-20 13:44:04,712 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-5
-2022-11-20 13:44:04,713 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-9
-2022-11-20 13:44:04,713 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-2
-2022-11-20 13:44:04,714 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-2
-2022-11-20 13:44:04,714 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-1
-2022-11-20 13:44:04,714 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-1
-2022-11-20 13:44:04,714 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-8
-2022-11-20 13:44:04,715 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-7
-2022-11-20 13:44:04,715 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-7
-2022-11-20 13:44:04,715 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-4
-2022-11-20 13:44:04,715 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-3
-2022-11-20 13:44:04,716 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-3
-2022-11-20 13:44:04,716 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-6
-2022-11-20 13:44:04,716 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-6
-2022-11-20 13:44:04,716 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-4
-2022-11-20 13:44:04,717 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-10
-2022-11-20 13:44:04,719 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-9
-2022-11-20 13:44:04,719 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-9
-2022-11-20 13:44:04,720 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-8
-2022-11-20 13:44:04,720 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-8
-2022-11-20 13:44:04,720 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-5
-2022-11-20 13:44:04,721 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-5
-2022-11-20 13:44:04,724 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-10
-2022-11-20 13:44:04,724 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-10
-2022-11-20 13:44:04,724 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-11-20 13:44:04,725 INFO o.a.j.r.Summariser: summary +     29 in 00:00:00 =  305.3/s Avg:    36 Min:     2 Max:    76 Err:     0 (0.00%) Active: 0 Started: 30 Finished: 30
-2022-11-20 13:44:04,726 INFO o.a.j.r.Summariser: summary =     30 in 00:00:00 =   80.6/s Avg:    38 Min:     2 Max:    76 Err:     0 (0.00%)
-2022-11-20 13:44:04,726 INFO o.a.j.JMeter: Generating Dashboard
-2022-11-20 13:44:04,726 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
-2022-11-20 13:44:04,736 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
-2022-11-20 13:44:04,804 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
-2022-11-20 13:44:04,804 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
-2022-11-20 13:44:04,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
-2022-11-20 13:44:04,806 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
-2022-11-20 13:44:04,810 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
-2022-11-20 13:44:04,812 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
-2022-11-20 13:44:04,812 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
-2022-11-20 13:44:04,812 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
-2022-11-20 13:44:04,820 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
-2022-11-20 13:44:04,821 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
-2022-11-20 13:44:04,821 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
-2022-11-20 13:44:04,821 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
-2022-11-20 13:44:04,825 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
-2022-11-20 13:44:04,825 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 210 samples
-2022-11-20 13:44:04,825 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
-2022-11-20 13:44:04,825 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
-2022-11-20 13:44:04,825 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
-2022-11-20 13:44:04,826 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
-2022-11-20 13:44:04,826 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
-2022-11-20 13:44:04,826 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
-2022-11-20 13:44:04,828 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
-2022-11-20 13:44:04,828 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
-2022-11-20 13:44:04,828 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
-2022-11-20 13:44:04,828 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
-2022-11-20 13:44:04,828 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 450 samples
-2022-11-20 13:44:04,828 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 90 samples
-2022-11-20 13:44:04,828 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 30 samples
-2022-11-20 13:44:04,829 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 30 samples produced in 64ms on channel 0
-2022-11-20 13:44:04,829 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
-2022-11-20 13:44:04,971 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
-2022-11-20 13:44:04,971 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
-2022-11-20 13:44:04,972 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
-2022-11-20 13:44:04,972 INFO o.a.j.r.d.JsonExporter: Checking output folder
-2022-11-20 13:44:04,972 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result/statistics.json
-2022-11-20 13:44:05,017 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
-2022-11-20 13:44:05,020 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result
-2022-11-20 13:44:05,147 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result, creating folder structure
-2022-11-20 13:44:05,150 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/jmeter/bin/report-template' to '/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result', got message: /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result, found non empty folder with following content [/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result/statistics.json], will be ignored
-2022-11-20 13:44:05,374 INFO o.a.j.JMeter: Dashboard generated
+2022-11-20 14:14:07,505 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-20 14:14:07,530 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2022-11-20 14:14:07,530 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2022-11-20 14:14:07,536 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-11-20 14:14:07,536 INFO o.a.j.JMeter: Version 5.5
+2022-11-20 14:14:07,536 INFO o.a.j.JMeter: java.version=11.0.17
+2022-11-20 14:14:07,536 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-11-20 14:14:07,536 INFO o.a.j.JMeter: os.name=Linux
+2022-11-20 14:14:07,536 INFO o.a.j.JMeter: os.arch=amd64
+2022-11-20 14:14:07,537 INFO o.a.j.JMeter: os.version=5.15.0-1023-aws
+2022-11-20 14:14:07,537 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-11-20 14:14:07,537 INFO o.a.j.JMeter: java.awt.headless=true
+2022-11-20 14:14:07,537 INFO o.a.j.JMeter: Max memory     =32212254720
+2022-11-20 14:14:07,537 INFO o.a.j.JMeter: Available Processors =4
+2022-11-20 14:14:07,546 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-20 14:14:07,546 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-20 14:14:07,546 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2022-11-20 14:14:07,546 INFO o.a.j.JMeter: user.dir  =/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test
+2022-11-20 14:14:07,546 INFO o.a.j.JMeter: PWD       =/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test
+2022-11-20 14:14:07,549 INFO o.a.j.JMeter: IP: 172.31.34.117 Name: ip-172-31-34-117 FullName: ip-172-31-34-117.ap-northeast-2.compute.internal
+2022-11-20 14:14:07,557 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result'
+2022-11-20 14:14:07,560 INFO o.a.j.s.FileServer: Default base='/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test'
+2022-11-20 14:14:07,561 INFO o.a.j.s.FileServer: Set new base='/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test'
+2022-11-20 14:14:07,742 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-11-20 14:14:07,762 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-11-20 14:14:07,766 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-11-20 14:14:07,770 INFO o.a.j.s.SaveService: Loading file: 10-user-10-data-all-test.jmx
+2022-11-20 14:14:07,818 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-20 14:14:07,818 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-20 14:14:07,818 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-20 14:14:07,818 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-11-20 14:14:07,818 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-11-20 14:14:07,818 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-11-20 14:14:07,878 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-11-20 14:14:07,883 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2022-11-20 14:14:07,883 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: 11-20-14:14:06.jtl
+2022-11-20 14:14:07,883 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: /opt/jmeter/bin/reportgenerator.properties
+2022-11-20 14:14:07,884 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2022-11-20 14:14:07,888 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2022-11-20 14:14:07,891 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2022-11-20 14:14:07,891 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2022-11-20 14:14:07,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2022-11-20 14:14:07,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2022-11-20 14:14:07,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2022-11-20 14:14:07,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2022-11-20 14:14:07,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2022-11-20 14:14:07,892 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2022-11-20 14:14:07,897 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,897 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,897 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,897 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,897 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,898 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2022-11-20 14:14:07,899 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2022-11-20 14:14:07,899 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2022-11-20 14:14:07,899 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2022-11-20 14:14:07,900 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2022-11-20 14:14:07,900 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2022-11-20 14:14:07,900 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2022-11-20 14:14:07,910 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-11-20 14:14:07,911 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-11-20 14:14:07,911 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-11-20 14:14:07,923 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-11-20 14:14:07,923 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-11-20 14:14:08,219 INFO o.a.j.JMeter: Running test (1668953648219)
+2022-11-20 14:14:08,275 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : client-to-application (GET)
+2022-11-20 14:14:08,276 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group client-to-application (GET).
+2022-11-20 14:14:08,276 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-11-20 14:14:08,276 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=10 ramp-up=0 delayedStart=true
+2022-11-20 14:14:08,277 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-11-20 14:14:08,277 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: client-to-application (GET) to finish before starting next group
+2022-11-20 14:14:08,294 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-4
+2022-11-20 14:14:08,294 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-9
+2022-11-20 14:14:08,295 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-2
+2022-11-20 14:14:08,295 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-3
+2022-11-20 14:14:08,296 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-1
+2022-11-20 14:14:08,296 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-6
+2022-11-20 14:14:08,295 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-8
+2022-11-20 14:14:08,297 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-5
+2022-11-20 14:14:08,298 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-7
+2022-11-20 14:14:08,307 INFO o.a.j.t.JMeterThread: Thread started: client-to-application (GET) 1-10
+2022-11-20 14:14:08,319 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = ip-172-31-34-117
+2022-11-20 14:14:08,325 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-11-20 14:14:08,327 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-11-20 14:14:08,327 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-11-20 14:14:08,327 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-11-20 14:14:08,327 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-11-20 14:14:08,498 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-2
+2022-11-20 14:14:08,499 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-2
+2022-11-20 14:14:08,498 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-5
+2022-11-20 14:14:08,500 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-5
+2022-11-20 14:14:08,500 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-3
+2022-11-20 14:14:08,500 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-3
+2022-11-20 14:14:08,504 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-9
+2022-11-20 14:14:08,504 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-7
+2022-11-20 14:14:08,504 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-9
+2022-11-20 14:14:08,504 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-7
+2022-11-20 14:14:08,504 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-6
+2022-11-20 14:14:08,505 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-10
+2022-11-20 14:14:08,505 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-10
+2022-11-20 14:14:08,505 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-1
+2022-11-20 14:14:08,505 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-1
+2022-11-20 14:14:08,505 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-8
+2022-11-20 14:14:08,505 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-8
+2022-11-20 14:14:08,505 INFO o.a.j.t.JMeterThread: Thread is done: client-to-application (GET) 1-4
+2022-11-20 14:14:08,506 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-4
+2022-11-20 14:14:08,508 INFO o.a.j.t.JMeterThread: Thread finished: client-to-application (GET) 1-6
+2022-11-20 14:14:08,509 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 2 : client-to-gateway-non-caching (GET)
+2022-11-20 14:14:08,509 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group client-to-gateway-non-caching (GET).
+2022-11-20 14:14:08,509 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-11-20 14:14:08,510 INFO o.a.j.t.ThreadGroup: Starting thread group... number=2 threads=10 ramp-up=0 delayedStart=true
+2022-11-20 14:14:08,510 INFO o.a.j.t.ThreadGroup: Started thread group number 2
+2022-11-20 14:14:08,510 INFO o.a.j.e.StandardJMeterEngine: Waiting for thread group: client-to-gateway-non-caching (GET) to finish before starting next group
+2022-11-20 14:14:08,510 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-1
+2022-11-20 14:14:08,511 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-2
+2022-11-20 14:14:08,512 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-3
+2022-11-20 14:14:08,515 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-4
+2022-11-20 14:14:08,515 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-5
+2022-11-20 14:14:08,517 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-6
+2022-11-20 14:14:08,517 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-7
+2022-11-20 14:14:08,519 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-9
+2022-11-20 14:14:08,519 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-8
+2022-11-20 14:14:08,525 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-non-caching (GET) 2-10
+2022-11-20 14:14:08,554 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-1
+2022-11-20 14:14:08,554 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-1
+2022-11-20 14:14:08,583 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-10
+2022-11-20 14:14:08,583 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-10
+2022-11-20 14:14:08,583 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-5
+2022-11-20 14:14:08,584 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-5
+2022-11-20 14:14:08,584 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-4
+2022-11-20 14:14:08,584 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-8
+2022-11-20 14:14:08,584 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-9
+2022-11-20 14:14:08,585 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-8
+2022-11-20 14:14:08,585 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-9
+2022-11-20 14:14:08,585 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-2
+2022-11-20 14:14:08,585 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-2
+2022-11-20 14:14:08,585 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-4
+2022-11-20 14:14:08,591 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-6
+2022-11-20 14:14:08,591 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-6
+2022-11-20 14:14:08,591 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-7
+2022-11-20 14:14:08,591 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-7
+2022-11-20 14:14:08,592 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-non-caching (GET) 2-3
+2022-11-20 14:14:08,592 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-non-caching (GET) 2-3
+2022-11-20 14:14:08,592 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 3 : client-to-gateway-caching (GET)
+2022-11-20 14:14:08,592 INFO o.a.j.e.StandardJMeterEngine: Starting 10 threads for group client-to-gateway-caching (GET).
+2022-11-20 14:14:08,592 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-11-20 14:14:08,592 INFO o.a.j.t.ThreadGroup: Starting thread group... number=3 threads=10 ramp-up=0 delayedStart=true
+2022-11-20 14:14:08,592 INFO o.a.j.t.ThreadGroup: Started thread group number 3
+2022-11-20 14:14:08,593 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-11-20 14:14:08,593 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-1
+2022-11-20 14:14:08,594 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-2
+2022-11-20 14:14:08,594 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-3
+2022-11-20 14:14:08,595 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-5
+2022-11-20 14:14:08,596 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-6
+2022-11-20 14:14:08,597 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-7
+2022-11-20 14:14:08,594 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-4
+2022-11-20 14:14:08,600 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-2
+2022-11-20 14:14:08,600 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-2
+2022-11-20 14:14:08,601 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-6
+2022-11-20 14:14:08,601 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-6
+2022-11-20 14:14:08,601 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-3
+2022-11-20 14:14:08,601 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-3
+2022-11-20 14:14:08,602 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-1
+2022-11-20 14:14:08,602 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-1
+2022-11-20 14:14:08,606 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-4
+2022-11-20 14:14:08,606 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-4
+2022-11-20 14:14:08,611 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-9
+2022-11-20 14:14:08,614 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-10
+2022-11-20 14:14:08,615 INFO o.a.j.t.JMeterThread: Thread started: client-to-gateway-caching (GET) 3-8
+2022-11-20 14:14:08,615 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-7
+2022-11-20 14:14:08,615 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-7
+2022-11-20 14:14:08,619 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-5
+2022-11-20 14:14:08,619 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-5
+2022-11-20 14:14:08,621 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-10
+2022-11-20 14:14:08,621 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-10
+2022-11-20 14:14:08,622 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-9
+2022-11-20 14:14:08,622 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-9
+2022-11-20 14:14:08,622 INFO o.a.j.t.JMeterThread: Thread is done: client-to-gateway-caching (GET) 3-8
+2022-11-20 14:14:08,622 INFO o.a.j.t.JMeterThread: Thread finished: client-to-gateway-caching (GET) 3-8
+2022-11-20 14:14:08,623 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-11-20 14:14:08,624 INFO o.a.j.r.Summariser: summary =     30 in 00:00:00 =   74.3/s Avg:    47 Min:     2 Max:    79 Err:     0 (0.00%)
+2022-11-20 14:14:08,624 INFO o.a.j.JMeter: Generating Dashboard
+2022-11-20 14:14:08,624 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2022-11-20 14:14:08,634 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2022-11-20 14:14:08,701 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2022-11-20 14:14:08,701 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2022-11-20 14:14:08,703 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2022-11-20 14:14:08,704 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2022-11-20 14:14:08,708 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2022-11-20 14:14:08,709 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2022-11-20 14:14:08,709 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2022-11-20 14:14:08,709 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2022-11-20 14:14:08,718 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2022-11-20 14:14:08,718 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2022-11-20 14:14:08,719 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2022-11-20 14:14:08,719 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2022-11-20 14:14:08,722 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2022-11-20 14:14:08,722 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 210 samples
+2022-11-20 14:14:08,723 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2022-11-20 14:14:08,723 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2022-11-20 14:14:08,723 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2022-11-20 14:14:08,723 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2022-11-20 14:14:08,723 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2022-11-20 14:14:08,723 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2022-11-20 14:14:08,725 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2022-11-20 14:14:08,725 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2022-11-20 14:14:08,725 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2022-11-20 14:14:08,726 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2022-11-20 14:14:08,726 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 450 samples
+2022-11-20 14:14:08,726 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 90 samples
+2022-11-20 14:14:08,726 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 30 samples
+2022-11-20 14:14:08,726 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 30 samples produced in 64ms on channel 0
+2022-11-20 14:14:08,726 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2022-11-20 14:14:08,868 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2022-11-20 14:14:08,868 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2022-11-20 14:14:08,869 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2022-11-20 14:14:08,869 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2022-11-20 14:14:08,870 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result/statistics.json
+2022-11-20 14:14:08,913 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2022-11-20 14:14:08,916 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result
+2022-11-20 14:14:09,045 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result, creating folder structure
+2022-11-20 14:14:09,048 INFO o.a.j.r.d.TemplateVisitor: Copying folder from '/opt/jmeter/bin/report-template' to '/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result', got message: /home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result, found non empty folder with following content [/home/ubuntu/jmeter-test-result/10-user-0.1-data-all-test/result/statistics.json], will be ignored
+2022-11-20 14:14:09,277 INFO o.a.j.JMeter: Dashboard generated
