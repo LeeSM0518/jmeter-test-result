@@ -800,7 +800,11 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  &quot;value&quot;: 1.0&#xd;
+  &quot;sensingList&quot;: [&#xd;
+    {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    }&#xd;
+  ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
