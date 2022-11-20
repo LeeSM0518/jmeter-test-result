@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 33.333333333333336, "KoPercent": 66.66666666666667};
+    var data = {"OkPercent": 66.66666666666667, "KoPercent": 33.333333333333336};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.3333333333333333, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0, 500, 1500, "Microservice-based client"], "isController": false}, {"data": [1.0, 500, 1500, "Microservice-based client with caching"], "isController": false}, {"data": [0.0, 500, 1500, "Monolithic-based client"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.6666666666666666, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0, 500, 1500, "Microservice-based client"], "isController": false}, {"data": [1.0, 500, 1500, "Microservice-based client with caching"], "isController": false}, {"data": [1.0, 500, 1500, "Monolithic-based client"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 30, 20, 66.66666666666667, 63.43333333333333, 7, 165, 74.0, 122.7, 149.59999999999997, 165.0, 101.35135135135135, 37367.900126689194, 22.73147170608108], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 10, 10, 100.0, 10.799999999999999, 7, 15, 11.5, 14.8, 15.0, 15.0, 476.19047619047615, 142.7641369047619, 90.21577380952381], "isController": false}, {"data": ["Microservice-based client with caching", 10, 0, 0.0, 104.7, 57, 165, 103.0, 162.20000000000002, 165.0, 165.0, 54.94505494505494, 60739.826579670334, 13.843578296703297], "isController": false}, {"data": ["Monolithic-based client", 10, 10, 100.0, 74.8, 74, 78, 74.0, 77.8, 78.0, 78.0, 125.0, 40.6494140625, 28.9306640625], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 30, 10, 33.333333333333336, 114.5, 6, 249, 152.5, 207.20000000000005, 238.54999999999998, 249.0, 60.97560975609756, 22477.51127413618, 14.727832825203253], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 10, 10, 100.0, 17.400000000000002, 6, 25, 19.5, 25.0, 25.0, 25.0, 263.1578947368421, 66.56044407894737, 51.39802631578947], "isController": false}, {"data": ["Microservice-based client with caching", 10, 0, 0.0, 148.60000000000002, 44, 249, 152.5, 247.10000000000002, 249.0, 249.0, 38.91050583657588, 43014.19625486381, 11.361563715953308], "isController": false}, {"data": ["Monolithic-based client", 10, 0, 0.0, 177.5, 177, 182, 177.0, 181.5, 182.0, 182.0, 54.94505494505494, 9.65831043956044, 13.038719093406593], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["415", 10, 50.0, 33.333333333333336], "isController": false}, {"data": ["415/Unsupported Media Type", 10, 50.0, 33.333333333333336], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["500/Internal Server Error", 10, 100.0, 33.333333333333336], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 30, 20, "415", 10, "415/Unsupported Media Type", 10, "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["Microservice-based client", 10, 10, "415/Unsupported Media Type", 10, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": ["Monolithic-based client", 10, 10, "415", 10, "", "", "", "", "", "", "", ""], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 30, 10, "500/Internal Server Error", 10, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["Microservice-based client", 10, 10, "500/Internal Server Error", 10, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
