@@ -1,0 +1,301 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1668960618882,19,Monolithic-based client,200,,client-to-application (GET) 1-22,text,true,,11410,127,100,100,http://172.31.47.81/sensing/data,11,0,1
+1668960618881,22,Monolithic-based client,200,,client-to-application (GET) 1-1,text,true,,11410,127,100,100,http://172.31.47.81/sensing/data,22,0,1
+1668960618878,29,Monolithic-based client,200,,client-to-application (GET) 1-73,text,true,,11410,127,99,99,http://172.31.47.81/sensing/data,28,0,2
+1668960618881,24,Monolithic-based client,200,,client-to-application (GET) 1-43,text,true,,11410,127,98,98,http://172.31.47.81/sensing/data,23,0,1
+1668960618882,30,Monolithic-based client,200,,client-to-application (GET) 1-67,text,true,,11410,127,96,96,http://172.31.47.81/sensing/data,30,0,2
+1668960618888,26,Monolithic-based client,200,,client-to-application (GET) 1-80,text,true,,11410,127,95,95,http://172.31.47.81/sensing/data,26,0,1
+1668960618887,28,Monolithic-based client,200,,client-to-application (GET) 1-31,text,true,,11410,127,94,94,http://172.31.47.81/sensing/data,28,0,2
+1668960618886,30,Monolithic-based client,200,,client-to-application (GET) 1-32,text,true,,11410,127,93,93,http://172.31.47.81/sensing/data,30,0,1
+1668960618888,28,Monolithic-based client,200,,client-to-application (GET) 1-41,text,true,,11410,127,93,93,http://172.31.47.81/sensing/data,28,0,1
+1668960618884,35,Monolithic-based client,200,,client-to-application (GET) 1-61,text,true,,11410,127,91,91,http://172.31.47.81/sensing/data,29,0,1
+1668960618883,36,Monolithic-based client,200,,client-to-application (GET) 1-40,text,true,,11410,127,91,91,http://172.31.47.81/sensing/data,36,0,2
+1668960618889,31,Monolithic-based client,200,,client-to-application (GET) 1-24,text,true,,11410,127,90,90,http://172.31.47.81/sensing/data,31,0,3
+1668960618889,32,Monolithic-based client,200,,client-to-application (GET) 1-66,text,true,,11410,127,89,89,http://172.31.47.81/sensing/data,32,0,1
+1668960618897,24,Monolithic-based client,200,,client-to-application (GET) 1-20,text,true,,11410,127,89,89,http://172.31.47.81/sensing/data,24,0,4
+1668960618886,36,Monolithic-based client,200,,client-to-application (GET) 1-69,text,true,,11410,127,87,87,http://172.31.47.81/sensing/data,36,0,3
+1668960618890,32,Monolithic-based client,200,,client-to-application (GET) 1-64,text,true,,11410,127,87,87,http://172.31.47.81/sensing/data,32,0,2
+1668960618885,37,Monolithic-based client,200,,client-to-application (GET) 1-54,text,true,,11410,127,86,86,http://172.31.47.81/sensing/data,37,0,1
+1668960618890,31,Monolithic-based client,200,,client-to-application (GET) 1-5,text,true,,11410,127,89,89,http://172.31.47.81/sensing/data,31,0,1
+1668960618888,35,Monolithic-based client,200,,client-to-application (GET) 1-28,text,true,,11410,127,85,85,http://172.31.47.81/sensing/data,35,0,1
+1668960618888,30,Monolithic-based client,200,,client-to-application (GET) 1-16,text,true,,11410,127,91,91,http://172.31.47.81/sensing/data,30,0,1
+1668960618883,41,Monolithic-based client,200,,client-to-application (GET) 1-48,text,true,,11410,127,81,81,http://172.31.47.81/sensing/data,30,0,1
+1668960618884,39,Monolithic-based client,200,,client-to-application (GET) 1-76,text,true,,11410,127,82,82,http://172.31.47.81/sensing/data,39,0,1
+1668960618882,43,Monolithic-based client,200,,client-to-application (GET) 1-72,text,true,,11410,127,79,79,http://172.31.47.81/sensing/data,43,0,2
+1668960618892,41,Monolithic-based client,200,,client-to-application (GET) 1-6,text,true,,11410,127,77,77,http://172.31.47.81/sensing/data,40,0,11
+1668960618891,42,Monolithic-based client,200,,client-to-application (GET) 1-71,text,true,,11410,127,77,77,http://172.31.47.81/sensing/data,42,0,1
+1668960618878,56,Monolithic-based client,200,,client-to-application (GET) 1-60,text,true,,11410,127,75,75,http://172.31.47.81/sensing/data,56,0,3
+1668960618894,40,Monolithic-based client,200,,client-to-application (GET) 1-46,text,true,,11410,127,75,75,http://172.31.47.81/sensing/data,40,0,7
+1668960618880,55,Monolithic-based client,200,,client-to-application (GET) 1-3,text,true,,11410,127,73,73,http://172.31.47.81/sensing/data,55,0,1
+1668960618877,59,Monolithic-based client,200,,client-to-application (GET) 1-77,text,true,,11410,127,72,72,http://172.31.47.81/sensing/data,59,0,4
+1668960618879,57,Monolithic-based client,200,,client-to-application (GET) 1-82,text,true,,11410,127,72,72,http://172.31.47.81/sensing/data,57,0,1
+1668960618896,40,Monolithic-based client,200,,client-to-application (GET) 1-33,text,true,,11410,127,71,71,http://172.31.47.81/sensing/data,40,0,5
+1668960618897,40,Monolithic-based client,200,,client-to-application (GET) 1-84,text,true,,11410,127,71,71,http://172.31.47.81/sensing/data,40,0,4
+1668960618880,57,Monolithic-based client,200,,client-to-application (GET) 1-14,text,true,,11410,127,68,68,http://172.31.47.81/sensing/data,57,0,1
+1668960618877,63,Monolithic-based client,200,,client-to-application (GET) 1-79,text,true,,11410,127,67,67,http://172.31.47.81/sensing/data,63,0,4
+1668960618876,65,Monolithic-based client,200,,client-to-application (GET) 1-23,text,true,,11410,127,66,66,http://172.31.47.81/sensing/data,64,0,4
+1668960618893,48,Monolithic-based client,200,,client-to-application (GET) 1-49,text,true,,11410,127,66,66,http://172.31.47.81/sensing/data,48,0,10
+1668960618898,43,Monolithic-based client,200,,client-to-application (GET) 1-26,text,true,,11410,127,66,66,http://172.31.47.81/sensing/data,43,0,3
+1668960618879,63,Monolithic-based client,200,,client-to-application (GET) 1-35,text,true,,11410,127,64,64,http://172.31.47.81/sensing/data,63,0,2
+1668960618903,39,Monolithic-based client,200,,client-to-application (GET) 1-7,text,true,,11410,127,64,64,http://172.31.47.81/sensing/data,39,0,9
+1668960618899,44,Monolithic-based client,200,,client-to-application (GET) 1-9,text,true,,11410,127,64,64,http://172.31.47.81/sensing/data,44,0,13
+1668960618878,65,Monolithic-based client,200,,client-to-application (GET) 1-53,text,true,,11410,127,64,64,http://172.31.47.81/sensing/data,65,0,2
+1668960618902,42,Monolithic-based client,200,,client-to-application (GET) 1-99,text,true,,11410,127,63,63,http://172.31.47.81/sensing/data,40,0,10
+1668960618895,49,Monolithic-based client,200,,client-to-application (GET) 1-57,text,true,,11410,127,63,63,http://172.31.47.81/sensing/data,48,0,6
+1668960618901,43,Monolithic-based client,200,,client-to-application (GET) 1-94,text,true,,11410,127,60,60,http://172.31.47.81/sensing/data,42,0,11
+1668960618852,97,Monolithic-based client,200,,client-to-application (GET) 1-88,text,true,,11410,127,56,56,http://172.31.47.81/sensing/data,97,0,69
+1668960618896,53,Monolithic-based client,200,,client-to-application (GET) 1-4,text,true,,11410,127,55,55,http://172.31.47.81/sensing/data,53,0,23
+1668960618854,96,Monolithic-based client,200,,client-to-application (GET) 1-75,text,true,,11410,127,55,55,http://172.31.47.81/sensing/data,96,0,69
+1668960618877,83,Monolithic-based client,200,,client-to-application (GET) 1-65,text,true,,11410,127,53,53,http://172.31.47.81/sensing/data,74,0,3
+1668960618900,60,Monolithic-based client,200,,client-to-application (GET) 1-87,text,true,,11410,127,53,53,http://172.31.47.81/sensing/data,51,0,14
+1668960618853,107,Monolithic-based client,200,,client-to-application (GET) 1-8,text,true,,11410,127,53,53,http://172.31.47.81/sensing/data,107,0,72
+1668960618852,109,Monolithic-based client,200,,client-to-application (GET) 1-25,text,true,,11410,127,52,52,http://172.31.47.81/sensing/data,109,0,69
+1668960618902,59,Monolithic-based client,200,,client-to-application (GET) 1-10,text,true,,11410,127,52,52,http://172.31.47.81/sensing/data,59,0,10
+1668960618902,62,Monolithic-based client,200,,client-to-application (GET) 1-96,text,true,,11410,127,50,50,http://172.31.47.81/sensing/data,62,0,23
+1668960618903,61,Monolithic-based client,200,,client-to-application (GET) 1-19,text,true,,11410,127,50,50,http://172.31.47.81/sensing/data,61,0,21
+1668960618854,109,Monolithic-based client,200,,client-to-application (GET) 1-98,text,true,,11410,127,50,50,http://172.31.47.81/sensing/data,109,0,66
+1668960618856,106,Monolithic-based client,200,,client-to-application (GET) 1-37,text,true,,11410,127,51,51,http://172.31.47.81/sensing/data,106,0,64
+1668960618858,103,Monolithic-based client,200,,client-to-application (GET) 1-58,text,true,,11410,127,52,52,http://172.31.47.81/sensing/data,103,0,63
+1668960618856,106,Monolithic-based client,200,,client-to-application (GET) 1-68,text,true,,11410,127,51,51,http://172.31.47.81/sensing/data,106,0,65
+1668960618855,107,Monolithic-based client,200,,client-to-application (GET) 1-2,text,true,,11410,127,51,51,http://172.31.47.81/sensing/data,107,0,70
+1668960618852,112,Monolithic-based client,200,,client-to-application (GET) 1-97,text,true,,11410,127,45,45,http://172.31.47.81/sensing/data,109,0,68
+1668960618858,107,Monolithic-based client,200,,client-to-application (GET) 1-95,text,true,,11410,127,45,45,http://172.31.47.81/sensing/data,107,0,68
+1668960618855,109,Monolithic-based client,200,,client-to-application (GET) 1-74,text,true,,11410,127,45,45,http://172.31.47.81/sensing/data,107,0,65
+1668960618899,64,Monolithic-based client,200,,client-to-application (GET) 1-86,text,true,,11410,127,50,50,http://172.31.47.81/sensing/data,64,0,26
+1668960618853,109,Monolithic-based client,200,,client-to-application (GET) 1-11,text,true,,11410,127,51,51,http://172.31.47.81/sensing/data,109,0,70
+1668960618853,114,Monolithic-based client,200,,client-to-application (GET) 1-90,text,true,,11410,127,42,42,http://172.31.47.81/sensing/data,114,0,72
+1668960618876,87,Monolithic-based client,200,,client-to-application (GET) 1-17,text,true,,11410,127,51,51,http://172.31.47.81/sensing/data,87,0,44
+1668960618853,115,Monolithic-based client,200,,client-to-application (GET) 1-50,text,true,,11410,127,39,39,http://172.31.47.81/sensing/data,115,0,71
+1668960618862,107,Monolithic-based client,200,,client-to-application (GET) 1-42,text,true,,11410,127,36,36,http://172.31.47.81/sensing/data,106,0,63
+1668960618876,93,Monolithic-based client,200,,client-to-application (GET) 1-15,text,true,,11410,127,36,36,http://172.31.47.81/sensing/data,93,0,44
+1668960618900,69,Monolithic-based client,200,,client-to-application (GET) 1-13,text,true,,11410,127,34,34,http://172.31.47.81/sensing/data,69,0,25
+1668960618855,111,Monolithic-based client,200,,client-to-application (GET) 1-81,text,true,,11410,127,45,45,http://172.31.47.81/sensing/data,107,0,66
+1668960618902,65,Monolithic-based client,200,,client-to-application (GET) 1-12,text,true,,11410,127,43,43,http://172.31.47.81/sensing/data,65,0,22
+1668960618897,67,Monolithic-based client,200,,client-to-application (GET) 1-100,text,true,,11410,127,50,50,http://172.31.47.81/sensing/data,67,0,16
+1668960618858,113,Monolithic-based client,200,,client-to-application (GET) 1-21,text,true,,11410,127,28,28,http://172.31.47.81/sensing/data,108,0,78
+1668960618863,109,Monolithic-based client,200,,client-to-application (GET) 1-85,text,true,,11410,127,26,26,http://172.31.47.81/sensing/data,102,0,58
+1668960618853,120,Monolithic-based client,200,,client-to-application (GET) 1-78,text,true,,11410,127,26,26,http://172.31.47.81/sensing/data,113,0,71
+1668960618853,120,Monolithic-based client,200,,client-to-application (GET) 1-39,text,true,,11410,127,26,26,http://172.31.47.81/sensing/data,119,0,89
+1668960618855,118,Monolithic-based client,200,,client-to-application (GET) 1-18,text,true,,11410,127,26,26,http://172.31.47.81/sensing/data,118,0,82
+1668960618864,108,Monolithic-based client,200,,client-to-application (GET) 1-47,text,true,,11410,127,26,26,http://172.31.47.81/sensing/data,101,0,58
+1668960618853,119,Monolithic-based client,200,,client-to-application (GET) 1-55,text,true,,11410,127,26,26,http://172.31.47.81/sensing/data,112,0,67
+1668960618856,117,Monolithic-based client,200,,client-to-application (GET) 1-63,text,true,,11410,127,22,22,http://172.31.47.81/sensing/data,108,0,65
+1668960618860,114,Monolithic-based client,200,,client-to-application (GET) 1-52,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,109,0,84
+1668960618854,120,Monolithic-based client,200,,client-to-application (GET) 1-93,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,112,0,67
+1668960618898,76,Monolithic-based client,200,,client-to-application (GET) 1-83,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,68,0,14
+1668960618852,124,Monolithic-based client,200,,client-to-application (GET) 1-38,text,true,,11410,127,19,19,http://172.31.47.81/sensing/data,119,0,80
+1668960618853,120,Monolithic-based client,200,,client-to-application (GET) 1-59,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,113,0,68
+1668960618899,74,Monolithic-based client,200,,client-to-application (GET) 1-29,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,66,0,13
+1668960618853,120,Monolithic-based client,200,,client-to-application (GET) 1-92,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,113,0,68
+1668960618853,120,Monolithic-based client,200,,client-to-application (GET) 1-56,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,112,0,67
+1668960618876,98,Monolithic-based client,200,,client-to-application (GET) 1-62,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,89,0,44
+1668960618853,121,Monolithic-based client,200,,client-to-application (GET) 1-91,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,113,0,67
+1668960618852,122,Monolithic-based client,200,,client-to-application (GET) 1-44,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,113,0,70
+1668960618856,119,Monolithic-based client,200,,client-to-application (GET) 1-36,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,112,0,86
+1668960618858,119,Monolithic-based client,200,,client-to-application (GET) 1-27,text,true,,11410,127,14,14,http://172.31.47.81/sensing/data,114,0,68
+1668960618901,73,Monolithic-based client,200,,client-to-application (GET) 1-30,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,64,0,28
+1668960618856,118,Monolithic-based client,200,,client-to-application (GET) 1-89,text,true,,11410,127,20,20,http://172.31.47.81/sensing/data,110,0,81
+1668960618853,124,Monolithic-based client,200,,client-to-application (GET) 1-51,text,true,,11410,127,14,14,http://172.31.47.81/sensing/data,119,0,79
+1668960618853,124,Monolithic-based client,200,,client-to-application (GET) 1-70,text,true,,11410,127,16,16,http://172.31.47.81/sensing/data,118,0,67
+1668960618900,78,Monolithic-based client,200,,client-to-application (GET) 1-34,text,true,,11410,127,12,12,http://172.31.47.81/sensing/data,73,0,29
+1668960618853,127,Monolithic-based client,200,,client-to-application (GET) 1-45,text,true,,11410,127,1,1,http://172.31.47.81/sensing/data,125,0,89
+1668960618984,7,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1,text,true,,11364,127,7,7,http://172.31.37.72/sensing/data,7,0,1
+1668960618986,6,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-3,text,true,,11364,127,6,6,http://172.31.37.72/sensing/data,5,0,0
+1668960618986,11,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-5,text,true,,11370,127,7,7,http://172.31.37.72/sensing/data,11,0,1
+1668960618983,10,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2,text,true,,11364,127,5,5,http://172.31.37.72/sensing/data,8,0,1
+1668960618987,5,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-6,text,true,,11364,127,6,6,http://172.31.37.72/sensing/data,5,0,1
+1668960618989,27,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-7,text,true,,11364,127,27,27,http://172.31.37.72/sensing/data,27,0,1
+1668960618994,22,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-9,text,true,,11377,127,27,27,http://172.31.37.72/sensing/data,22,0,0
+1668960618990,26,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-4,text,true,,11377,127,27,27,http://172.31.37.72/sensing/data,26,0,0
+1668960619004,20,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-11,text,true,,11370,127,26,26,http://172.31.37.72/sensing/data,12,0,1
+1668960618997,27,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-8,text,true,,11370,127,26,26,http://172.31.37.72/sensing/data,19,0,0
+1668960619005,19,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-10,text,true,,11371,127,26,26,http://172.31.37.72/sensing/data,12,0,0
+1668960619029,14,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-23,text,true,,11364,127,32,32,http://172.31.37.72/sensing/data,14,0,1
+1668960619030,13,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-19,text,true,,11364,127,32,32,http://172.31.37.72/sensing/data,13,0,1
+1668960619029,14,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-24,text,true,,11364,127,32,32,http://172.31.37.72/sensing/data,14,0,1
+1668960619025,17,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-27,text,true,,11377,127,32,32,http://172.31.37.72/sensing/data,11,0,1
+1668960619020,23,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-12,text,true,,11364,127,32,32,http://172.31.37.72/sensing/data,13,0,6
+1668960619023,8,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-29,text,true,,11371,127,26,26,http://172.31.37.72/sensing/data,8,0,2
+1668960619022,20,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-32,text,true,,11370,127,32,32,http://172.31.37.72/sensing/data,11,0,4
+1668960619009,15,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-14,text,true,,11370,127,25,25,http://172.31.37.72/sensing/data,15,0,8
+1668960619010,15,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-17,text,true,,11377,127,25,25,http://172.31.37.72/sensing/data,14,0,6
+1668960619005,20,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-13,text,true,,11364,127,25,25,http://172.31.37.72/sensing/data,19,0,11
+1668960619012,13,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-20,text,true,,11364,127,25,25,http://172.31.37.72/sensing/data,13,0,5
+1668960619009,16,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-18,text,true,,11370,127,25,25,http://172.31.37.72/sensing/data,16,0,7
+1668960619021,7,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-16,text,true,,11371,127,25,25,http://172.31.37.72/sensing/data,7,0,4
+1668960619023,6,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-31,text,true,,11371,127,25,25,http://172.31.37.72/sensing/data,6,0,2
+1668960619022,8,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-33,text,true,,11370,127,25,25,http://172.31.37.72/sensing/data,8,0,3
+1668960619021,9,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-34,text,true,,11371,127,26,26,http://172.31.37.72/sensing/data,9,0,4
+1668960619026,24,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-25,text,true,,11370,127,15,15,http://172.31.37.72/sensing/data,17,0,1
+1668960619029,22,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-15,text,true,,11370,127,15,15,http://172.31.37.72/sensing/data,14,0,1
+1668960619026,25,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-26,text,true,,11364,127,15,15,http://172.31.37.72/sensing/data,17,0,1
+1668960619028,23,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-21,text,true,,11370,127,15,15,http://172.31.37.72/sensing/data,16,0,2
+1668960619028,23,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-22,text,true,,11370,127,15,15,http://172.31.37.72/sensing/data,16,0,1
+1668960619030,21,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-28,text,true,,11364,127,17,17,http://172.31.37.72/sensing/data,21,0,2
+1668960619023,6,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-30,text,true,,11364,127,25,25,http://172.31.37.72/sensing/data,6,0,2
+1668960619035,19,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-38,text,true,,11371,127,11,11,http://172.31.37.72/sensing/data,19,0,8
+1668960619034,31,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-35,text,true,,11371,127,15,15,http://172.31.37.72/sensing/data,30,0,9
+1668960619034,31,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-36,text,true,,11364,127,14,14,http://172.31.37.72/sensing/data,31,0,9
+1668960619038,28,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-39,text,true,,11377,127,15,15,http://172.31.37.72/sensing/data,28,0,5
+1668960619038,38,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-37,text,true,,11364,127,23,23,http://172.31.37.72/sensing/data,26,0,4
+1668960619042,34,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-42,text,true,,11364,127,23,23,http://172.31.37.72/sensing/data,22,0,2
+1668960619040,36,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-41,text,true,,11370,127,21,21,http://172.31.37.72/sensing/data,24,0,4
+1668960619042,34,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-40,text,true,,11364,127,21,21,http://172.31.37.72/sensing/data,24,0,2
+1668960619061,16,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-47,text,true,,11370,127,19,19,http://172.31.37.72/sensing/data,16,0,3
+1668960619052,25,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-45,text,true,,11364,127,19,19,http://172.31.37.72/sensing/data,25,0,7
+1668960619060,18,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-43,text,true,,11370,127,17,17,http://172.31.37.72/sensing/data,18,0,5
+1668960619055,24,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-46,text,true,,11377,127,16,16,http://172.31.37.72/sensing/data,24,0,10
+1668960619052,27,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-44,text,true,,11378,127,15,15,http://172.31.37.72/sensing/data,14,0,0
+1668960619072,21,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-57,text,true,,11371,127,29,29,http://172.31.37.72/sensing/data,21,0,5
+1668960619063,31,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-51,text,true,,11370,127,29,29,http://172.31.37.72/sensing/data,31,0,13
+1668960619065,34,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-50,text,true,,11364,127,33,33,http://172.31.37.72/sensing/data,34,0,11
+1668960619071,27,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-56,text,true,,11370,127,32,32,http://172.31.37.72/sensing/data,23,0,5
+1668960619067,39,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-52,text,true,,11364,127,39,39,http://172.31.37.72/sensing/data,33,0,10
+1668960619074,32,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-59,text,true,,11364,127,39,39,http://172.31.37.72/sensing/data,25,0,3
+1668960619070,37,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-53,text,true,,11371,127,38,38,http://172.31.37.72/sensing/data,37,0,6
+1668960619066,41,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-49,text,true,,11370,127,39,39,http://172.31.37.72/sensing/data,33,0,10
+1668960619075,39,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-60,text,true,,11370,127,37,37,http://172.31.37.72/sensing/data,32,0,5
+1668960619068,46,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-48,text,true,,11370,127,37,37,http://172.31.37.72/sensing/data,39,0,10
+1668960619073,41,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-58,text,true,,11364,127,37,37,http://172.31.37.72/sensing/data,35,0,7
+1668960619071,44,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-55,text,true,,11364,127,35,35,http://172.31.37.72/sensing/data,37,0,7
+1668960619083,32,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-67,text,true,,11370,127,34,34,http://172.31.37.72/sensing/data,32,0,1
+1668960619082,35,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-65,text,true,,11370,127,33,33,http://172.31.37.72/sensing/data,33,0,2
+1668960619081,36,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-63,text,true,,11364,127,33,33,http://172.31.37.72/sensing/data,36,0,3
+1668960619089,30,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-70,text,true,,11364,127,31,31,http://172.31.37.72/sensing/data,29,0,0
+1668960619085,35,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-69,text,true,,11364,127,29,29,http://172.31.37.72/sensing/data,33,0,0
+1668960619076,50,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-61,text,true,,11364,127,33,33,http://172.31.37.72/sensing/data,42,0,8
+1668960619090,36,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-72,text,true,,11364,127,33,33,http://172.31.37.72/sensing/data,26,0,1
+1668960619089,37,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-71,text,true,,11364,127,33,33,http://172.31.37.72/sensing/data,29,0,1
+1668960619084,43,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-64,text,true,,11364,127,31,31,http://172.31.37.72/sensing/data,32,0,4
+1668960619081,46,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-62,text,true,,11364,127,32,32,http://172.31.37.72/sensing/data,37,0,3
+1668960619072,55,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-54,text,true,,11371,127,31,31,http://172.31.37.72/sensing/data,44,0,16
+1668960619091,36,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-73,text,true,,11364,127,28,28,http://172.31.37.72/sensing/data,27,0,0
+1668960619088,40,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-66,text,true,,11370,127,28,28,http://172.31.37.72/sensing/data,28,0,1
+1668960619092,37,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-75,text,true,,11364,127,28,28,http://172.31.37.72/sensing/data,37,0,1
+1668960619096,34,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-79,text,true,,11370,127,27,27,http://172.31.37.72/sensing/data,34,0,2
+1668960619084,47,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-68,text,true,,11364,127,26,26,http://172.31.37.72/sensing/data,35,0,1
+1668960619092,39,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-74,text,true,,11377,127,25,25,http://172.31.37.72/sensing/data,39,0,1
+1668960619094,45,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-76,text,true,,11371,127,24,24,http://172.31.37.72/sensing/data,33,0,4
+1668960619098,41,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-80,text,true,,11370,127,24,24,http://172.31.37.72/sensing/data,29,0,1
+1668960619101,38,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-83,text,true,,11364,127,24,24,http://172.31.37.72/sensing/data,27,0,6
+1668960619095,44,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-77,text,true,,11364,127,24,24,http://172.31.37.72/sensing/data,37,0,4
+1668960619096,45,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-78,text,true,,11364,127,20,20,http://172.31.37.72/sensing/data,34,0,4
+1668960619108,33,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-92,text,true,,11370,127,20,20,http://172.31.37.72/sensing/data,20,0,7
+1668960619104,35,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-88,text,true,,11364,127,20,20,http://172.31.37.72/sensing/data,24,0,3
+1668960619098,43,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-81,text,true,,11364,127,18,18,http://172.31.37.72/sensing/data,32,0,10
+1668960619102,46,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-86,text,true,,11370,127,16,16,http://172.31.37.72/sensing/data,46,0,6
+1668960619099,61,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-82,text,true,,11364,127,15,15,http://172.31.37.72/sensing/data,40,0,8
+1668960619101,59,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-84,text,true,,11364,127,15,15,http://172.31.37.72/sensing/data,47,0,6
+1668960619104,56,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-87,text,true,,11364,127,14,14,http://172.31.37.72/sensing/data,44,0,4
+1668960619102,58,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-85,text,true,,11370,127,15,15,http://172.31.37.72/sensing/data,37,0,5
+1668960619105,56,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-89,text,true,,11364,127,13,13,http://172.31.37.72/sensing/data,43,0,2
+1668960619106,54,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-90,text,true,,11364,127,15,15,http://172.31.37.72/sensing/data,35,0,2
+1668960619123,49,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-93,text,true,,11364,127,9,9,http://172.31.37.72/sensing/data,37,0,5
+1668960619125,47,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-96,text,true,,11364,127,9,9,http://172.31.37.72/sensing/data,35,0,3
+1668960619129,43,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-100,text,true,,11364,127,9,9,http://172.31.37.72/sensing/data,43,0,11
+1668960619133,39,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-97,text,true,,11364,127,7,6,http://172.31.37.72/sensing/data,39,0,7
+1668960619126,46,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-98,text,true,,11364,127,7,7,http://172.31.37.72/sensing/data,34,0,2
+1668960619122,51,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-94,text,true,,11364,127,6,6,http://172.31.37.72/sensing/data,38,0,10
+1668960619109,63,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-91,text,true,,11370,127,3,3,http://172.31.37.72/sensing/data,51,0,7
+1668960619129,51,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-99,text,true,,11364,127,2,2,http://172.31.37.72/sensing/data,43,0,10
+1668960619134,46,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-95,text,true,,11364,127,2,2,http://172.31.37.72/sensing/data,38,0,6
+1668960619190,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1,text,true,,11412,191,2,2,http://172.31.37.72/sensing/data,2,0,0
+1668960619191,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-2,text,true,,11412,191,1,1,http://172.31.37.72/sensing/data,2,0,1
+1668960619201,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-4,text,true,,11412,191,5,5,http://172.31.37.72/sensing/data,2,0,0
+1668960619201,3,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-3,text,true,,11412,191,4,4,http://172.31.37.72/sensing/data,3,0,0
+1668960619202,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-5,text,true,,11412,191,5,5,http://172.31.37.72/sensing/data,2,0,1
+1668960619205,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-7,text,true,,11412,191,4,4,http://172.31.37.72/sensing/data,2,0,0
+1668960619205,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-6,text,true,,11412,191,3,3,http://172.31.37.72/sensing/data,2,0,0
+1668960619205,14,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-9,text,true,,11412,191,9,9,http://172.31.37.72/sensing/data,14,0,1
+1668960619206,14,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-8,text,true,,11412,191,8,8,http://172.31.37.72/sensing/data,13,0,0
+1668960619211,20,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-10,text,true,,11412,191,12,12,http://172.31.37.72/sensing/data,20,0,7
+1668960619214,17,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-13,text,true,,11412,191,12,12,http://172.31.37.72/sensing/data,17,0,4
+1668960619212,19,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-11,text,true,,11412,191,12,12,http://172.31.37.72/sensing/data,19,0,6
+1668960619214,18,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-12,text,true,,11412,191,9,9,http://172.31.37.72/sensing/data,18,0,4
+1668960619215,25,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-14,text,true,,11412,191,15,15,http://172.31.37.72/sensing/data,25,0,4
+1668960619222,26,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-18,text,true,,11412,191,20,20,http://172.31.37.72/sensing/data,26,0,9
+1668960619223,25,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-19,text,true,,11412,191,19,19,http://172.31.37.72/sensing/data,25,0,8
+1668960619227,22,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-21,text,true,,11412,191,18,18,http://172.31.37.72/sensing/data,22,0,4
+1668960619221,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-17,text,true,,11412,191,17,17,http://172.31.37.72/sensing/data,26,0,10
+1668960619221,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-16,text,true,,11412,191,21,21,http://172.31.37.72/sensing/data,35,0,10
+1668960619226,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-20,text,true,,11412,191,20,20,http://172.31.37.72/sensing/data,30,0,5
+1668960619224,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-15,text,true,,11412,191,20,20,http://172.31.37.72/sensing/data,33,0,7
+1668960619234,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-22,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,33,0,5
+1668960619238,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-27,text,true,,11412,191,25,25,http://172.31.37.72/sensing/data,30,0,8
+1668960619242,27,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-30,text,true,,11412,191,25,25,http://172.31.37.72/sensing/data,27,0,5
+1668960619239,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-28,text,true,,11412,191,24,24,http://172.31.37.72/sensing/data,30,0,8
+1668960619239,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-29,text,true,,11412,191,23,23,http://172.31.37.72/sensing/data,31,0,8
+1668960619237,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-25,text,true,,11412,191,22,22,http://172.31.37.72/sensing/data,33,0,10
+1668960619236,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-23,text,true,,11412,191,21,21,http://172.31.37.72/sensing/data,31,0,3
+1668960619238,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-26,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,29,0,0
+1668960619246,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-35,text,true,,11412,191,28,28,http://172.31.37.72/sensing/data,33,0,4
+1668960619252,28,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-36,text,true,,11412,191,27,27,http://172.31.37.72/sensing/data,28,0,4
+1668960619243,38,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-32,text,true,,11412,191,27,27,http://172.31.37.72/sensing/data,38,0,4
+1668960619243,38,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-31,text,true,,11412,191,25,25,http://172.31.37.72/sensing/data,38,0,13
+1668960619252,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-34,text,true,,11412,191,24,24,http://172.31.37.72/sensing/data,29,0,4
+1668960619240,42,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-24,text,true,,11412,191,23,23,http://172.31.37.72/sensing/data,42,0,8
+1668960619244,38,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-33,text,true,,11412,191,22,22,http://172.31.37.72/sensing/data,35,0,6
+1668960619251,37,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-37,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,37,0,6
+1668960619254,38,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-39,text,true,,11412,191,32,32,http://172.31.37.72/sensing/data,38,0,2
+1668960619260,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-42,text,true,,11412,191,31,31,http://172.31.37.72/sensing/data,33,0,7
+1668960619260,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-43,text,true,,11412,191,31,31,http://172.31.37.72/sensing/data,33,0,7
+1668960619253,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-38,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,40,0,4
+1668960619260,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-44,text,true,,11412,191,28,28,http://172.31.37.72/sensing/data,34,0,7
+1668960619264,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-46,text,true,,11412,191,27,27,http://172.31.37.72/sensing/data,30,0,3
+1668960619257,38,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-40,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,38,0,10
+1668960619258,37,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-41,text,true,,11412,191,25,25,http://172.31.37.72/sensing/data,37,0,9
+1668960619265,39,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-47,text,true,,11412,191,32,32,http://172.31.37.72/sensing/data,38,0,2
+1668960619269,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-49,text,true,,11412,191,32,32,http://172.31.37.72/sensing/data,34,0,15
+1668960619264,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-45,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,39,0,3
+1668960619272,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-48,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,31,0,8
+1668960619274,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-51,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,30,0,6
+1668960619276,28,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-55,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,28,0,3
+1668960619276,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-56,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,29,0,5
+1668960619275,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-54,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,29,0,5
+1668960619278,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-57,text,true,,11412,191,31,31,http://172.31.37.72/sensing/data,33,0,2
+1668960619283,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-53,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,29,0,8
+1668960619280,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-50,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,31,0,11
+1668960619279,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-52,text,true,,11412,191,28,28,http://172.31.37.72/sensing/data,33,0,12
+1668960619277,36,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-58,text,true,,11412,191,27,27,http://172.31.37.72/sensing/data,36,0,4
+1668960619287,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-63,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,32,0,4
+1668960619286,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-62,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,33,0,5
+1668960619287,37,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-65,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,32,0,9
+1668960619284,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-59,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,40,0,7
+1668960619284,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-60,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,36,0,7
+1668960619288,36,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-64,text,true,,11412,191,30,30,http://172.31.37.72/sensing/data,36,0,3
+1668960619298,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-72,text,true,,11412,191,28,28,http://172.31.37.72/sensing/data,29,0,6
+1668960619298,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-73,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,29,0,6
+1668960619286,41,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-61,text,true,,11412,191,29,29,http://172.31.37.72/sensing/data,41,0,5
+1668960619297,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-71,text,true,,11412,191,27,27,http://172.31.37.72/sensing/data,31,0,7
+1668960619292,36,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-69,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,36,0,11
+1668960619300,28,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-75,text,true,,11412,191,25,25,http://172.31.37.72/sensing/data,28,0,4
+1668960619289,39,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-66,text,true,,11412,191,24,24,http://172.31.37.72/sensing/data,39,0,2
+1668960619290,39,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-68,text,true,,11412,191,23,23,http://172.31.37.72/sensing/data,38,0,6
+1668960619297,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-70,text,true,,11412,191,21,21,http://172.31.37.72/sensing/data,35,0,7
+1668960619290,50,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-67,text,true,,11412,191,27,27,http://172.31.37.72/sensing/data,45,0,1
+1668960619306,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-79,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,34,0,5
+1668960619306,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-78,text,true,,11412,191,26,26,http://172.31.37.72/sensing/data,34,0,5
+1668960619300,41,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-74,text,true,,11412,191,24,24,http://172.31.37.72/sensing/data,41,0,5
+1668960619307,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-81,text,true,,11412,191,24,24,http://172.31.37.72/sensing/data,34,0,5
+1668960619303,38,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-76,text,true,,11412,191,22,22,http://172.31.37.72/sensing/data,38,0,8
+1668960619308,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-82,text,true,,11412,191,21,21,http://172.31.37.72/sensing/data,33,0,5
+1668960619306,36,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-77,text,true,,11412,191,20,20,http://172.31.37.72/sensing/data,36,0,5
+1668960619314,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-83,text,true,,11412,191,20,20,http://172.31.37.72/sensing/data,29,0,5
+1668960619314,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-84,text,true,,11412,191,18,18,http://172.31.37.72/sensing/data,29,0,5
+1668960619323,20,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-88,text,true,,11412,191,18,18,http://172.31.37.72/sensing/data,20,0,3
+1668960619315,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-85,text,true,,11412,191,16,16,http://172.31.37.72/sensing/data,29,0,5
+1668960619323,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-89,text,true,,11412,191,15,15,http://172.31.37.72/sensing/data,20,0,6
+1668960619325,27,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-90,text,true,,11412,191,15,15,http://172.31.37.72/sensing/data,27,0,2
+1668960619307,45,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-80,text,true,,11412,191,15,15,http://172.31.37.72/sensing/data,36,0,4
+1668960619318,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-87,text,true,,11412,191,12,12,http://172.31.37.72/sensing/data,34,0,1
+1668960619317,36,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-86,text,true,,11412,191,12,12,http://172.31.37.72/sensing/data,35,0,2
+1668960619326,27,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-91,text,true,,11412,191,10,10,http://172.31.37.72/sensing/data,27,0,8
+1668960619335,18,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-94,text,true,,11412,191,9,9,http://172.31.37.72/sensing/data,18,0,7
+1668960619326,28,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-92,text,true,,11412,191,9,9,http://172.31.37.72/sensing/data,27,0,10
+1668960619328,26,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-93,text,true,,11412,191,7,7,http://172.31.37.72/sensing/data,26,0,7
+1668960619335,19,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-95,text,true,,11412,191,7,7,http://172.31.37.72/sensing/data,19,0,8
+1668960619337,18,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-97,text,true,,11412,191,5,5,http://172.31.37.72/sensing/data,18,0,6
+1668960619337,18,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-96,text,true,,11412,191,5,5,http://172.31.37.72/sensing/data,18,0,6
+1668960619339,16,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-98,text,true,,11412,191,3,3,http://172.31.37.72/sensing/data,16,0,5
+1668960619340,19,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-99,text,true,,11412,191,2,2,http://172.31.37.72/sensing/data,18,0,4
+1668960619339,20,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-100,text,true,,11412,191,2,2,http://172.31.37.72/sensing/data,20,0,5
