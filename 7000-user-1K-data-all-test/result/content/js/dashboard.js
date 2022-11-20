@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
+    var data = {"OkPercent": 99.9952380952381, "KoPercent": 0.004761904761904762};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.09247619047619048, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.004071428571428571, 500, 1500, "Microservice-based client"], "isController": false}, {"data": [0.2725714285714286, 500, 1500, "Microservice-based client with caching"], "isController": false}, {"data": [7.857142857142857E-4, 500, 1500, "Monolithic-based client"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.0245, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0075, 500, 1500, "Microservice-based client"], "isController": false}, {"data": [0.06571428571428571, 500, 1500, "Microservice-based client with caching"], "isController": false}, {"data": [2.8571428571428574E-4, 500, 1500, "Monolithic-based client"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 21000, 0, 0.0, 21520.89890476186, 2, 163159, 25943.5, 39128.9, 43337.00000000003, 60945.690000000046, 90.04721046605864, 6932.703654429358, 13.04394813066279], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 7000, 0, 0.0, 36786.262428571434, 111, 163159, 36086.0, 46186.9, 54573.899999999994, 73016.19999999998, 42.72591326639607, 4700.109973925748, 5.299014633625293], "isController": false}, {"data": ["Microservice-based client with caching", 7000, 0, 0.0, 2011.8371428571447, 2, 5195, 2292.0, 3223.0, 3413.95, 3924.9199999999983, 937.4581491897683, 10447.531639212535, 174.85791649926344], "isController": false}, {"data": ["Monolithic-based client", 7000, 0, 0.0, 25764.59714285703, 171, 61830, 25798.0, 31069.800000000003, 33901.35, 44449.78, 113.07283505904017, 12417.473236063774, 14.023681691892678], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 21000, 1, 0.004761904761904762, 23359.312476190487, 7, 137739, 27136.0, 37314.0, 42156.9, 58882.41000000009, 93.35366368675845, 10252.73028643599, 13.522910267124841], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 7000, 1, 0.014285714285714285, 35302.98171428577, 866, 137739, 34377.5, 44673.80000000001, 52839.85, 69953.7899999999, 50.26316356351469, 5529.232804893209, 6.2338103247718415], "isController": false}, {"data": ["Microservice-based client with caching", 7000, 0, 0.0, 7748.273857142842, 7, 15588, 7803.5, 14023.500000000004, 14797.849999999999, 15468.98, 362.58158085569255, 39755.79563995649, 67.62996283538796], "isController": false}, {"data": ["Monolithic-based client", 7000, 0, 0.0, 27026.681857142903, 1256, 66263, 27283.5, 31998.300000000003, 35148.79999999999, 45326.48999999995, 105.46139359698682, 11582.627118644068, 13.079684557438794], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["500/Internal Server Error", 1, 100.0, 0.004761904761904762], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 21000, 0, "", "", "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 21000, 1, "500/Internal Server Error", 1, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["Microservice-based client", 7000, 1, "500/Internal Server Error", 1, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
