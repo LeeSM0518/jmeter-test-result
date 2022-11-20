@@ -1,0 +1,31 @@
+2022-11-20 07:26:44,131 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-11-20 07:26:44,156 INFO o.a.j.JMeter: Loading user properties from: /opt/jmeter/bin/user.properties
+2022-11-20 07:26:44,156 INFO o.a.j.JMeter: Loading system properties from: /opt/jmeter/bin/system.properties
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: Version 5.5
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: java.version=11.0.17
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: os.name=Linux
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: os.arch=amd64
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: os.version=5.15.0-1019-aws
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: java.awt.headless=true
+2022-11-20 07:26:44,162 INFO o.a.j.JMeter: Max memory     =17179869184
+2022-11-20 07:26:44,163 INFO o.a.j.JMeter: Available Processors =4
+2022-11-20 07:26:44,171 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-11-20 07:26:44,171 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-11-20 07:26:44,171 INFO o.a.j.JMeter: JMeterHome=/opt/jmeter
+2022-11-20 07:26:44,172 INFO o.a.j.JMeter: user.dir  =/home/ubuntu/jmeter-test-result
+2022-11-20 07:26:44,172 INFO o.a.j.JMeter: PWD       =/home/ubuntu/jmeter-test-result
+2022-11-20 07:26:44,173 INFO o.a.j.JMeter: IP: 172.31.34.117 Name: ip-172-31-34-117 FullName: ip-172-31-34-117.ap-northeast-2.compute.internal
+2022-11-20 07:26:44,181 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'/home/ubuntu/jmeter-test-result/result'
+2022-11-20 07:26:44,181 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: The file /home/ubuntu/jmeter-test-result/*.jmx doesn't exist or can't be opened
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:927) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:917) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.JMeter.start(JMeter.java:485) ~[ApacheJMeter_core.jar:5.5]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) ~[ApacheJMeter.jar:5.5]
