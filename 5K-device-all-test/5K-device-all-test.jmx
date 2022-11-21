@@ -619,6 +619,18 @@
     },&#xd;
    {&#xd;
       &quot;value&quot;: 1.0&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    },&#xd;
+   {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    },&#xd;
+   {&#xd;
+      &quot;value&quot;: 1.0&#xd;
     }&#xd;
   ]&#xd;
 }</stringProp>
@@ -822,6 +834,18 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
   &quot;sensingList&quot;: [&#xd;
+    {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    },&#xd;
+   {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    },&#xd;
+    {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    },&#xd;
+   {&#xd;
+      &quot;value&quot;: 1.0&#xd;
+    },&#xd;
     {&#xd;
       &quot;value&quot;: 1.0&#xd;
     },&#xd;
