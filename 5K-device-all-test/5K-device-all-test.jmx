@@ -802,7 +802,7 @@
     },&#xd;
    {&#xd;
       &quot;value&quot;: 1.0&#xd;
-    },&#xd;
+    }&#xd;
   ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
@@ -1211,7 +1211,7 @@
     },&#xd;
    {&#xd;
       &quot;value&quot;: 1.0&#xd;
-    },&#xd;
+    }&#xd;
   ]&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
