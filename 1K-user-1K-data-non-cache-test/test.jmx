@@ -781,14 +781,14 @@
         <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
         <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
           <boolProp name="LoopController.continue_forever">false</boolProp>
-          <stringProp name="LoopController.loops">10</stringProp>
+          <stringProp name="LoopController.loops">30</stringProp>
         </elementProp>
         <stringProp name="ThreadGroup.num_threads">1000</stringProp>
         <stringProp name="ThreadGroup.ramp_time">1</stringProp>
         <boolProp name="ThreadGroup.scheduler">false</boolProp>
         <stringProp name="ThreadGroup.duration"></stringProp>
         <stringProp name="ThreadGroup.delay"></stringProp>
-        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">false</boolProp>
         <boolProp name="ThreadGroup.delayedStart">true</boolProp>
       </ThreadGroup>
       <hashTree>
@@ -800,26 +800,6 @@
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
   &quot;sensingList&quot;: [&#xd;
-    {&#xd;
-      &quot;current&quot;: 12.31,&#xd;
-      &quot;voltage&quot;: 42.23,&#xd;
-      &quot;status&quot;: &quot;NORMAL&quot;,&#xd;
-      &quot;firmware&quot; : &quot;FIRMWARE VERSION 0.0.1&quot;,&#xd;
-      &quot;sensingTime&quot; : &quot;2021.03.22 07:29:26&quot;,&#xd;
-      &quot;temperature&quot; : 10.21,&#xd;
-      &quot;latitude&quot; : 32.34,&#xd;
-      &quot;longitude&quot; : 43.21&#xd;
-    },&#xd;
-    {&#xd;
-      &quot;current&quot;: 12.31,&#xd;
-      &quot;voltage&quot;: 42.23,&#xd;
-      &quot;status&quot;: &quot;NORMAL&quot;,&#xd;
-      &quot;firmware&quot; : &quot;FIRMWARE VERSION 0.0.1&quot;,&#xd;
-      &quot;sensingTime&quot; : &quot;2021.03.22 07:29:26&quot;,&#xd;
-      &quot;temperature&quot; : 10.21,&#xd;
-      &quot;latitude&quot; : 32.34,&#xd;
-      &quot;longitude&quot; : 43.21&#xd;
-    },&#xd;
     {&#xd;
       &quot;current&quot;: 12.31,&#xd;
       &quot;voltage&quot;: 42.23,&#xd;
