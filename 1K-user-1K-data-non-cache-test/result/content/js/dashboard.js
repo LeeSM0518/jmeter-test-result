@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 10000, 0, 0.0, 53.618000000000094, 4, 290, 50.0, 67.0, 75.0, 182.0, 3286.230693394676, 430.03409464344395, 779.8379477489319], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 10000, 0, 0.0, 53.618000000000094, 4, 290, 50.0, 67.0, 75.0, 182.0, 3286.230693394676, 430.03409464344395, 779.8379477489319], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 10000, 0, 0.0, 54.44779999999998, 9, 292, 52.0, 68.0, 75.0, 118.0, 3421.1426616489907, 447.6885904892234, 811.853190215532], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 10000, 0, 0.0, 54.44779999999998, 9, 292, 52.0, 68.0, 75.0, 118.0, 3421.1426616489907, 447.6885904892234, 811.853190215532], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
