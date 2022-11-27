@@ -803,7 +803,8 @@
     {&#xd;
       &quot;current&quot;: 12.31,&#xd;
       &quot;voltage&quot;: 42.23,&#xd;
-      &quot;status&quot;: &quot;NORMAL&quot;&#xd;
+      &quot;status&quot;: &quot;NORMAL&quot;,&#xd;
+      &quot;firmware&quot; : &quot;FIRMWARE VERSION 0.0.1&quot;&#xd;
     }&#xd;
   ]&#xd;
 }</stringProp>
@@ -1008,7 +1009,8 @@
                 <stringProp name="Argument.value">{&#xd;
  &quot;current&quot;: 12.31,&#xd;
  &quot;voltage&quot;: 42.23,&#xd;
- &quot;status&quot;: &quot;NORMAL&quot;&#xd;
+ &quot;status&quot;: &quot;NORMAL&quot;,&#xd;
+ &quot;firmware&quot; : &quot;FIRMWARE VERSION 0.0.1&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
