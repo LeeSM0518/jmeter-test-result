@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.99465, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.99465, 500, 1500, "Microservice-based client"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.98685, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.98685, 500, 1500, "Microservice-based client"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 10000, 0, 0.0, 104.9747000000003, 11, 1291, 78.0, 152.0, 302.0, 545.9799999999996, 2647.6039184537995, 346.46379401641514, 1926.2352727032035], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 10000, 0, 0.0, 104.9747000000003, 11, 1291, 78.0, 152.0, 302.0, 545.9799999999996, 2647.6039184537995, 346.46379401641514, 1926.2352727032035], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 10000, 0, 0.0, 135.90760000000063, 4, 2180, 89.0, 319.0, 352.9499999999989, 604.9899999999998, 2483.2381425378694, 324.9549913086665, 1806.6527501862429], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 10000, 0, 0.0, 135.90760000000063, 4, 2180, 89.0, 319.0, 352.9499999999989, 604.9899999999998, 2483.2381425378694, 324.9549913086665, 1806.6527501862429], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
