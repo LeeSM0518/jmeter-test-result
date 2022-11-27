@@ -1,34 +1,34 @@
 {
-  "Microservice-based client" : {
-    "transaction" : "Microservice-based client",
+  "Microservice-based client with caching" : {
+    "transaction" : "Microservice-based client with caching",
     "sampleCount" : 10000,
     "errorCount" : 0,
     "errorPct" : 0.0,
-    "meanResTime" : 54.24249999999981,
-    "medianResTime" : 50.0,
-    "minResTime" : 4.0,
-    "maxResTime" : 1085.0,
-    "pct1ResTime" : 68.0,
-    "pct2ResTime" : 76.0,
-    "pct3ResTime" : 117.0,
-    "throughput" : 3237.293622531564,
-    "receivedKBytesPerSec" : 423.63022013596634,
-    "sentKBytesPerSec" : 768.2249514405956
+    "meanResTime" : 410.3451000000011,
+    "medianResTime" : 255.0,
+    "minResTime" : 1.0,
+    "maxResTime" : 4701.0,
+    "pct1ResTime" : 423.0,
+    "pct2ResTime" : 1137.499999999989,
+    "pct3ResTime" : 4331.99,
+    "throughput" : 1300.0520020800832,
+    "receivedKBytesPerSec" : 74.90533996359854,
+    "sentKBytesPerSec" : 382.1441920176807
   },
   "Total" : {
     "transaction" : "Total",
     "sampleCount" : 10000,
     "errorCount" : 0,
     "errorPct" : 0.0,
-    "meanResTime" : 54.24249999999981,
-    "medianResTime" : 50.0,
-    "minResTime" : 4.0,
-    "maxResTime" : 1085.0,
-    "pct1ResTime" : 68.0,
-    "pct2ResTime" : 76.0,
-    "pct3ResTime" : 117.0,
-    "throughput" : 3237.293622531564,
-    "receivedKBytesPerSec" : 423.63022013596634,
-    "sentKBytesPerSec" : 768.2249514405956
+    "meanResTime" : 410.3451000000011,
+    "medianResTime" : 255.0,
+    "minResTime" : 1.0,
+    "maxResTime" : 4701.0,
+    "pct1ResTime" : 423.0,
+    "pct2ResTime" : 1137.499999999989,
+    "pct3ResTime" : 4331.99,
+    "throughput" : 1300.0520020800832,
+    "receivedKBytesPerSec" : 74.90533996359854,
+    "sentKBytesPerSec" : 382.1441920176807
   }
 }
