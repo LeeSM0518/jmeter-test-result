@@ -801,7 +801,9 @@
                 <stringProp name="Argument.value">{&#xd;
   &quot;sensingList&quot;: [&#xd;
     {&#xd;
-      &quot;value&quot;: 1.0&#xd;
+      &quot;current&quot;: 12.31,&#xd;
+      &quot;voltage&quot;: 42.23,&#xd;
+      &quot;status&quot;: &quot;NORMAL&quot;&#xd;
     }&#xd;
   ]&#xd;
 }</stringProp>
@@ -1004,7 +1006,9 @@
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
                 <stringProp name="Argument.value">{&#xd;
-  &quot;value&quot;: 1.0&#xd;
+ &quot;current&quot;: 12.31,&#xd;
+ &quot;voltage&quot;: 42.23,&#xd;
+ &quot;status&quot;: &quot;NORMAL&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
