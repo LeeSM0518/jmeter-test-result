@@ -1799,3 +1799,303 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1669019437708,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-98,,true,,59,301,3,3,http://172.31.37.72/sensing/data,2,0,1
 1669019437709,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-99,,true,,59,301,3,3,http://172.31.37.72/sensing/data,1,0,0
 1669019437710,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-100,,true,,59,301,1,1,http://172.31.37.72/sensing/data,2,0,1
+1672227304766,129,Monolithic-based client,500,,client-to-application (POST) 1-22,text,false,,257,623,100,100,http://172.31.47.81/sensing/data,124,0,19
+1672227304765,130,Monolithic-based client,500,,client-to-application (POST) 1-74,text,false,,257,623,100,100,http://172.31.47.81/sensing/data,125,0,20
+1672227304766,129,Monolithic-based client,500,,client-to-application (POST) 1-36,text,false,,257,623,100,100,http://172.31.47.81/sensing/data,124,0,18
+1672227304761,134,Monolithic-based client,500,,client-to-application (POST) 1-86,text,false,,257,623,100,100,http://172.31.47.81/sensing/data,129,0,24
+1672227304765,130,Monolithic-based client,500,,client-to-application (POST) 1-55,text,false,,257,623,100,100,http://172.31.47.81/sensing/data,125,0,18
+1672227304766,129,Monolithic-based client,500,,client-to-application (POST) 1-94,text,false,,257,623,100,100,http://172.31.47.81/sensing/data,124,0,18
+1672227304768,167,Monolithic-based client,500,,client-to-application (POST) 1-76,text,false,,257,623,94,94,http://172.31.47.81/sensing/data,166,0,17
+1672227304768,168,Monolithic-based client,500,,client-to-application (POST) 1-3,text,false,,257,623,94,94,http://172.31.47.81/sensing/data,168,0,16
+1672227304765,172,Monolithic-based client,500,,client-to-application (POST) 1-18,text,false,,257,623,92,92,http://172.31.47.81/sensing/data,172,0,20
+1672227304732,206,Monolithic-based client,500,,client-to-application (POST) 1-79,text,false,,257,623,92,92,http://172.31.47.81/sensing/data,206,0,54
+1672227304767,194,Monolithic-based client,500,,client-to-application (POST) 1-89,text,false,,257,623,90,90,http://172.31.47.81/sensing/data,194,0,18
+1672227304770,193,Monolithic-based client,500,,client-to-application (POST) 1-71,text,false,,257,623,89,89,http://172.31.47.81/sensing/data,191,0,15
+1672227304763,240,Monolithic-based client,500,,client-to-application (POST) 1-50,text,false,,257,623,88,88,http://172.31.47.81/sensing/data,239,0,23
+1672227304733,329,Monolithic-based client,500,,client-to-application (POST) 1-70,text,false,,257,623,87,87,http://172.31.47.81/sensing/data,329,0,59
+1672227304769,347,Monolithic-based client,500,,client-to-application (POST) 1-60,text,false,,257,623,86,86,http://172.31.47.81/sensing/data,347,0,15
+1672227304765,352,Monolithic-based client,500,,client-to-application (POST) 1-85,text,false,,257,623,86,86,http://172.31.47.81/sensing/data,352,0,21
+1672227304731,386,Monolithic-based client,500,,client-to-application (POST) 1-99,text,false,,257,623,86,86,http://172.31.47.81/sensing/data,386,0,64
+1672227304764,354,Monolithic-based client,500,,client-to-application (POST) 1-64,text,false,,257,623,85,84,http://172.31.47.81/sensing/data,354,0,22
+1672227304763,357,Monolithic-based client,500,,client-to-application (POST) 1-32,text,false,,257,623,82,82,http://172.31.47.81/sensing/data,357,0,28
+1672227304764,357,Monolithic-based client,500,,client-to-application (POST) 1-96,text,false,,257,623,81,81,http://172.31.47.81/sensing/data,357,0,22
+1672227304754,372,Monolithic-based client,500,,client-to-application (POST) 1-56,text,false,,257,623,80,80,http://172.31.47.81/sensing/data,372,0,64
+1672227304737,390,Monolithic-based client,500,,client-to-application (POST) 1-93,text,false,,257,623,79,79,http://172.31.47.81/sensing/data,390,0,54
+1672227304738,392,Monolithic-based client,500,,client-to-application (POST) 1-10,text,false,,257,623,78,78,http://172.31.47.81/sensing/data,392,0,52
+1672227304753,378,Monolithic-based client,500,,client-to-application (POST) 1-90,text,false,,257,623,78,78,http://172.31.47.81/sensing/data,378,0,65
+1672227304768,391,Monolithic-based client,500,,client-to-application (POST) 1-65,text,false,,257,623,76,76,http://172.31.47.81/sensing/data,390,0,15
+1672227304757,403,Monolithic-based client,500,,client-to-application (POST) 1-52,text,false,,257,623,75,75,http://172.31.47.81/sensing/data,403,0,36
+1672227304764,396,Monolithic-based client,500,,client-to-application (POST) 1-40,text,false,,257,623,75,75,http://172.31.47.81/sensing/data,393,0,23
+1672227304761,400,Monolithic-based client,500,,client-to-application (POST) 1-46,text,false,,257,623,74,74,http://172.31.47.81/sensing/data,396,0,29
+1672227304760,402,Monolithic-based client,500,,client-to-application (POST) 1-6,text,false,,257,623,72,72,http://172.31.47.81/sensing/data,402,0,28
+1672227304759,406,Monolithic-based client,500,,client-to-application (POST) 1-97,text,false,,257,623,71,71,http://172.31.47.81/sensing/data,406,0,35
+1672227304730,438,Monolithic-based client,500,,client-to-application (POST) 1-13,text,false,,257,623,70,70,http://172.31.47.81/sensing/data,438,0,67
+1672227304765,405,Monolithic-based client,500,,client-to-application (POST) 1-61,text,false,,257,623,69,69,http://172.31.47.81/sensing/data,405,0,20
+1672227304769,401,Monolithic-based client,500,,client-to-application (POST) 1-39,text,false,,257,623,69,69,http://172.31.47.81/sensing/data,401,0,14
+1672227304730,442,Monolithic-based client,500,,client-to-application (POST) 1-62,text,false,,257,623,67,67,http://172.31.47.81/sensing/data,442,0,87
+1672227304736,437,Monolithic-based client,500,,client-to-application (POST) 1-27,text,false,,257,623,66,66,http://172.31.47.81/sensing/data,437,0,58
+1672227304734,440,Monolithic-based client,500,,client-to-application (POST) 1-81,text,false,,257,623,65,65,http://172.31.47.81/sensing/data,440,0,58
+1672227304742,434,Monolithic-based client,500,,client-to-application (POST) 1-5,text,false,,257,623,64,64,http://172.31.47.81/sensing/data,433,0,53
+1672227304759,418,Monolithic-based client,500,,client-to-application (POST) 1-57,text,false,,257,623,63,63,http://172.31.47.81/sensing/data,418,0,32
+1672227304763,417,Monolithic-based client,500,,client-to-application (POST) 1-63,text,false,,257,623,62,62,http://172.31.47.81/sensing/data,417,0,24
+1672227304762,422,Monolithic-based client,500,,client-to-application (POST) 1-16,text,false,,257,623,61,61,http://172.31.47.81/sensing/data,422,0,28
+1672227304733,451,Monolithic-based client,500,,client-to-application (POST) 1-98,text,false,,257,623,61,61,http://172.31.47.81/sensing/data,451,0,53
+1672227304768,416,Monolithic-based client,500,,client-to-application (POST) 1-17,text,false,,257,623,61,61,http://172.31.47.81/sensing/data,416,0,15
+1672227304759,426,Monolithic-based client,500,,client-to-application (POST) 1-37,text,false,,257,623,58,58,http://172.31.47.81/sensing/data,426,0,36
+1672227304733,452,Monolithic-based client,500,,client-to-application (POST) 1-87,text,false,,257,623,58,58,http://172.31.47.81/sensing/data,452,0,54
+1672227304757,430,Monolithic-based client,500,,client-to-application (POST) 1-51,text,false,,257,623,56,56,http://172.31.47.81/sensing/data,430,0,36
+1672227304758,431,Monolithic-based client,500,,client-to-application (POST) 1-35,text,false,,257,623,55,55,http://172.31.47.81/sensing/data,430,0,38
+1672227304767,422,Monolithic-based client,500,,client-to-application (POST) 1-68,text,false,,257,623,54,54,http://172.31.47.81/sensing/data,422,0,16
+1672227304755,435,Monolithic-based client,500,,client-to-application (POST) 1-84,text,false,,257,623,53,53,http://172.31.47.81/sensing/data,435,0,63
+1672227304731,459,Monolithic-based client,500,,client-to-application (POST) 1-69,text,false,,257,623,53,53,http://172.31.47.81/sensing/data,457,0,61
+1672227304767,424,Monolithic-based client,500,,client-to-application (POST) 1-23,text,false,,257,623,51,51,http://172.31.47.81/sensing/data,424,0,17
+1672227304732,459,Monolithic-based client,500,,client-to-application (POST) 1-72,text,false,,257,623,51,51,http://172.31.47.81/sensing/data,459,0,60
+1672227304758,434,Monolithic-based client,500,,client-to-application (POST) 1-19,text,false,,257,623,49,49,http://172.31.47.81/sensing/data,434,0,37
+1672227304729,464,Monolithic-based client,500,,client-to-application (POST) 1-28,text,false,,257,623,49,49,http://172.31.47.81/sensing/data,463,0,89
+1672227304755,439,Monolithic-based client,500,,client-to-application (POST) 1-20,text,false,,257,623,47,47,http://172.31.47.81/sensing/data,439,0,63
+1672227304730,466,Monolithic-based client,500,,client-to-application (POST) 1-48,text,false,,257,623,46,46,http://172.31.47.81/sensing/data,466,0,88
+1672227304757,442,Monolithic-based client,500,,client-to-application (POST) 1-82,text,false,,257,623,46,46,http://172.31.47.81/sensing/data,442,0,34
+1672227304755,444,Monolithic-based client,500,,client-to-application (POST) 1-75,text,false,,257,623,46,46,http://172.31.47.81/sensing/data,444,0,63
+1672227304768,430,Monolithic-based client,500,,client-to-application (POST) 1-100,text,false,,257,623,46,46,http://172.31.47.81/sensing/data,430,0,15
+1672227304758,441,Monolithic-based client,500,,client-to-application (POST) 1-15,text,false,,257,623,46,46,http://172.31.47.81/sensing/data,441,0,38
+1672227304737,460,Monolithic-based client,500,,client-to-application (POST) 1-45,text,false,,257,623,46,46,http://172.31.47.81/sensing/data,460,0,54
+1672227304759,442,Monolithic-based client,500,,client-to-application (POST) 1-24,text,false,,257,623,44,44,http://172.31.47.81/sensing/data,442,0,35
+1672227304760,441,Monolithic-based client,500,,client-to-application (POST) 1-77,text,false,,257,623,44,44,http://172.31.47.81/sensing/data,441,0,28
+1672227304730,472,Monolithic-based client,500,,client-to-application (POST) 1-88,text,false,,257,623,41,41,http://172.31.47.81/sensing/data,472,0,68
+1672227304730,473,Monolithic-based client,500,,client-to-application (POST) 1-44,text,false,,257,623,38,38,http://172.31.47.81/sensing/data,473,0,87
+1672227304732,471,Monolithic-based client,500,,client-to-application (POST) 1-73,text,false,,257,623,38,38,http://172.31.47.81/sensing/data,471,0,61
+1672227304739,465,Monolithic-based client,500,,client-to-application (POST) 1-21,text,false,,257,623,35,35,http://172.31.47.81/sensing/data,465,0,50
+1672227304753,452,Monolithic-based client,500,,client-to-application (POST) 1-29,text,false,,257,623,34,34,http://172.31.47.81/sensing/data,452,0,64
+1672227304767,439,Monolithic-based client,500,,client-to-application (POST) 1-66,text,false,,257,623,33,33,http://172.31.47.81/sensing/data,439,0,17
+1672227304731,476,Monolithic-based client,500,,client-to-application (POST) 1-83,text,false,,257,623,32,32,http://172.31.47.81/sensing/data,476,0,86
+1672227304760,448,Monolithic-based client,500,,client-to-application (POST) 1-59,text,false,,257,623,31,31,http://172.31.47.81/sensing/data,448,0,31
+1672227304731,482,Monolithic-based client,500,,client-to-application (POST) 1-91,text,false,,257,623,30,30,http://172.31.47.81/sensing/data,480,0,63
+1672227304762,451,Monolithic-based client,500,,client-to-application (POST) 1-42,text,false,,257,623,30,30,http://172.31.47.81/sensing/data,447,0,28
+1672227304733,481,Monolithic-based client,500,,client-to-application (POST) 1-80,text,false,,257,623,30,30,http://172.31.47.81/sensing/data,480,0,59
+1672227304757,457,Monolithic-based client,500,,client-to-application (POST) 1-53,text,false,,257,623,27,27,http://172.31.47.81/sensing/data,457,0,35
+1672227304738,477,Monolithic-based client,500,,client-to-application (POST) 1-7,text,false,,257,623,27,27,http://172.31.47.81/sensing/data,477,0,52
+1672227304731,484,Monolithic-based client,500,,client-to-application (POST) 1-49,text,false,,257,623,25,25,http://172.31.47.81/sensing/data,482,0,60
+1672227304761,454,Monolithic-based client,500,,client-to-application (POST) 1-54,text,false,,257,623,25,25,http://172.31.47.81/sensing/data,454,0,29
+1672227304762,457,Monolithic-based client,500,,client-to-application (POST) 1-33,text,false,,257,623,23,23,http://172.31.47.81/sensing/data,457,0,29
+1672227304756,465,Monolithic-based client,500,,client-to-application (POST) 1-30,text,false,,257,623,22,22,http://172.31.47.81/sensing/data,465,0,38
+1672227304769,453,Monolithic-based client,500,,client-to-application (POST) 1-92,text,false,,257,623,21,21,http://172.31.47.81/sensing/data,453,0,14
+1672227304740,483,Monolithic-based client,500,,client-to-application (POST) 1-14,text,false,,257,623,20,20,http://172.31.47.81/sensing/data,483,0,49
+1672227304731,495,Monolithic-based client,500,,client-to-application (POST) 1-11,text,false,,257,623,19,19,http://172.31.47.81/sensing/data,495,0,60
+1672227304734,492,Monolithic-based client,500,,client-to-application (POST) 1-9,text,false,,257,623,19,19,http://172.31.47.81/sensing/data,486,0,83
+1672227304761,465,Monolithic-based client,500,,client-to-application (POST) 1-41,text,false,,257,623,17,17,http://172.31.47.81/sensing/data,465,0,28
+1672227304756,476,Monolithic-based client,500,,client-to-application (POST) 1-31,text,false,,257,623,16,16,http://172.31.47.81/sensing/data,476,0,37
+1672227304756,477,Monolithic-based client,500,,client-to-application (POST) 1-43,text,false,,257,623,15,15,http://172.31.47.81/sensing/data,477,0,38
+1672227304758,476,Monolithic-based client,500,,client-to-application (POST) 1-58,text,false,,257,623,15,15,http://172.31.47.81/sensing/data,475,0,38
+1672227304735,500,Monolithic-based client,500,,client-to-application (POST) 1-12,text,false,,257,623,13,13,http://172.31.47.81/sensing/data,500,0,59
+1672227304755,481,Monolithic-based client,500,,client-to-application (POST) 1-1,text,false,,257,623,12,12,http://172.31.47.81/sensing/data,481,0,40
+1672227304754,482,Monolithic-based client,500,,client-to-application (POST) 1-95,text,false,,257,623,12,12,http://172.31.47.81/sensing/data,482,0,63
+1672227304753,485,Monolithic-based client,500,,client-to-application (POST) 1-78,text,false,,257,623,10,10,http://172.31.47.81/sensing/data,484,0,64
+1672227304740,498,Monolithic-based client,500,,client-to-application (POST) 1-25,text,false,,257,623,9,9,http://172.31.47.81/sensing/data,498,0,51
+1672227304759,480,Monolithic-based client,500,,client-to-application (POST) 1-4,text,false,,257,623,8,8,http://172.31.47.81/sensing/data,480,0,29
+1672227304731,510,Monolithic-based client,500,,client-to-application (POST) 1-47,text,false,,257,623,7,7,http://172.31.47.81/sensing/data,510,0,67
+1672227304729,513,Monolithic-based client,500,,client-to-application (POST) 1-2,text,false,,257,623,6,6,http://172.31.47.81/sensing/data,513,0,60
+1672227304754,491,Monolithic-based client,500,,client-to-application (POST) 1-34,text,false,,257,623,5,5,http://172.31.47.81/sensing/data,490,0,63
+1672227304753,493,Monolithic-based client,500,,client-to-application (POST) 1-67,text,false,,257,623,4,4,http://172.31.47.81/sensing/data,492,0,65
+1672227304757,489,Monolithic-based client,500,,client-to-application (POST) 1-38,text,false,,257,623,4,4,http://172.31.47.81/sensing/data,483,0,38
+1672227304731,516,Monolithic-based client,500,,client-to-application (POST) 1-8,text,false,,257,623,2,2,http://172.31.47.81/sensing/data,516,0,62
+1672227304763,487,Monolithic-based client,500,,client-to-application (POST) 1-26,text,false,,257,623,1,1,http://172.31.47.81/sensing/data,487,0,29
+1672227305252,22,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-2,text,false,,259,623,9,9,http://172.31.37.72/sensing/data,22,0,1
+1672227305257,17,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-4,text,false,,259,623,8,8,http://172.31.37.72/sensing/data,17,0,1
+1672227305253,28,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-1,text,false,,259,623,7,7,http://172.31.37.72/sensing/data,28,0,1
+1672227305257,25,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-5,text,false,,259,623,6,6,http://172.31.37.72/sensing/data,25,0,1
+1672227305256,29,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-3,text,false,,259,623,7,7,http://172.31.37.72/sensing/data,29,0,2
+1672227305265,29,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-6,text,false,,259,623,11,11,http://172.31.37.72/sensing/data,29,0,2
+1672227305269,28,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-8,text,false,,259,623,11,11,http://172.31.37.72/sensing/data,28,0,4
+1672227305272,27,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-9,text,false,,259,623,11,11,http://172.31.37.72/sensing/data,27,0,2
+1672227305265,35,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-7,text,false,,259,623,10,10,http://172.31.37.72/sensing/data,33,0,0
+1672227305305,27,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-25,text,false,,259,623,26,26,http://172.31.37.72/sensing/data,27,0,0
+1672227305303,29,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-24,text,false,,259,623,26,26,http://172.31.37.72/sensing/data,29,0,1
+1672227305301,31,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-20,text,false,,259,623,25,25,http://172.31.37.72/sensing/data,30,0,6
+1672227305296,35,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-18,text,false,,259,623,25,25,http://172.31.37.72/sensing/data,35,0,1
+1672227305298,27,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-19,text,false,,259,623,22,22,http://172.31.37.72/sensing/data,27,0,4
+1672227305293,30,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-16,text,false,,259,623,21,21,http://172.31.37.72/sensing/data,29,0,1
+1672227305293,30,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-15,text,false,,259,623,21,21,http://172.31.37.72/sensing/data,30,0,6
+1672227305285,32,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-10,text,false,,259,623,19,19,http://172.31.37.72/sensing/data,32,0,6
+1672227305285,32,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-11,text,false,,259,623,19,19,http://172.31.37.72/sensing/data,30,0,1
+1672227305288,28,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-13,text,false,,259,623,18,18,http://172.31.37.72/sensing/data,28,0,1
+1672227305287,21,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-12,text,false,,259,623,15,15,http://172.31.37.72/sensing/data,21,0,0
+1672227305290,36,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-14,text,false,,259,623,22,22,http://172.31.37.72/sensing/data,36,0,1
+1672227305312,62,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-26,text,false,,259,623,40,40,http://172.31.37.72/sensing/data,62,0,1
+1672227305303,121,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-23,text,false,,259,623,78,78,http://172.31.37.72/sensing/data,121,0,1
+1672227305322,103,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-28,text,false,,259,623,78,78,http://172.31.37.72/sensing/data,103,0,3
+1672227305303,122,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-17,text,false,,259,623,78,78,http://172.31.37.72/sensing/data,122,0,7
+1672227305318,108,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-27,text,false,,259,623,75,75,http://172.31.37.72/sensing/data,107,0,0
+1672227305324,104,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-30,text,false,,259,623,74,74,http://172.31.37.72/sensing/data,104,0,1
+1672227305309,132,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-21,text,false,,259,623,73,73,http://172.31.37.72/sensing/data,132,0,0
+1672227305323,119,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-29,text,false,,259,623,72,72,http://172.31.37.72/sensing/data,119,0,2
+1672227305312,156,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-22,text,false,,259,623,71,71,http://172.31.37.72/sensing/data,156,0,1
+1672227305327,141,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-31,text,false,,259,623,71,71,http://172.31.37.72/sensing/data,141,0,1
+1672227305330,158,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-34,text,false,,259,623,69,69,http://172.31.37.72/sensing/data,158,0,0
+1672227305340,173,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-42,text,false,,259,623,68,68,http://172.31.37.72/sensing/data,173,0,1
+1672227305327,200,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-32,text,false,,259,623,67,67,http://172.31.37.72/sensing/data,200,0,1
+1672227305341,187,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-37,text,false,,259,623,66,66,http://172.31.37.72/sensing/data,186,0,1
+1672227305349,198,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-46,text,false,,259,623,65,65,http://172.31.37.72/sensing/data,198,0,1
+1672227305368,188,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-59,text,false,,259,623,64,64,http://172.31.37.72/sensing/data,188,0,1
+1672227305366,195,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-57,text,false,,259,623,63,63,http://172.31.37.72/sensing/data,195,0,2
+1672227305368,193,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-58,text,false,,259,623,63,63,http://172.31.37.72/sensing/data,193,0,1
+1672227305351,211,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-44,text,false,,259,623,61,61,http://172.31.37.72/sensing/data,211,0,1
+1672227305352,243,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-47,text,false,,259,623,60,60,http://172.31.37.72/sensing/data,243,0,0
+1672227305387,208,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-79,text,false,,259,623,60,60,http://172.31.37.72/sensing/data,208,0,1
+1672227305333,263,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-33,text,false,,259,623,59,59,http://172.31.37.72/sensing/data,263,0,1
+1672227305358,240,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-55,text,false,,259,623,57,57,http://172.31.37.72/sensing/data,240,0,1
+1672227305344,255,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-45,text,false,,259,623,56,56,http://172.31.37.72/sensing/data,254,0,1
+1672227305387,213,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-78,text,false,,259,623,55,55,http://172.31.37.72/sensing/data,213,0,1
+1672227305383,217,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-71,text,false,,259,623,54,54,http://172.31.37.72/sensing/data,217,0,1
+1672227305340,266,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-41,text,false,,259,623,53,53,http://172.31.37.72/sensing/data,266,0,1
+1672227305370,238,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-60,text,false,,259,623,52,52,http://172.31.37.72/sensing/data,238,0,1
+1672227305391,228,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-85,text,false,,259,623,51,51,http://172.31.37.72/sensing/data,228,0,1
+1672227305389,230,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-82,text,false,,259,623,51,51,http://172.31.37.72/sensing/data,230,0,1
+1672227305395,225,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-90,text,false,,259,623,49,49,http://172.31.37.72/sensing/data,224,0,1
+1672227305356,264,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-51,text,false,,259,623,49,49,http://172.31.37.72/sensing/data,264,0,1
+1672227305379,241,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-63,text,false,,259,623,49,49,http://172.31.37.72/sensing/data,241,0,2
+1672227305358,262,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-54,text,false,,259,623,49,49,http://172.31.37.72/sensing/data,262,0,1
+1672227305390,230,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-84,text,false,,259,623,46,46,http://172.31.37.72/sensing/data,230,0,1
+1672227305343,278,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-43,text,false,,259,623,46,46,http://172.31.37.72/sensing/data,278,0,4
+1672227305380,241,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-62,text,false,,259,623,45,45,http://172.31.37.72/sensing/data,241,0,1
+1672227305385,239,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-75,text,false,,259,623,42,42,http://172.31.37.72/sensing/data,239,0,1
+1672227305340,286,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-38,text,false,,259,623,41,41,http://172.31.37.72/sensing/data,286,0,1
+1672227305353,273,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-48,text,false,,259,623,41,41,http://172.31.37.72/sensing/data,273,0,1
+1672227305376,251,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-65,text,false,,259,623,39,39,http://172.31.37.72/sensing/data,251,0,0
+1672227305381,247,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-68,text,false,,259,623,38,38,http://172.31.37.72/sensing/data,247,0,1
+1672227305393,235,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-88,text,false,,259,623,38,38,http://172.31.37.72/sensing/data,235,0,1
+1672227305398,231,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-94,text,false,,259,623,36,36,http://172.31.37.72/sensing/data,231,0,1
+1672227305379,250,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-61,text,false,,259,623,36,36,http://172.31.37.72/sensing/data,250,0,0
+1672227305341,289,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-36,text,false,,259,623,34,34,http://172.31.37.72/sensing/data,289,0,1
+1672227305341,290,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-40,text,false,,259,623,33,33,http://172.31.37.72/sensing/data,289,0,0
+1672227305386,245,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-77,text,false,,259,623,33,33,http://172.31.37.72/sensing/data,245,0,1
+1672227305393,239,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-87,text,false,,259,623,31,31,http://172.31.37.72/sensing/data,239,0,1
+1672227305390,242,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-81,text,false,,259,623,31,31,http://172.31.37.72/sensing/data,242,0,0
+1672227305400,233,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-98,text,false,,259,623,29,29,http://172.31.37.72/sensing/data,233,0,1
+1672227305375,258,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-66,text,false,,259,623,28,28,http://172.31.37.72/sensing/data,258,0,1
+1672227305364,270,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-56,text,false,,259,623,27,27,http://172.31.37.72/sensing/data,270,0,1
+1672227305402,232,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-100,text,false,,259,623,27,27,http://172.31.37.72/sensing/data,232,0,0
+1672227305342,292,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-39,text,false,,259,623,25,25,http://172.31.37.72/sensing/data,292,0,1
+1672227305394,241,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-89,text,false,,259,623,24,24,http://172.31.37.72/sensing/data,241,0,1
+1672227305391,245,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-83,text,false,,259,623,23,23,http://172.31.37.72/sensing/data,245,0,1
+1672227305397,240,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-93,text,false,,259,623,22,22,http://172.31.37.72/sensing/data,240,0,0
+1672227305386,261,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-76,text,false,,259,623,21,21,http://172.31.37.72/sensing/data,261,0,1
+1672227305369,278,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-53,text,false,,259,623,21,21,http://172.31.37.72/sensing/data,278,0,0
+1672227305382,265,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-70,text,false,,259,623,21,21,http://172.31.37.72/sensing/data,265,0,1
+1672227305385,263,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-74,text,false,,259,623,19,19,http://172.31.37.72/sensing/data,263,0,0
+1672227305396,252,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-91,text,false,,259,623,19,19,http://172.31.37.72/sensing/data,252,0,1
+1672227305382,267,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-69,text,false,,259,623,16,16,http://172.31.37.72/sensing/data,267,0,0
+1672227305380,269,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-64,text,false,,259,623,16,16,http://172.31.37.72/sensing/data,268,0,1
+1672227305399,251,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-96,text,false,,259,623,14,14,http://172.31.37.72/sensing/data,250,0,1
+1672227305384,266,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-73,text,false,,259,623,14,14,http://172.31.37.72/sensing/data,266,0,1
+1672227305399,251,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-97,text,false,,259,623,12,12,http://172.31.37.72/sensing/data,251,0,1
+1672227305370,280,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-52,text,false,,259,623,12,12,http://172.31.37.72/sensing/data,280,0,0
+1672227305396,254,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-92,text,false,,259,623,12,12,http://172.31.37.72/sensing/data,254,0,1
+1672227305340,315,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-35,text,false,,259,623,9,9,http://172.31.37.72/sensing/data,310,0,1
+1672227305380,276,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-67,text,false,,259,623,8,8,http://172.31.37.72/sensing/data,276,0,1
+1672227305398,258,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-95,text,false,,259,623,8,8,http://172.31.37.72/sensing/data,258,0,1
+1672227305389,267,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-80,text,false,,259,623,6,6,http://172.31.37.72/sensing/data,267,0,0
+1672227305401,255,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-99,text,false,,259,623,5,5,http://172.31.37.72/sensing/data,255,0,0
+1672227305383,273,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-72,text,false,,259,623,5,5,http://172.31.37.72/sensing/data,273,0,1
+1672227305353,304,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-49,text,false,,259,623,3,3,http://172.31.37.72/sensing/data,304,0,1
+1672227305393,274,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-86,text,false,,259,623,2,2,http://172.31.37.72/sensing/data,274,0,0
+1672227305355,312,Microservice-based client,500,Internal Server Error,client-to-gateway-non-caching (POST) 2-50,text,false,,259,623,2,2,http://172.31.37.72/sensing/data,312,0,0
+1672227305675,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-3,,true,,59,301,3,3,http://172.31.37.72/sensing/data,2,0,1
+1672227305675,3,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-1,,true,,59,301,2,2,http://172.31.37.72/sensing/data,3,0,1
+1672227305679,2,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-5,,true,,59,301,6,6,http://172.31.37.72/sensing/data,2,0,1
+1672227305675,8,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-2,,true,,59,301,6,6,http://172.31.37.72/sensing/data,8,0,7
+1672227305681,3,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-8,,true,,59,301,5,5,http://172.31.37.72/sensing/data,3,0,1
+1672227305679,5,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-4,,true,,59,301,5,5,http://172.31.37.72/sensing/data,5,0,1
+1672227305681,3,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-6,,true,,59,301,5,5,http://172.31.37.72/sensing/data,3,0,1
+1672227305681,14,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-7,,true,,59,301,20,20,http://172.31.37.72/sensing/data,14,0,2
+1672227305685,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-10,,true,,59,301,49,49,http://172.31.37.72/sensing/data,30,0,10
+1672227305688,28,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-16,,true,,59,301,48,48,http://172.31.37.72/sensing/data,28,0,7
+1672227305687,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-14,,true,,59,301,47,47,http://172.31.37.72/sensing/data,29,0,9
+1672227305684,39,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-9,,true,,59,301,46,46,http://172.31.37.72/sensing/data,31,0,11
+1672227305691,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-20,,true,,59,301,45,45,http://172.31.37.72/sensing/data,32,0,4
+1672227305689,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-15,,true,,59,301,45,45,http://172.31.37.72/sensing/data,34,0,6
+1672227305693,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-24,,true,,59,301,44,44,http://172.31.37.72/sensing/data,31,0,2
+1672227305692,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-21,,true,,59,301,44,44,http://172.31.37.72/sensing/data,32,0,3
+1672227305690,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-19,,true,,59,301,42,42,http://172.31.37.72/sensing/data,34,0,5
+1672227305693,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-22,,true,,59,301,42,42,http://172.31.37.72/sensing/data,31,0,2
+1672227305689,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-17,,true,,59,301,42,42,http://172.31.37.72/sensing/data,28,0,7
+1672227305694,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-27,,true,,59,301,40,40,http://172.31.37.72/sensing/data,31,0,9
+1672227305694,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-25,,true,,59,301,40,40,http://172.31.37.72/sensing/data,31,0,9
+1672227305696,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-29,,true,,59,301,38,38,http://172.31.37.72/sensing/data,29,0,7
+1672227305697,28,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-31,,true,,59,301,38,38,http://172.31.37.72/sensing/data,28,0,6
+1672227305685,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-11,,true,,59,301,38,38,http://172.31.37.72/sensing/data,32,0,10
+1672227305686,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-12,,true,,59,301,36,36,http://172.31.37.72/sensing/data,40,0,9
+1672227305686,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-13,,true,,59,301,36,36,http://172.31.37.72/sensing/data,30,0,9
+1672227305690,36,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-18,,true,,59,301,33,33,http://172.31.37.72/sensing/data,36,0,6
+1672227305693,33,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-23,,true,,59,301,32,32,http://172.31.37.72/sensing/data,33,0,3
+1672227305697,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-28,,true,,59,301,32,32,http://172.31.37.72/sensing/data,30,0,7
+1672227305697,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-30,,true,,59,301,34,34,http://172.31.37.72/sensing/data,34,0,6
+1672227305700,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-35,,true,,59,301,33,33,http://172.31.37.72/sensing/data,31,0,3
+1672227305702,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-39,,true,,59,301,33,33,http://172.31.37.72/sensing/data,29,0,2
+1672227305694,37,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-26,,true,,59,301,33,33,http://172.31.37.72/sensing/data,37,0,9
+1672227305701,31,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-38,,true,,59,301,30,30,http://172.31.37.72/sensing/data,31,0,3
+1672227305700,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-36,,true,,59,301,31,31,http://172.31.37.72/sensing/data,32,0,4
+1672227305698,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-32,,true,,59,301,29,29,http://172.31.37.72/sensing/data,34,0,5
+1672227305698,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-33,,true,,59,301,29,29,http://172.31.37.72/sensing/data,34,0,6
+1672227305699,40,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-34,,true,,59,301,37,37,http://172.31.37.72/sensing/data,40,0,4
+1672227305710,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-49,,true,,59,301,36,36,http://172.31.37.72/sensing/data,30,0,13
+1672227305703,37,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-41,,true,,59,301,36,36,http://172.31.37.72/sensing/data,37,0,12
+1672227305702,38,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-40,,true,,59,301,36,36,http://172.31.37.72/sensing/data,37,0,3
+1672227305711,29,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-51,,true,,59,301,36,36,http://172.31.37.72/sensing/data,29,0,12
+1672227305713,27,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-54,,true,,59,301,33,33,http://172.31.37.72/sensing/data,27,0,13
+1672227305714,27,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-57,,true,,59,301,33,33,http://172.31.37.72/sensing/data,26,0,12
+1672227305728,13,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-59,,true,,59,301,33,33,http://172.31.37.72/sensing/data,13,0,3
+1672227305714,27,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-55,,true,,59,301,31,31,http://172.31.37.72/sensing/data,27,0,13
+1672227305729,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-62,,true,,59,301,31,31,http://172.31.37.72/sensing/data,12,0,3
+1672227305704,37,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-42,,true,,59,301,30,30,http://172.31.37.72/sensing/data,37,0,11
+1672227305724,17,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-58,,true,,59,301,30,30,http://172.31.37.72/sensing/data,17,0,7
+1672227305709,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-48,,true,,59,301,29,29,http://172.31.37.72/sensing/data,32,0,14
+1672227305707,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-45,,true,,59,301,28,28,http://172.31.37.72/sensing/data,34,0,8
+1672227305705,37,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-43,,true,,59,301,23,23,http://172.31.37.72/sensing/data,37,0,12
+1672227305701,41,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-37,,true,,59,301,22,22,http://172.31.37.72/sensing/data,41,0,3
+1672227305707,36,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-44,,true,,59,301,21,21,http://172.31.37.72/sensing/data,36,0,10
+1672227305708,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-47,,true,,59,301,20,20,http://172.31.37.72/sensing/data,35,0,16
+1672227305708,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-46,,true,,59,301,19,19,http://172.31.37.72/sensing/data,35,0,15
+1672227305712,32,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-52,,true,,59,301,19,19,http://172.31.37.72/sensing/data,32,0,13
+1672227305714,30,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-56,,true,,59,301,18,18,http://172.31.37.72/sensing/data,30,0,11
+1672227305711,34,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-50,,true,,59,301,17,17,http://172.31.37.72/sensing/data,34,0,13
+1672227305732,15,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-65,,true,,59,301,16,16,http://172.31.37.72/sensing/data,15,0,7
+1672227305729,18,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-61,,true,,59,301,16,16,http://172.31.37.72/sensing/data,18,0,3
+1672227305738,9,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-72,,true,,59,301,16,16,http://172.31.37.72/sensing/data,9,0,1
+1672227305735,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-69,,true,,59,301,14,14,http://172.31.37.72/sensing/data,12,0,8
+1672227305728,19,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-60,,true,,59,301,14,14,http://172.31.37.72/sensing/data,19,0,11
+1672227305739,9,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-74,,true,,59,301,13,13,http://172.31.37.72/sensing/data,9,0,2
+1672227305735,13,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-67,,true,,59,301,10,10,http://172.31.37.72/sensing/data,13,0,8
+1672227305737,11,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-70,,true,,59,301,9,9,http://172.31.37.72/sensing/data,11,0,6
+1672227305736,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-68,,true,,59,301,9,9,http://172.31.37.72/sensing/data,12,0,7
+1672227305713,35,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-53,,true,,59,301,9,9,http://172.31.37.72/sensing/data,35,0,12
+1672227305734,15,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-66,,true,,59,301,7,7,http://172.31.37.72/sensing/data,15,0,9
+1672227305730,19,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-63,,true,,59,301,7,7,http://172.31.37.72/sensing/data,19,0,9
+1672227305733,16,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-64,,true,,59,301,6,6,http://172.31.37.72/sensing/data,16,0,10
+1672227305737,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-71,,true,,59,301,6,6,http://172.31.37.72/sensing/data,12,0,5
+1672227305738,11,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-73,,true,,59,301,4,4,http://172.31.37.72/sensing/data,11,0,5
+1672227305744,11,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-75,,true,,59,301,9,9,http://172.31.37.72/sensing/data,11,0,4
+1672227305752,4,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-81,,true,,59,301,8,8,http://172.31.37.72/sensing/data,4,0,4
+1672227305751,5,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-79,,true,,59,301,8,8,http://172.31.37.72/sensing/data,5,0,4
+1672227305750,13,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-77,,true,,59,301,10,10,http://172.31.37.72/sensing/data,13,0,5
+1672227305750,13,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-78,,true,,59,301,9,9,http://172.31.37.72/sensing/data,13,0,6
+1672227305749,15,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-76,,true,,59,301,8,8,http://172.31.37.72/sensing/data,15,0,11
+1672227305752,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-82,,true,,59,301,8,8,http://172.31.37.72/sensing/data,12,0,7
+1672227305753,11,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-84,,true,,59,301,6,6,http://172.31.37.72/sensing/data,11,0,3
+1672227305752,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-80,,true,,59,301,6,6,http://172.31.37.72/sensing/data,12,0,3
+1672227305759,16,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-83,,true,,59,301,11,11,http://172.31.37.72/sensing/data,16,0,5
+1672227305761,14,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-86,,true,,59,301,11,11,http://172.31.37.72/sensing/data,14,0,3
+1672227305760,16,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-85,,true,,59,301,11,11,http://172.31.37.72/sensing/data,16,0,4
+1672227305761,22,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-87,,true,,59,301,14,14,http://172.31.37.72/sensing/data,22,0,14
+1672227305766,17,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-89,,true,,59,301,14,14,http://172.31.37.72/sensing/data,17,0,9
+1672227305768,15,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-91,,true,,59,301,14,14,http://172.31.37.72/sensing/data,15,0,7
+1672227305771,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-93,,true,,59,301,13,13,http://172.31.37.72/sensing/data,12,0,4
+1672227305771,13,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-94,,true,,59,301,11,11,http://172.31.37.72/sensing/data,13,0,5
+1672227305769,15,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-92,,true,,59,301,11,11,http://172.31.37.72/sensing/data,15,0,7
+1672227305767,17,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-90,,true,,59,301,8,8,http://172.31.37.72/sensing/data,17,0,8
+1672227305766,18,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-88,,true,,59,301,8,8,http://172.31.37.72/sensing/data,18,0,9
+1672227305776,15,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-95,,true,,59,301,6,6,http://172.31.37.72/sensing/data,15,0,9
+1672227305778,13,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-98,,true,,59,301,6,6,http://172.31.37.72/sensing/data,13,0,6
+1672227305778,13,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-97,,true,,59,301,6,6,http://172.31.37.72/sensing/data,13,0,7
+1672227305778,14,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-96,,true,,59,301,5,5,http://172.31.37.72/sensing/data,14,0,7
+1672227305780,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-99,,true,,59,301,4,4,http://172.31.37.72/sensing/data,12,0,5
+1672227305780,12,Microservice-based client with caching,200,OK,client-to-gateway-caching (POST) 3-100,,true,,59,301,1,1,http://172.31.37.72/sensing/data,12,0,5
