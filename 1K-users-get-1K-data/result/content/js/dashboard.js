@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 99.9952380952381, "KoPercent": 0.004761904761904762};
+    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.013976190476190475, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.0126, 500, 1500, "Microservice-based client"], "isController": false}, {"data": [0.0144, 500, 1500, "Microservice-based client with caching"], "isController": false}, {"data": [0.0235, 500, 1500, "Monolithic-based client"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.0975, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.069, 500, 1500, "Microservice-based client"], "isController": false}, {"data": [0.1985, 500, 1500, "Microservice-based client with caching"], "isController": false}, {"data": [0.025, 500, 1500, "Monolithic-based client"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 21000, 1, 0.004761904761904762, 8442.923380952396, 12, 78283, 5449.0, 14554.700000000004, 16360.800000000003, 20364.0, 106.58654065768971, 27507.647837078348, 16.39081814845221], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 10000, 1, 0.01, 12044.88370000004, 12, 78283, 11996.0, 16360.599999999999, 18106.699999999993, 22004.989999999998, 78.39263736349882, 20252.6719793602, 9.72155210807601], "isController": false}, {"data": ["Microservice-based client with caching", 10000, 0, 0.0, 4929.044699999993, 118, 9658, 5092.0, 5360.0, 5471.949999999999, 5855.98, 189.6129998672709, 48882.569280590506, 35.36726852993041], "isController": false}, {"data": ["Monolithic-based client", 1000, 0, 0.0, 7562.107000000001, 133, 16567, 8039.5, 8816.0, 8979.8, 9290.98, 59.819345576359396, 15441.160663546092, 7.419000867380511], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 3000, 0, 0.0, 6270.852666666667, 18, 13203, 8303.0, 10468.0, 10693.9, 11051.869999999997, 91.31030284583777, 23572.131156311825, 13.226915614061788], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client", 1000, 0, 0.0, 8328.431999999997, 168, 13203, 10163.0, 10789.8, 10948.95, 11501.550000000001, 72.11365111415591, 18643.665181951754, 8.94378290185332], "isController": false}, {"data": ["Microservice-based client with caching", 1000, 0, 0.0, 2335.261000000001, 18, 4440, 2345.5, 4112.3, 4287.7, 4406.98, 188.07598269700958, 48486.13527365055, 35.08057880383675], "isController": false}, {"data": ["Monolithic-based client", 1000, 0, 0.0, 8148.865000000003, 116, 12984, 8968.5, 9604.0, 9757.95, 10031.73, 73.22788517867603, 18902.30541977885, 9.081974040714703], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: org.apache.http.ConnectionClosedException/Non HTTP response message: Premature end of chunk coded message body: closing chunk expected", 1, 100.0, 0.004761904761904762], "isController": false}]}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 21000, 1, "Non HTTP response code: org.apache.http.ConnectionClosedException/Non HTTP response message: Premature end of chunk coded message body: closing chunk expected", 1, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": ["Microservice-based client", 10000, 1, "Non HTTP response code: org.apache.http.ConnectionClosedException/Non HTTP response message: Premature end of chunk coded message body: closing chunk expected", 1, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 3000, 0, "", "", "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
