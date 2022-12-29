@@ -1,0 +1,34 @@
+{
+  "Microservice-based client with caching" : {
+    "transaction" : "Microservice-based client with caching",
+    "sampleCount" : 15000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 3134.7724000000085,
+    "medianResTime" : 1847.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 11188.0,
+    "pct1ResTime" : 7915.0,
+    "pct2ResTime" : 8463.0,
+    "pct3ResTime" : 9229.919999999998,
+    "throughput" : 739.6085005670332,
+    "receivedKBytesPerSec" : 19127.98039112963,
+    "sentKBytesPerSec" : 137.95431992998374
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 15000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 3134.7724000000085,
+    "medianResTime" : 1847.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 11188.0,
+    "pct1ResTime" : 7915.0,
+    "pct2ResTime" : 8463.0,
+    "pct3ResTime" : 9229.919999999998,
+    "throughput" : 739.6085005670332,
+    "receivedKBytesPerSec" : 19127.98039112963,
+    "sentKBytesPerSec" : 137.95431992998374
+  }
+}
