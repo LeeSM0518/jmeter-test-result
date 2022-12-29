@@ -1,36 +1,4 @@
 timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
-1672296584612,332,Monolithic-based client,200,,client-to-application (GET) 1-404,text,true,,264325,127,570,570,http://172.31.47.81/sensing/data,310,0,45
-1672296584664,319,Monolithic-based client,200,,client-to-application (GET) 1-418,text,true,,264325,127,588,588,http://172.31.47.81/sensing/data,309,0,2
-1672296584631,855,Monolithic-based client,200,,client-to-application (GET) 1-73,text,true,,264325,127,1027,1027,http://172.31.47.81/sensing/data,832,0,37
-1672296584613,942,Monolithic-based client,200,,client-to-application (GET) 1-315,text,true,,264325,127,1107,1107,http://172.31.47.81/sensing/data,914,0,50
-1672296584635,1026,Monolithic-based client,200,,client-to-application (GET) 1-369,text,true,,264325,127,1207,1207,http://172.31.47.81/sensing/data,1009,0,30
-1672296584595,1102,Monolithic-based client,200,,client-to-application (GET) 1-155,text,true,,264325,127,1240,1240,http://172.31.47.81/sensing/data,1073,0,86
-1672296584665,1032,Monolithic-based client,200,,client-to-application (GET) 1-423,text,true,,264325,127,1240,1240,http://172.31.47.81/sensing/data,1002,0,13
-1672296584593,1153,Monolithic-based client,200,,client-to-application (GET) 1-203,text,true,,264325,127,1269,1269,http://172.31.47.81/sensing/data,1130,0,88
-1672296584593,1154,Monolithic-based client,200,,client-to-application (GET) 1-362,text,true,,264325,127,1268,1268,http://172.31.47.81/sensing/data,1130,0,87
-1672296584594,1158,Monolithic-based client,200,,client-to-application (GET) 1-389,text,true,,264325,127,1268,1268,http://172.31.47.81/sensing/data,1112,0,73
-1672296584597,1159,Monolithic-based client,200,,client-to-application (GET) 1-36,text,true,,264325,127,1269,1269,http://172.31.47.81/sensing/data,1109,0,84
-1672296584596,1205,Monolithic-based client,200,,client-to-application (GET) 1-105,text,true,,264325,127,1297,1297,http://172.31.47.81/sensing/data,1174,0,86
-1672296584632,1207,Monolithic-based client,200,,client-to-application (GET) 1-241,text,true,,264325,127,1365,1365,http://172.31.47.81/sensing/data,1157,0,35
-1672296584612,1242,Monolithic-based client,200,,client-to-application (GET) 1-313,text,true,,264325,127,1375,1375,http://172.31.47.81/sensing/data,1205,0,51
-1672296584662,1195,Monolithic-based client,200,,client-to-application (GET) 1-422,text,true,,264325,127,1375,1375,http://172.31.47.81/sensing/data,1138,0,0
-1672296584592,1296,Monolithic-based client,200,,client-to-application (GET) 1-336,text,true,,264325,127,1405,1405,http://172.31.47.81/sensing/data,1261,0,89
-1672296584583,1325,Monolithic-based client,200,,client-to-application (GET) 1-391,text,true,,264325,127,1411,1411,http://172.31.47.81/sensing/data,1304,0,117
-1672296584596,1315,Monolithic-based client,200,,client-to-application (GET) 1-111,text,true,,264325,127,1410,1410,http://172.31.47.81/sensing/data,1280,0,86
-1672296584629,1511,Monolithic-based client,200,,client-to-application (GET) 1-350,text,true,,264325,127,1539,1539,http://172.31.47.81/sensing/data,1269,0,31
-1672296584613,1534,Monolithic-based client,200,,client-to-application (GET) 1-317,text,true,,264325,127,1541,1541,http://172.31.47.81/sensing/data,1287,0,50
-1672296584611,1563,Monolithic-based client,200,,client-to-application (GET) 1-302,text,true,,264325,127,1575,1575,http://172.31.47.81/sensing/data,1289,0,50
-1672296584631,1701,Monolithic-based client,200,,client-to-application (GET) 1-46,text,true,,264325,127,1772,1772,http://172.31.47.81/sensing/data,1279,0,34
-1672296584587,1766,Monolithic-based client,200,,client-to-application (GET) 1-357,text,true,,264325,127,1784,1784,http://172.31.47.81/sensing/data,1462,0,112
-1672296584631,1738,Monolithic-based client,200,,client-to-application (GET) 1-194,text,true,,264325,127,1798,1798,http://172.31.47.81/sensing/data,1418,0,32
-1672296584639,1800,Monolithic-based client,200,,client-to-application (GET) 1-94,text,true,,264325,127,1863,1863,http://172.31.47.81/sensing/data,1411,0,27
-1672296584609,2103,Monolithic-based client,200,,client-to-application (GET) 1-288,text,true,,264325,127,2111,2111,http://172.31.47.81/sensing/data,1299,0,58
-1672296584597,2176,Monolithic-based client,200,,client-to-application (GET) 1-137,text,true,,264325,127,2202,2202,http://172.31.47.81/sensing/data,1313,0,104
-1672296584591,2615,Monolithic-based client,200,,client-to-application (GET) 1-245,text,true,,264325,127,2699,2699,http://172.31.47.81/sensing/data,1458,0,112
-1672296584610,2697,Monolithic-based client,200,,client-to-application (GET) 1-291,text,true,,264325,127,2802,2802,http://172.31.47.81/sensing/data,1439,0,75
-1672296584593,2943,Monolithic-based client,200,,client-to-application (GET) 1-197,text,true,,264325,127,2971,2971,http://172.31.47.81/sensing/data,1456,0,88
-1672296584612,3695,Monolithic-based client,200,,client-to-application (GET) 1-308,text,true,,264325,127,2970,2970,http://172.31.47.81/sensing/data,1438,0,51
-1672296584592,3970,Monolithic-based client,200,,client-to-application (GET) 1-388,text,true,,264325,127,2969,2969,http://172.31.47.81/sensing/data,1458,0,109
 1672296611912,179,Monolithic-based client,200,,client-to-application (GET) 1-88,text,true,,264325,127,245,245,http://172.31.47.81/sensing/data,100,0,2
 1672296611902,354,Monolithic-based client,200,,client-to-application (GET) 1-162,text,true,,264325,127,383,383,http://172.31.47.81/sensing/data,326,0,14
 1672296611916,407,Monolithic-based client,200,,client-to-application (GET) 1-18,text,true,,264325,127,451,451,http://172.31.47.81/sensing/data,378,0,1
@@ -133,8 +101,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296611946,1621,Monolithic-based client,200,,client-to-application (GET) 1-103,text,true,,264325,127,1423,1423,http://172.31.47.81/sensing/data,1591,0,21
 1672296611941,1630,Monolithic-based client,200,,client-to-application (GET) 1-101,text,true,,264325,127,1422,1422,http://172.31.47.81/sensing/data,1607,0,30
 1672296611932,1651,Monolithic-based client,200,,client-to-application (GET) 1-46,text,true,,264325,127,1429,1429,http://172.31.47.81/sensing/data,1628,0,36
-1672296612009,1573,Monolithic-based client,200,,client-to-application (GET) 1-192,text,true,,264325,127,1429,1429,http://172.31.47.81/sensing/data,1534,0,8
 1672296611950,1633,Monolithic-based client,200,,client-to-application (GET) 1-83,text,true,,264325,127,1428,1428,http://172.31.47.81/sensing/data,1594,0,22
+1672296612009,1573,Monolithic-based client,200,,client-to-application (GET) 1-192,text,true,,264325,127,1429,1429,http://172.31.47.81/sensing/data,1534,0,8
 1672296611950,1639,Monolithic-based client,200,,client-to-application (GET) 1-32,text,true,,264325,127,1428,1428,http://172.31.47.81/sensing/data,1614,0,23
 1672296611937,1652,Monolithic-based client,200,,client-to-application (GET) 1-115,text,true,,264325,127,1428,1428,http://172.31.47.81/sensing/data,1621,0,28
 1672296611929,1683,Monolithic-based client,200,,client-to-application (GET) 1-140,text,true,,264325,127,1431,1431,http://172.31.47.81/sensing/data,1633,0,39
@@ -478,8 +446,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296612591,24512,Monolithic-based client,200,,client-to-application (GET) 1-676,text,true,,264325,127,2556,2556,http://172.31.47.81/sensing/data,7144,0,6
 1672296613786,23318,Monolithic-based client,200,,client-to-application (GET) 1-1663,text,true,,264325,127,2555,2555,http://172.31.47.81/sensing/data,4834,0,6
 1672296613363,23756,Monolithic-based client,200,,client-to-application (GET) 1-1346,text,true,,264325,127,2554,2554,http://172.31.47.81/sensing/data,3757,0,10
-1672296612347,24785,Monolithic-based client,200,,client-to-application (GET) 1-476,text,true,,264325,127,2553,2553,http://172.31.47.81/sensing/data,2600,0,3
 1672296612190,24942,Monolithic-based client,200,,client-to-application (GET) 1-322,text,true,,264325,127,2553,2553,http://172.31.47.81/sensing/data,2205,0,7
+1672296612347,24785,Monolithic-based client,200,,client-to-application (GET) 1-476,text,true,,264325,127,2553,2553,http://172.31.47.81/sensing/data,2600,0,3
 1672296612219,24913,Monolithic-based client,200,,client-to-application (GET) 1-353,text,true,,264325,127,2551,2551,http://172.31.47.81/sensing/data,1901,0,11
 1672296612103,25029,Monolithic-based client,200,,client-to-application (GET) 1-253,text,true,,264325,127,2551,2550,http://172.31.47.81/sensing/data,2226,0,1
 1672296613335,23798,Monolithic-based client,200,,client-to-application (GET) 1-1318,text,true,,264325,127,2549,2549,http://172.31.47.81/sensing/data,3422,0,3
@@ -2002,8 +1970,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296614494,28062,Monolithic-based client,200,,client-to-application (GET) 1-2349,text,true,,264325,127,1033,1033,http://172.31.47.81/sensing/data,6920,0,1041
 1672296612822,29734,Monolithic-based client,200,,client-to-application (GET) 1-903,text,true,,264325,127,1031,1031,http://172.31.47.81/sensing/data,3620,0,9
 1672296614756,27801,Monolithic-based client,200,,client-to-application (GET) 1-2755,text,true,,264325,127,1030,1030,http://172.31.47.81/sensing/data,8471,0,7
-1672296612614,29943,Monolithic-based client,200,,client-to-application (GET) 1-702,text,true,,264325,127,1030,1030,http://172.31.47.81/sensing/data,4579,0,6
 1672296613656,28901,Monolithic-based client,200,,client-to-application (GET) 1-1573,text,true,,264325,127,1029,1029,http://172.31.47.81/sensing/data,5767,0,6
+1672296612614,29943,Monolithic-based client,200,,client-to-application (GET) 1-702,text,true,,264325,127,1030,1030,http://172.31.47.81/sensing/data,4579,0,6
 1672296614568,27990,Monolithic-based client,200,,client-to-application (GET) 1-2433,text,true,,264325,127,1027,1027,http://172.31.47.81/sensing/data,4592,0,14
 1672296612890,29668,Monolithic-based client,200,,client-to-application (GET) 1-984,text,true,,264325,127,1026,1026,http://172.31.47.81/sensing/data,3544,0,9
 1672296612846,29717,Monolithic-based client,200,,client-to-application (GET) 1-949,text,true,,264325,127,1025,1025,http://172.31.47.81/sensing/data,2933,0,9
@@ -2524,9 +2492,9 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296614713,28603,Monolithic-based client,200,,client-to-application (GET) 1-2686,text,true,,264325,127,510,510,http://172.31.47.81/sensing/data,5494,0,11
 1672296613799,29517,Monolithic-based client,200,,client-to-application (GET) 1-1680,text,true,,264325,127,509,509,http://172.31.47.81/sensing/data,3969,0,4
 1672296614543,28773,Monolithic-based client,200,,client-to-application (GET) 1-2408,text,true,,264325,127,509,509,http://172.31.47.81/sensing/data,4533,0,12
-1672296614247,29070,Monolithic-based client,200,,client-to-application (GET) 1-2017,text,true,,264325,127,507,507,http://172.31.47.81/sensing/data,8616,0,1028
-1672296612926,30391,Monolithic-based client,200,,client-to-application (GET) 1-1015,text,true,,264325,127,507,507,http://172.31.47.81/sensing/data,3094,0,10
 1672296614339,28978,Monolithic-based client,200,,client-to-application (GET) 1-2176,text,true,,264325,127,507,507,http://172.31.47.81/sensing/data,7156,0,6
+1672296612926,30391,Monolithic-based client,200,,client-to-application (GET) 1-1015,text,true,,264325,127,507,507,http://172.31.47.81/sensing/data,3094,0,10
+1672296614247,29070,Monolithic-based client,200,,client-to-application (GET) 1-2017,text,true,,264325,127,507,507,http://172.31.47.81/sensing/data,8616,0,1028
 1672296614412,28905,Monolithic-based client,200,,client-to-application (GET) 1-2247,text,true,,264325,127,507,507,http://172.31.47.81/sensing/data,5220,0,296
 1672296613782,29535,Monolithic-based client,200,,client-to-application (GET) 1-1655,text,true,,264325,127,505,505,http://172.31.47.81/sensing/data,5145,0,5
 1672296614327,28996,Monolithic-based client,200,,client-to-application (GET) 1-2138,text,true,,264325,127,502,502,http://172.31.47.81/sensing/data,5392,0,26
@@ -2697,8 +2665,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296613496,29959,Monolithic-based client,200,,client-to-application (GET) 1-1476,text,true,,264325,127,337,337,http://172.31.47.81/sensing/data,3641,0,5
 1672296613235,30220,Monolithic-based client,200,,client-to-application (GET) 1-1218,text,true,,264325,127,337,337,http://172.31.47.81/sensing/data,16305,0,9
 1672296612846,30609,Monolithic-based client,200,,client-to-application (GET) 1-951,text,true,,264325,127,336,336,http://172.31.47.81/sensing/data,6322,0,10
-1672296613221,30234,Monolithic-based client,200,,client-to-application (GET) 1-1174,text,true,,264325,127,334,334,http://172.31.47.81/sensing/data,4187,0,6
 1672296614421,29034,Monolithic-based client,200,,client-to-application (GET) 1-2266,text,true,,264325,127,334,334,http://172.31.47.81/sensing/data,6619,0,1026
+1672296613221,30234,Monolithic-based client,200,,client-to-application (GET) 1-1174,text,true,,264325,127,334,334,http://172.31.47.81/sensing/data,4187,0,6
 1672296613490,29966,Monolithic-based client,200,,client-to-application (GET) 1-1462,text,true,,264325,127,332,332,http://172.31.47.81/sensing/data,4437,0,9
 1672296614263,29193,Monolithic-based client,200,,client-to-application (GET) 1-2052,text,true,,264325,127,332,332,http://172.31.47.81/sensing/data,6089,0,24
 1672296614131,29326,Monolithic-based client,200,,client-to-application (GET) 1-1924,text,true,,264325,127,330,330,http://172.31.47.81/sensing/data,4984,0,67
@@ -2913,8 +2881,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296614846,28817,Monolithic-based client,200,,client-to-application (GET) 1-2935,text,true,,264325,127,121,121,http://172.31.47.81/sensing/data,6170,0,1029
 1672296614385,29278,Monolithic-based client,200,,client-to-application (GET) 1-2229,text,true,,264325,127,121,121,http://172.31.47.81/sensing/data,6976,0,1007
 1672296613106,30565,Monolithic-based client,200,,client-to-application (GET) 1-1079,text,true,,264325,127,119,119,http://172.31.47.81/sensing/data,3834,0,5
-1672296614225,29466,Monolithic-based client,200,,client-to-application (GET) 1-1976,text,true,,264325,127,118,118,http://172.31.47.81/sensing/data,6402,0,12
 1672296614531,29160,Monolithic-based client,200,,client-to-application (GET) 1-2396,text,true,,264325,127,118,118,http://172.31.47.81/sensing/data,7428,0,3044
+1672296614225,29466,Monolithic-based client,200,,client-to-application (GET) 1-1976,text,true,,264325,127,118,118,http://172.31.47.81/sensing/data,6402,0,12
 1672296614543,29180,Monolithic-based client,200,,client-to-application (GET) 1-2407,text,true,,264325,127,116,116,http://172.31.47.81/sensing/data,7716,0,1016
 1672296614486,29271,Monolithic-based client,200,,client-to-application (GET) 1-2339,text,true,,264325,127,115,115,http://172.31.47.81/sensing/data,5647,0,21
 1672296612226,31533,Monolithic-based client,200,,client-to-application (GET) 1-362,text,true,,264325,127,114,114,http://172.31.47.81/sensing/data,1973,0,4
@@ -3983,8 +3951,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296665434,37878,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2099,text,true,,264743,127,2052,2052,http://172.31.37.72/sensing/data,6246,0,14
 1672296664743,38577,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-829,text,true,,264875,127,2050,2050,http://172.31.37.72/sensing/data,6674,0,13
 1672296665320,38000,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1751,text,true,,264825,127,2049,2049,http://172.31.37.72/sensing/data,5443,0,4
-1672296664822,38514,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1102,text,true,,264598,127,2048,2048,http://172.31.37.72/sensing/data,3959,0,6
 1672296664616,38720,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-614,text,true,,264850,127,2048,2048,http://172.31.37.72/sensing/data,2973,0,5
+1672296664822,38514,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1102,text,true,,264598,127,2048,2048,http://172.31.37.72/sensing/data,3959,0,6
 1672296665584,37752,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2301,text,true,,264910,127,2046,2046,http://172.31.37.72/sensing/data,8269,0,1
 1672296665520,37828,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2259,text,true,,264855,127,2045,2045,http://172.31.37.72/sensing/data,6635,0,8
 1672296665541,37819,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2267,text,true,,264947,127,2044,2044,http://172.31.37.72/sensing/data,6747,0,4
@@ -5219,11 +5187,11 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296664891,41501,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1330,text,true,,264987,127,816,816,http://172.31.37.72/sensing/data,5762,0,9
 1672296665865,40535,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2734,text,true,,264926,127,814,814,http://172.31.37.72/sensing/data,8381,0,146
 1672296664771,41629,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-904,text,true,,264520,127,813,813,http://172.31.37.72/sensing/data,3262,0,11
-1672296665340,41061,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1811,text,true,,264882,127,813,813,http://172.31.37.72/sensing/data,5845,0,8
-1672296665865,40536,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2735,text,true,,264707,127,813,813,http://172.31.37.72/sensing/data,8135,0,1019
 1672296665678,40723,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2431,text,true,,264860,127,812,812,http://172.31.37.72/sensing/data,8225,0,8
 1672296664516,41885,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-449,text,true,,264742,127,811,811,http://172.31.37.72/sensing/data,3890,0,5
 1672296664566,41835,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-539,text,true,,264960,127,810,810,http://172.31.37.72/sensing/data,2478,0,10
+1672296665865,40536,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2735,text,true,,264707,127,813,813,http://172.31.37.72/sensing/data,8135,0,1019
+1672296665340,41061,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1811,text,true,,264882,127,813,813,http://172.31.37.72/sensing/data,5845,0,8
 1672296665081,41322,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1594,text,true,,264746,127,807,807,http://172.31.37.72/sensing/data,6291,0,4
 1672296664328,42075,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-150,text,true,,264911,127,807,807,http://172.31.37.72/sensing/data,2470,0,8
 1672296664269,42134,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-60,text,true,,264751,127,805,805,http://172.31.37.72/sensing/data,2264,0,4
@@ -5559,7 +5527,6 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296665902,40914,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2790,text,true,,265035,127,475,475,http://172.31.37.72/sensing/data,7298,0,9
 1672296665650,41166,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2384,text,true,,264465,127,474,474,http://172.31.37.72/sensing/data,8069,0,10
 1672296665717,41099,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2513,text,true,,264665,127,473,473,http://172.31.37.72/sensing/data,9159,0,12
-1672296664571,42246,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-547,text,true,,264867,127,473,473,http://172.31.37.72/sensing/data,9221,0,6
 1672296665468,41349,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2169,text,true,,264657,127,472,472,http://172.31.37.72/sensing/data,6704,0,11
 1672296664924,41893,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1357,text,true,,264652,127,471,471,http://172.31.37.72/sensing/data,4714,0,2
 1672296664445,42372,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-336,text,true,,264820,127,470,470,http://172.31.37.72/sensing/data,3353,0,8
@@ -5569,6 +5536,7 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296664847,41971,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-1182,text,true,,264970,127,466,466,http://172.31.37.72/sensing/data,4125,0,4
 1672296664780,42038,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-927,text,true,,264650,127,466,466,http://172.31.37.72/sensing/data,3728,0,2
 1672296665728,41090,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2546,text,true,,264890,127,465,465,http://172.31.37.72/sensing/data,6788,0,20
+1672296664571,42246,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-547,text,true,,264867,127,473,473,http://172.31.37.72/sensing/data,9221,0,6
 1672296664388,42431,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-241,text,true,,264929,127,462,462,http://172.31.37.72/sensing/data,4105,0,5
 1672296664345,42479,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-180,text,true,,264998,127,461,461,http://172.31.37.72/sensing/data,3476,0,4
 1672296665882,40942,Microservice-based client,200,OK,client-to-gateway-non-caching (GET) 2-2768,text,true,,264816,127,460,460,http://172.31.37.72/sensing/data,14019,0,136
@@ -6251,9 +6219,9 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296774918,1399,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-216,text,true,,263988,191,2757,2757,http://172.31.37.72/sensing/data,1319,0,7
 1672296774920,1400,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-221,text,true,,263988,191,2756,2756,http://172.31.37.72/sensing/data,1361,0,5
 1672296774920,1406,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-224,text,true,,263988,191,2757,2757,http://172.31.37.72/sensing/data,1369,0,5
-1672296774919,1407,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-217,text,true,,263988,191,2757,2757,http://172.31.37.72/sensing/data,1362,0,6
 1672296774919,1408,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-220,text,true,,263988,191,2757,2757,http://172.31.37.72/sensing/data,1348,0,6
 1672296774920,1407,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-223,text,true,,263988,191,2757,2757,http://172.31.37.72/sensing/data,1376,0,5
+1672296774919,1407,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-217,text,true,,263988,191,2757,2757,http://172.31.37.72/sensing/data,1362,0,6
 1672296774920,1416,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-222,text,true,,263988,191,2766,2766,http://172.31.37.72/sensing/data,1385,0,5
 1672296774922,1422,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-228,text,true,,263988,191,2773,2773,http://172.31.37.72/sensing/data,1391,0,3
 1672296774921,1427,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-226,text,true,,263988,191,2774,2774,http://172.31.37.72/sensing/data,1406,0,4
@@ -7190,8 +7158,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296775371,5502,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1157,text,true,,263988,191,1844,1844,http://172.31.37.72/sensing/data,5465,0,8
 1672296775371,5513,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1159,text,true,,263988,191,1843,1843,http://172.31.37.72/sensing/data,5477,0,8
 1672296775370,5522,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1155,text,true,,263988,191,1842,1842,http://172.31.37.72/sensing/data,5479,0,3
-1672296775373,5531,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1162,text,true,,263988,191,1841,1841,http://172.31.37.72/sensing/data,5475,0,7
 1672296775371,5533,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1158,text,true,,263988,191,1841,1841,http://172.31.37.72/sensing/data,5477,0,8
+1672296775373,5531,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1162,text,true,,263988,191,1841,1841,http://172.31.37.72/sensing/data,5475,0,7
 1672296775371,5553,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1160,text,true,,263988,191,1839,1839,http://172.31.37.72/sensing/data,5497,0,10
 1672296775374,5551,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1164,text,true,,263988,191,1838,1838,http://172.31.37.72/sensing/data,5510,0,6
 1672296775374,5551,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1165,text,true,,263988,191,1837,1837,http://172.31.37.72/sensing/data,5510,0,7
@@ -7335,8 +7303,8 @@ timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success
 1672296775409,6347,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1303,text,true,,263988,191,1699,1699,http://172.31.37.72/sensing/data,6307,0,4
 1672296775409,6348,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1302,text,true,,263988,191,1698,1698,http://172.31.37.72/sensing/data,6307,0,4
 1672296775410,6348,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1307,text,true,,263988,191,1697,1697,http://172.31.37.72/sensing/data,6314,0,11
-1672296775411,6357,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1311,text,true,,263988,191,1696,1696,http://172.31.37.72/sensing/data,6326,0,10
 1672296775410,6358,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1305,text,true,,263988,191,1696,1696,http://172.31.37.72/sensing/data,6326,0,9
+1672296775411,6357,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1311,text,true,,263988,191,1696,1696,http://172.31.37.72/sensing/data,6326,0,10
 1672296775411,6357,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1310,text,true,,263988,191,1696,1696,http://172.31.37.72/sensing/data,6325,0,9
 1672296775410,6360,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1308,text,true,,263988,191,1693,1693,http://172.31.37.72/sensing/data,6326,0,11
 1672296775408,6369,Microservice-based client with caching,200,OK,client-to-gateway-caching (GET) 3-1298,text,true,,263988,191,1692,1692,http://172.31.37.72/sensing/data,6328,0,4
