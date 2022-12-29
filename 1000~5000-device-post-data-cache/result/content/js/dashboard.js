@@ -133,7 +133,7 @@ $(document).ready(function() {
         widgets: ['zebra']
     });
 
-    var data = {"OkPercent": 100.0, "KoPercent": 0.0};
+    var data = {"OkPercent": 92.5, "KoPercent": 7.5};
     var dataset = [
         {
             "label" : "FAIL",
@@ -173,7 +173,7 @@ $(document).ready(function() {
     });
 
     // Creates APDEX table
-    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.7374666666666667, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.621, 500, 1500, "Microservice-based client with caching - 1K"], "isController": false}, {"data": [0.6192, 500, 1500, "Microservice-based client with caching - 5K"], "isController": false}, {"data": [0.6375, 500, 1500, "Microservice-based client with caching - 4K"], "isController": false}, {"data": [0.9316666666666666, 500, 1500, "Microservice-based client with caching - 3K"], "isController": false}, {"data": [1.0, 500, 1500, "Microservice-based client with caching - 2K"], "isController": false}]}, function(index, item){
+    createTable($("#apdexTable"), {"supportsControllersDiscrimination": true, "overall": {"data": [0.9127, 500, 1500, "Total"], "isController": false}, "titles": ["Apdex", "T (Toleration threshold)", "F (Frustration threshold)", "Label"], "items": [{"data": [0.8175, 500, 1500, "Microservice-based client with caching - 1K"], "isController": false}, {"data": [0.7746, 500, 1500, "Microservice-based client with caching - 5K"], "isController": false}, {"data": [1.0, 500, 1500, "Microservice-based client with caching - 4K"], "isController": false}, {"data": [1.0, 500, 1500, "Microservice-based client with caching - 3K"], "isController": false}, {"data": [1.0, 500, 1500, "Microservice-based client with caching - 2K"], "isController": false}]}, function(index, item){
         switch(index){
             case 0:
                 item = item.toFixed(3);
@@ -187,7 +187,7 @@ $(document).ready(function() {
     }, [[0, 0]], 3);
 
     // Create statistics table
-    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 15000, 0, 0.0, 555.0453333333306, 4, 1536, 550.0, 1055.8999999999996, 1156.0, 1295.0, 1131.2217194570135, 65.17781391402715, 551.2496464932127], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client with caching - 1K", 1000, 0, 0.0, 655.1020000000001, 232, 1142, 667.5, 927.0, 963.8499999999998, 1002.9300000000001, 627.3525721455459, 36.14629077791719, 305.7118491217064], "isController": false}, {"data": ["Microservice-based client with caching - 5K", 5000, 0, 0.0, 693.9488000000001, 16, 1435, 702.0, 1058.9000000000005, 1164.0, 1298.9899999999998, 1214.7716229348882, 69.99172436831876, 591.9639060981536], "isController": false}, {"data": ["Microservice-based client with caching - 4K", 4000, 0, 0.0, 761.0362499999989, 19, 1536, 781.0, 1177.0, 1241.0, 1346.9799999999996, 1373.6263736263736, 79.14448832417582, 669.3745707417582], "isController": false}, {"data": ["Microservice-based client with caching - 3K", 3000, 0, 0.0, 281.86399999999975, 4, 699, 229.0, 547.0, 592.9499999999998, 652.0, 1152.9592621060722, 66.43026998462722, 561.8424529208302], "isController": false}, {"data": ["Microservice-based client with caching - 2K", 2000, 0, 0.0, 155.5484999999999, 4, 442, 134.0, 280.0, 319.9499999999998, 366.99, 989.6091044037605, 57.018493320138546, 482.2411553686294], "isController": false}]}, function(index, item){
+    createTable($("#statisticsTable"), {"supportsControllersDiscrimination": true, "overall": {"data": ["Total", 15000, 1125, 7.5, 147.02946666666722, 1, 1032, 109.0, 303.0, 388.0, 721.0, 803.0408480111355, 186.9579474275925, 6479.300576516409], "isController": false}, "titles": ["Label", "#Samples", "FAIL", "Error %", "Average", "Min", "Max", "Median", "90th pct", "95th pct", "99th pct", "Transactions/s", "Received", "Sent"], "items": [{"data": ["Microservice-based client with caching - 1K", 1000, 0, 0.0, 337.56500000000034, 3, 877, 252.0, 745.0, 813.9499999999999, 841.99, 587.5440658049354, 33.8526366039953, 5124.944917743831], "isController": false}, {"data": ["Microservice-based client with caching - 5K", 5000, 1125, 22.5, 127.2631999999998, 1, 1032, 114.0, 270.0, 306.9499999999998, 358.0, 814.3322475570033, 474.92111156351797, 5504.933708265473], "isController": false}, {"data": ["Microservice-based client with caching - 4K", 4000, 0, 0.0, 178.45050000000015, 15, 499, 139.0, 365.0, 405.0, 466.9899999999998, 921.871398939848, 53.11563724360451, 8041.167319658907], "isController": false}, {"data": ["Microservice-based client with caching - 3K", 3000, 0, 0.0, 123.38699999999996, 5, 295, 111.0, 211.0, 234.0, 266.0, 871.5862870424172, 50.218350522951766, 7602.547574084834], "isController": false}, {"data": ["Microservice-based client with caching - 2K", 2000, 0, 0.0, 73.79899999999988, 3, 181, 73.0, 121.0, 132.0, 155.0, 655.7377049180327, 37.78176229508197, 5719.774590163935], "isController": false}]}, function(index, item){
         switch(index){
             // Errors pct
             case 3:
@@ -217,7 +217,7 @@ $(document).ready(function() {
     }, [[0, 0]], 0, summaryTableHeader);
 
     // Create error table
-    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": []}, function(index, item){
+    createTable($("#errorsTable"), {"supportsControllersDiscrimination": false, "titles": ["Type of error", "Number of errors", "% in errors", "% in all samples"], "items": [{"data": ["Non HTTP response code: java.net.NoRouteToHostException/Non HTTP response message: Cannot assign requested address (Address not available)", 1125, 100.0, 7.5], "isController": false}]}, function(index, item){
         switch(index){
             case 2:
             case 3:
@@ -228,7 +228,7 @@ $(document).ready(function() {
     }, [[1, 1]]);
 
         // Create top5 errors by sampler
-    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 15000, 0, "", "", "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
+    createTable($("#top5ErrorsBySamplerTable"), {"supportsControllersDiscrimination": false, "overall": {"data": ["Total", 15000, 1125, "Non HTTP response code: java.net.NoRouteToHostException/Non HTTP response message: Cannot assign requested address (Address not available)", 1125, "", "", "", "", "", "", "", ""], "isController": false}, "titles": ["Sample", "#Samples", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors", "Error", "#Errors"], "items": [{"data": [], "isController": false}, {"data": ["Microservice-based client with caching - 5K", 5000, 1125, "Non HTTP response code: java.net.NoRouteToHostException/Non HTTP response message: Cannot assign requested address (Address not available)", 1125, "", "", "", "", "", "", "", ""], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}, {"data": [], "isController": false}]}, function(index, item){
         return item;
     }, [[0, 0]], 0);
 
